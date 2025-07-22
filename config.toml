@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://meetballhandbook.pages.dev"
+base_url = "/"  # to use server-base relative paths
 title = "MeetBall Handbook"
 description = "MeetBall's internal documentation and knowledge base. Where we keep all our knowledge, kinda like our team's brain but in website form."
 

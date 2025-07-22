@@ -2,6 +2,9 @@ name = "meetballhandbook"
 compatibility_date = "2024-09-25"
 pages_build_output_dir = "public"
 
+# Build command is set in Cloudflare Pages dashboard, not here
+# command is: `zola build`
+
 # Production environment
 [env.production]
 # Add your Cloudflare account ID here
@@ -23,8 +26,5 @@ UNSTABLE_PRE_BUILD = "asdf plugin add zola https://github.com/salasrod/asdf-zola
 # These files are located in static/ and get copied to public/ during build
 # Cloudflare Pages automatically picks them up from the build output
 
-# Alternative build approaches:
-# 1. Use UNSTABLE_PRE_BUILD (recommended) - set in env vars above
-# 2. Use build script - set build command to: ./build.sh
-# 3. Manual steps in build command:
-#    "python3 scripts/fetch-github-data.py && zola build"
+# Using server-base relative paths (/) in config.toml
+# This allows the site to work on any domain without URL rewriting
