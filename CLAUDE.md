@@ -36,3 +36,4 @@ This is the MeetBall handbook built with Zola using the Adidoks theme. It's depl
 ## Important Rules
 - ALWAYS run `zola check` when done with any task to ensure no errors
 - Use jokes, puns, and expressions sparingly - they lose their charm when overused
+- Commit messages: focused, 1-2 lines max, no sign-off or co-authoring

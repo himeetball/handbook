@@ -1,8 +1,11 @@
 {% set md_content = body | trim %}
 <div class="markdown-example">
-  <div class="markdown-example-label">Preview:</div>
+  <div class="markdown-example-label">Preview</div>
   <div class="markdown-example-content">
-    {{ md_content | markdown | safe }}
+    <div class="markdown-example-gradient"></div>
+    <div class="markdown-example-inner">
+      {{ md_content | markdown | safe }}
+    </div>
   </div>
 </div>
 
@@ -86,14 +89,18 @@
 
 <style>
   .markdown-example {
-    margin: 1.5rem auto 1.5rem 4rem;
-    max-width: 600px;
+    margin: 0 auto;
+    width: fit-content;
     border-radius: 12px;
-    background: var(--meetball-code-bg, #f0ebe0);
+    background: transparent;
     position: relative;
     overflow: visible;
     font-size: 0.9rem;
     transform: scale(0.95);
+    display: block;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding-left: 30px;
   }
   
   .markdown-example-label {
@@ -105,54 +112,78 @@
     border-radius: 50px;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
-    position: absolute;
-    top: -8px;
-    left: -26px;
+    border: 1px solid var(--meetball-border, #e6ddd4);
+    position: relative;
+    margin-left: -26px;
+    margin-bottom: -12px;
+    margin-top: -8px;
+    width: fit-content;
     z-index: 10;
   }
   
   .markdown-example-content {
-    padding: 0.8rem;
     position: relative;
+    border-radius: 12px;
+    display: inline-block;
+    min-width: 300px;
+    max-width: 90vw;
+    overflow: visible;
+  }
+  
+  .markdown-example-gradient {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200%;
+    height: 200%;
+    transform: translate(-50%, -50%);
     background: 
-      radial-gradient(ellipse 80% 70% at center, var(--meetball-code-bg, #f0ebe0) 40%, rgba(240, 235, 224, 0.3) 80%, transparent 100%);
-    border: 1px solid var(--meetball-border, #e6ddd4);
+      radial-gradient(ellipse 60% 50% at center, var(--meetball-code-bg, #f0ebe0) 25%, rgba(240, 235, 224, 0.3) 50%, transparent 75%);
+    border-radius: 50%;
+    z-index: 1;
+    pointer-events: none;
+  }
+  
+  .markdown-example-inner {
+    position: relative;
+    z-index: 2;
+    padding: 1.2rem 1.5rem;
+    background: transparent;
     border-radius: 12px;
   }
   
   /* Reset margins for content inside examples */
-  .markdown-example-content > *:first-child {
+  .markdown-example-inner > *:first-child {
     margin-top: 0;
   }
   
-  .markdown-example-content > *:last-child {
+  .markdown-example-inner > *:last-child {
     margin-bottom: 0;
   }
   
   /* Ensure code blocks inside examples look good */
-  .markdown-example-content pre {
+  .markdown-example-inner pre {
     margin: 0.5rem 0;
     font-size: 0.85em;
   }
   
-  .markdown-example-content pre code {
+  .markdown-example-inner pre code {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
   }
   
   /* Remove any unwanted outlines inside preview content */
-  .markdown-example-content *:focus {
+  .markdown-example-inner *:focus {
     outline: none;
   }
   
-  .markdown-example-content a:focus {
+  .markdown-example-inner a:focus {
     outline: 2px solid var(--meetball-accent, #d97706);
     outline-offset: 2px;
   }
   
   /* Clean mermaid diagram styling in previews */
-  .markdown-example-content .mermaid {
+  .markdown-example-inner .mermaid {
     border: none !important;
     outline: none !important;
     background: transparent !important;
@@ -160,7 +191,7 @@
     text-align: center;
   }
   
-  .markdown-example-content .mermaid svg {
+  .markdown-example-inner .mermaid svg {
     border: none !important;
     outline: none !important;
     max-width: 100%;
@@ -169,18 +200,17 @@
   
   /* Handle dark mode */
   [data-bs-theme="dark"] .markdown-example {
-    background: var(--meetball-code-bg, #1c1c1c);
+    background: transparent;
   }
   
   [data-bs-theme="dark"] .markdown-example-label {
     background: var(--meetball-surface, #171717);
     color: var(--meetball-text-muted, #a3a3a3);
-    box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+    border-color: var(--meetball-border, #404040);
   }
   
-  [data-bs-theme="dark"] .markdown-example-content {
+  [data-bs-theme="dark"] .markdown-example-gradient {
     background: 
-      radial-gradient(ellipse 80% 70% at center, var(--meetball-code-bg, #1c1c1c) 40%, rgba(28, 28, 28, 0.3) 80%, transparent 100%);
-    border-color: var(--meetball-border, #404040);
+      radial-gradient(ellipse 60% 50% at center, var(--meetball-code-bg, #1c1c1c) 25%, rgba(28, 28, 28, 0.3) 50%, transparent 75%);
   }
 </style>

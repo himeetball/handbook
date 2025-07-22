@@ -1,14 +1,32 @@
 {% macro javascript() %}
 <script type="text/javascript" src="{{ get_url(path="js/main.js") | safe }}" defer></script>
 <script type="text/javascript" src="{{ get_url(path="js/code-copy.js") | safe }}" defer></script>
-<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
 <script>
+  // Only load mermaid if we actually have mermaid diagrams on the page
   document.addEventListener('DOMContentLoaded', function() {
-    mermaid.initialize({ 
-      startOnLoad: true,
-      theme: document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'dark' : 'default',
-      securityLevel: 'loose'
-    });
+    const mermaidElements = document.querySelectorAll('.language-mermaid, .mermaid, pre code.language-mermaid');
+    
+    if (mermaidElements.length > 0) {
+      // Use a specific stable version known to have fewer console warnings
+      const script = document.createElement('script');
+      script.src = 'https://cdn.jsdelivr.net/npm/mermaid@9.4.3/dist/mermaid.min.js';
+      script.onload = function() {
+        try {
+          mermaid.initialize({ 
+            startOnLoad: true,
+            theme: document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'dark' : 'default',
+            securityLevel: 'loose',
+            logLevel: 'error' // Reduce mermaid's own console output
+          });
+        } catch (e) {
+          console.error('Mermaid initialization failed:', e);
+        }
+      };
+      script.onerror = function() {
+        console.warn('Failed to load mermaid library');
+      };
+      document.head.appendChild(script);
+    }
   });
 </script>
 {% if config.build_search_index %}

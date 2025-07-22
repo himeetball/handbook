@@ -232,7 +232,7 @@ Use blockquotes for important notes:
 {% end %}
 
 
-## Math (If Enabled)
+## Math
 
 If you need math formulas, we have KaTeX support:
 

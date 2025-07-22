@@ -117,21 +117,55 @@ code:not(pre code) {
   padding: 0.1rem 0.3rem;
 }
 
-// Blockquotes (used for examples)
+// Blockquotes (used for examples) - soft paper-like styling
 blockquote {
-  background-color: var(--meetball-blockquote-bg) !important;
-  border-left: 4px solid var(--meetball-blockquote-border) !important;
-  padding: 1rem 1.5rem !important;
-  margin: 1rem 0 !important;
-  border-radius: 12px;
+  background: linear-gradient(135deg, var(--meetball-blockquote-bg) 0%, rgba(254, 243, 226, 0.7) 100%) !important;
+  border: none !important;
+  border-left: 3px solid rgba(245, 158, 11, 0.4) !important;
+  padding: 1.2rem 1.8rem !important;
+  margin: 1.5rem 0 !important;
+  border-radius: 16px;
+  box-shadow: 
+    0 2px 8px rgba(245, 158, 11, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  position: relative;
+  
+  // Subtle texture effect
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(ellipse at center, transparent 40%, rgba(245, 158, 11, 0.02) 100%);
+    border-radius: 16px;
+    pointer-events: none;
+  }
   
   p {
     margin-bottom: 0;
     color: var(--meetball-text);
+    position: relative;
+    z-index: 1;
   }
   
   strong {
-    color: var(--meetball-text);
+    color: var(--meetball-accent);
+    font-weight: 600;
+  }
+}
+
+// Dark mode blockquotes
+[data-bs-theme="dark"] blockquote {
+  background: linear-gradient(135deg, var(--meetball-blockquote-bg) 0%, rgba(38, 38, 38, 0.8) 100%) !important;
+  border-left: 3px solid rgba(245, 158, 11, 0.6) !important;
+  box-shadow: 
+    0 2px 8px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  
+  &::before {
+    background: radial-gradient(ellipse at center, transparent 40%, rgba(245, 158, 11, 0.04) 100%);
   }
 }
 
