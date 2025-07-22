@@ -282,7 +282,7 @@ graph TD
 
 - Keep it conversational (like you're explaining to a friend)
 - Use "you" instead of "the user"
-- Add emojis where it makes sense ✨
+- Emojis used to be cool but now give AI generated vibes. But still, use where it makes sense ✨
 - Break up long text with headers and lists
 - Test your markdown by running `zola serve` locally
 
