@@ -62,6 +62,10 @@ ganalytics = ""  # Google Analytics code
 # Deploy configuration
 is_cloudflare = true
 
+# Math support
+katex_enable = true
+katex_auto_render = true
+
 # Set HTML file language
 language_code = "en-US"
 

@@ -9,6 +9,7 @@ pages_build_output_dir = "public"
 
 [env.production.vars]
 ZOLA_VERSION = "0.20.0"
+UNSTABLE_PRE_BUILD = "asdf plugin add zola https://github.com/salasrod/asdf-zola && asdf install zola 0.20.0 && asdf global zola 0.20.0"
 
 # Development configuration
 [env.preview]
@@ -16,3 +17,14 @@ ZOLA_VERSION = "0.20.0"
 
 [env.preview.vars]
 ZOLA_VERSION = "0.20.0"
+UNSTABLE_PRE_BUILD = "asdf plugin add zola https://github.com/salasrod/asdf-zola && asdf install zola 0.20.0 && asdf global zola 0.20.0"
+
+# Headers and redirects are supported via _headers and _redirects files
+# These files are located in static/ and get copied to public/ during build
+# Cloudflare Pages automatically picks them up from the build output
+
+# Alternative build approaches:
+# 1. Use UNSTABLE_PRE_BUILD (recommended) - set in env vars above
+# 2. Use build script - set build command to: ./build.sh
+# 3. Manual steps in build command:
+#    "python3 scripts/fetch-github-data.py && zola build"

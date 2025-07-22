@@ -1,0 +1,186 @@
+{% set md_content = body | trim %}
+<div class="markdown-example">
+  <div class="markdown-example-label">Preview:</div>
+  <div class="markdown-example-content">
+    {{ md_content | markdown | safe }}
+  </div>
+</div>
+
+<!-- Mermaid and KaTeX support for content in examples -->
+<script>
+(function() {
+  // Get the script element before DOM loads
+  const currentScript = document.currentScript;
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    // Find the markdown example content relative to the script
+    let example;
+    if (currentScript && currentScript.parentNode) {
+      example = currentScript.parentNode.querySelector('.markdown-example-content');
+    }
+    
+    // Fallback: find the nearest preceding example
+    if (!example && currentScript) {
+      let sibling = currentScript.previousElementSibling;
+      while (sibling) {
+        if (sibling.classList && sibling.classList.contains('markdown-example')) {
+          example = sibling.querySelector('.markdown-example-content');
+          break;
+        }
+        sibling = sibling.previousElementSibling;
+      }
+    }
+    
+    if (!example) return;
+  
+  // Convert and render Mermaid diagrams
+  function renderMermaid() {
+    // Convert mermaid code blocks to mermaid divs in this example
+    const mermaidCodeBlocks = example.querySelectorAll('pre code.language-mermaid');
+    mermaidCodeBlocks.forEach(function(codeBlock, index) {
+      const mermaidContent = codeBlock.textContent;
+      const mermaidDiv = document.createElement('div');
+      mermaidDiv.className = 'mermaid';
+      mermaidDiv.textContent = mermaidContent;
+      codeBlock.parentNode.parentNode.replaceChild(mermaidDiv, codeBlock.parentNode);
+    });
+    
+    // Now render all mermaid divs in this example
+    const mermaidDivs = example.querySelectorAll('.mermaid');
+    if (mermaidDivs.length > 0 && typeof mermaid !== 'undefined') {
+      mermaid.run({ nodes: mermaidDivs });
+    }
+  }
+  
+  // Load and render KaTeX math
+  function renderKaTeX() {
+    if (typeof renderMathInElement !== 'undefined') {
+      renderMathInElement(example, {
+        delimiters: [
+          {left: '$$', right: '$$', display: true},
+          {left: '$', right: '$', display: false}
+        ]
+      });
+    } else if (typeof katex !== 'undefined') {
+      // Fallback if auto-render not available
+      const mathElements = example.querySelectorAll('script[type="math/tex"], script[type="math/tex; mode=display"]');
+      mathElements.forEach(function(element) {
+        const math = element.textContent;
+        const display = element.type === 'math/tex; mode=display';
+        const rendered = katex.renderToString(math, { displayMode: display });
+        const span = document.createElement('span');
+        span.innerHTML = rendered;
+        element.parentNode.replaceChild(span, element);
+      });
+    }
+  }
+  
+    // Delay rendering to ensure content is fully loaded
+    setTimeout(function() {
+      renderMermaid();
+      renderKaTeX();
+    }, 100);
+  });
+})();
+</script>
+
+<style>
+  .markdown-example {
+    margin: 1.5rem auto 1.5rem 4rem;
+    max-width: 600px;
+    border-radius: 12px;
+    background: var(--meetball-code-bg, #f0ebe0);
+    position: relative;
+    overflow: visible;
+    font-size: 0.9rem;
+    transform: scale(0.95);
+  }
+  
+  .markdown-example-label {
+    background: var(--meetball-surface, #faf7f0);
+    color: var(--meetball-text-muted, #6b4423);
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.3rem 1.2rem;
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    position: absolute;
+    top: -8px;
+    left: -26px;
+    z-index: 10;
+  }
+  
+  .markdown-example-content {
+    padding: 0.8rem;
+    position: relative;
+    background: 
+      radial-gradient(ellipse 80% 70% at center, var(--meetball-code-bg, #f0ebe0) 40%, rgba(240, 235, 224, 0.3) 80%, transparent 100%);
+    border: 1px solid var(--meetball-border, #e6ddd4);
+    border-radius: 12px;
+  }
+  
+  /* Reset margins for content inside examples */
+  .markdown-example-content > *:first-child {
+    margin-top: 0;
+  }
+  
+  .markdown-example-content > *:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Ensure code blocks inside examples look good */
+  .markdown-example-content pre {
+    margin: 0.5rem 0;
+    font-size: 0.85em;
+  }
+  
+  .markdown-example-content pre code {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  
+  /* Remove any unwanted outlines inside preview content */
+  .markdown-example-content *:focus {
+    outline: none;
+  }
+  
+  .markdown-example-content a:focus {
+    outline: 2px solid var(--meetball-accent, #d97706);
+    outline-offset: 2px;
+  }
+  
+  /* Clean mermaid diagram styling in previews */
+  .markdown-example-content .mermaid {
+    border: none !important;
+    outline: none !important;
+    background: transparent !important;
+    margin: 1rem 0;
+    text-align: center;
+  }
+  
+  .markdown-example-content .mermaid svg {
+    border: none !important;
+    outline: none !important;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Handle dark mode */
+  [data-bs-theme="dark"] .markdown-example {
+    background: var(--meetball-code-bg, #1c1c1c);
+  }
+  
+  [data-bs-theme="dark"] .markdown-example-label {
+    background: var(--meetball-surface, #171717);
+    color: var(--meetball-text-muted, #a3a3a3);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+  }
+  
+  [data-bs-theme="dark"] .markdown-example-content {
+    background: 
+      radial-gradient(ellipse 80% 70% at center, var(--meetball-code-bg, #1c1c1c) 40%, rgba(28, 28, 28, 0.3) 80%, transparent 100%);
+    border-color: var(--meetball-border, #404040);
+  }
+</style>

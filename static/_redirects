@@ -1,0 +1,12 @@
+# Redirect old paths to new ones
+# /old-path /new-path 301
+
+# Example: Redirect old blog structure
+# /blog/post-name /blog/2024/post-name 301
+
+# Example: Redirect docs sections  
+# /documentation/* /docs/:splat 301
+
+# Example: Redirect to external resources
+# /github https://github.com/thesummeet/handbook 302
+# /twitter https://twitter.com/meetball 302

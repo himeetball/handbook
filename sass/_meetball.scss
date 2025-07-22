@@ -1,0 +1,218 @@
+// MeetBall Handbook Theme Customization - Paper-like Palette
+:root {
+  // Light theme - warm paper colors
+  --meetball-bg: #fefbf3;           // Warm paper background
+  --meetball-surface: #faf7f0;      // Slightly darker surface
+  --meetball-card: #fffef9;         // Off-white cards
+  --meetball-text: #2d1b08;         // Dark sepia brown
+  --meetball-text-muted: #6b4423;   // Muted warm brown
+  --meetball-border: #e6ddd4;       // Light brown border
+  --meetball-code-bg: #f0ebe0;      // Slightly darker for contrast
+  --meetball-blockquote-bg: #fef3e2; // Warm amber tint
+  --meetball-blockquote-border: #f59e0b; // Amber accent
+  --meetball-accent: #d97706;       // Warm amber accent
+}
+
+[data-bs-theme="dark"] {
+  // Dark theme - neutral darks with warm accents
+  --meetball-bg: #0a0a0a;           // Deep neutral black
+  --meetball-surface: #171717;      // Dark neutral grey
+  --meetball-card: #262626;         // Card background
+  --meetball-text: #fafafa;         // Clean white
+  --meetball-text-muted: #a3a3a3;   // Neutral muted grey
+  --meetball-border: #404040;       // Clear border
+  --meetball-code-bg: #1c1c1c;      // Dark code background
+  --meetball-blockquote-bg: #262626; // Dark surface
+  --meetball-blockquote-border: #f59e0b; // Amber accent
+  --meetball-accent: #fbbf24;       // Bright amber for dark mode
+}
+
+// Override main background
+body {
+  background-color: var(--meetball-bg) !important;
+  color: var(--meetball-text) !important;
+}
+
+// Content areas
+.content, 
+.wrap {
+  background-color: var(--meetball-bg);
+}
+
+// Code blocks styling - with copy button
+.code-block-container {
+  position: relative;
+  margin: 1rem 0;
+}
+
+pre {
+  background-color: var(--meetball-code-bg) !important;
+  border: 1px solid var(--meetball-border);
+  border-radius: 12px;
+  margin: 0;
+  overflow-x: auto;
+  padding: 1rem;
+  position: relative;
+  
+  code {
+    background-color: transparent !important;
+    color: var(--meetball-text);
+    display: block;
+    padding: 0;
+    line-height: 1.5;
+  }
+}
+
+// Copy button styling
+.copy-button {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: var(--meetball-surface);
+  border: 1px solid var(--meetball-border);
+  border-radius: 8px;
+  padding: 0.5rem;
+  color: var(--meetball-text-muted);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  
+  svg {
+    transition: all 0.2s ease;
+  }
+  
+  &:hover {
+    background: var(--meetball-card);
+    color: var(--meetball-text);
+    border-color: var(--meetball-accent);
+    transform: scale(1.05);
+  }
+  
+  &.copied {
+    background: var(--meetball-accent);
+    color: white;
+    border-color: var(--meetball-accent);
+  }
+}
+
+[data-bs-theme="dark"] .copy-button {
+  &.copied {
+    background: var(--meetball-accent);
+    color: var(--meetball-bg);
+  }
+}
+
+// Inline code - friendly and subtle
+code:not(pre code) {
+  background-color: var(--meetball-code-bg) !important;
+  color: var(--meetball-accent) !important;
+  border-radius: 3px;
+  font-size: 0.9em;
+  font-weight: 500;
+  padding: 0.1rem 0.3rem;
+}
+
+// Blockquotes (used for examples)
+blockquote {
+  background-color: var(--meetball-blockquote-bg) !important;
+  border-left: 4px solid var(--meetball-blockquote-border) !important;
+  padding: 1rem 1.5rem !important;
+  margin: 1rem 0 !important;
+  border-radius: 12px;
+  
+  p {
+    margin-bottom: 0;
+    color: var(--meetball-text);
+  }
+  
+  strong {
+    color: var(--meetball-text);
+  }
+}
+
+// Cards and containers
+.card,
+.github-card {
+  background-color: var(--meetball-card) !important;
+  border: 1px solid var(--meetball-border) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+// Navigation - slightly transparent with backdrop blur
+.navbar {
+  background-color: rgba(250, 247, 240, 0.85) !important;
+  border-bottom: 1px solid var(--meetball-border);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+[data-bs-theme="dark"] .navbar {
+  background-color: rgba(23, 23, 23, 0.85) !important;
+}
+
+// Sidebar
+.docs-sidebar {
+  background-color: var(--meetball-surface);
+  border-right: 1px solid var(--meetball-border);
+}
+
+// Footer
+.footer {
+  background-color: var(--meetball-surface) !important;
+  border-top: 1px solid var(--meetball-border);
+  color: var(--meetball-text-muted);
+}
+
+// Tables
+table {
+  background-color: var(--meetball-surface);
+  border: 1px solid var(--meetball-border);
+  
+  th, td {
+    border-color: var(--meetball-border) !important;
+    color: var(--meetball-text);
+  }
+  
+  thead th {
+    background-color: var(--meetball-code-bg);
+  }
+}
+
+// Links
+a {
+  color: var(--meetball-accent);
+  
+  &:hover {
+    color: #b45309;
+  }
+}
+
+[data-bs-theme="dark"] a {
+  color: var(--meetball-accent);
+  
+  &:hover {
+    color: #fde047;
+  }
+}
+
+// Search
+.form-control {
+  background-color: var(--meetball-card) !important;
+  border: 1px solid var(--meetball-border) !important;
+  color: var(--meetball-text) !important;
+  
+  &:focus {
+    background-color: var(--meetball-card) !important;
+    border-color: var(--meetball-accent);
+    box-shadow: 0 0 0 0.2rem rgba(217, 119, 6, 0.25);
+  }
+  
+  &::placeholder {
+    color: var(--meetball-text-muted) !important;
+  }
+}
