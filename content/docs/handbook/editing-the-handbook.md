@@ -1,6 +1,6 @@
 +++
-title = "Pull Request Guide"
-description = "How to review and submit pull requests for the MeetBall handbook."
+title = "Editing The Meetball Handbook"
+description = "How to review and submit edits to the MeetBall Handbook."
 draft = false
 weight = 70
 template = "docs/page.html"
@@ -10,6 +10,9 @@ lead = "Making sure our handbook stays awesome through good pull request practic
 toc = true
 top = false
 +++
+
+## DRAFT
+This page is in *DRAFT*, we need to agree on a methodology based on Gitlab's [Editing the handbook](https://handbook.gitlab.com/handbook/about/editing-handbook/) page, and edit the below accordingly - 
 
 ## Submitting a PR
 
