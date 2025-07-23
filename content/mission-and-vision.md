@@ -1,12 +1,4 @@
 +++
-title = "mission-and-vision"
-description = "Mission and Vision of Meetball."
-date = 2025-07-23T01:45:00+00:00
-updated = 2025-07-23T01:45:00+00:00
-draft = false
-weight = 410
-sort_by = "weight"
-template = "templates/page.html"
 +++
 
 # Vision
