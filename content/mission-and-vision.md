@@ -1,6 +1,7 @@
-+++ title = "Mission and Vision" description = "Mission and Vision of Meetball" draft = false weight = 40 template = "docs/page.html"
-
-[extra] lead = "Mission and Vision of Meetball" toc = true top = false math = true author = "Stuart Cerne" +++
++++ 
+title = "Mission and Vision" description = "Mission and Vision of Meetball" draft = false weight = 40 template = "docs/page.html"
+[extra] lead = "Mission and Vision of Meetball" toc = true top = false math = true author = "Stuart Cerne" 
++++
 
 # Vision
 
