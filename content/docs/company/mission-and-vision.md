@@ -9,7 +9,7 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "This is our north star. We'll only get there if it lights the path to your own goals too."
+lead = "Our north star. We'll only get there if it lights the path to your own goals too."
 toc = true
 top = false
 +++
