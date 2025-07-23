@@ -1,6 +1,6 @@
 +++
 title = "Images & Media"
-description = "How to add images, videos, and other media to the MeetBall handbook."
+description = "How to add images, videos, and other media to the MeetBall Handbook."
 draft = false
 weight = 60
 template = "docs/page.html"
