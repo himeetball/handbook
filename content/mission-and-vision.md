@@ -6,7 +6,7 @@ updated = 2025-07-23T01:45:00+00:00
 draft = false
 weight = 410
 sort_by = "weight"
-template = "docs/page.html"
+template = "templates/page.html"
 +++
 
 # Vision
