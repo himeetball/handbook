@@ -12,7 +12,6 @@ template = "docs/page.html"
 lead = "Mission and Vision of Meetball."
 toc = true
 top = false
-author = "Stuart Cerne"
 +++
 
 # Vision
