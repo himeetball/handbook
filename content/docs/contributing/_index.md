@@ -3,6 +3,6 @@ title = "Contributing"
 description = "Find out how to contribute to MeetBall."
 template = "docs/section.html"
 sort_by = "weight"
-weight = 4
+weight = 3
 draft = false
 +++
