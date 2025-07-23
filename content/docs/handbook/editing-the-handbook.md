@@ -2,7 +2,7 @@
 title = "Editing The Meetball Handbook"
 description = "How to review and submit edits to the MeetBall Handbook."
 draft = false
-weight = 70
+weight = 1
 template = "docs/page.html"
 
 [extra]
