@@ -2,6 +2,7 @@
 
 Where we keep all our knowledge, kinda like our team's brain but in website form.
 
+## How we maintain this Handbook
 We're using [Zola](https://www.getzola.org/) (super fast static site generator) with the clean [Adidoks](https://github.com/aaranxu/adidoks) theme by [@aaranxu](https://github.com/aaranxu) — thanks for making our docs look good!
 
 ## Wanna run this locally?
