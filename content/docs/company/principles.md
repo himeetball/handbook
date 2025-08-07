@@ -4,7 +4,7 @@ description = "Principles of Meetball."
 date = 2025-08-07T18:10:00+00:00
 updated = 2025-08-07T18:10:00+00:00
 draft = false
-weight = 410
+weight = 420
 sort_by = "weight"
 template = "docs/page.html"
 
