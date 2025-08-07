@@ -34,7 +34,7 @@ We measure success by the value we create for our users, not by how efficiently 
    We check for alignment often. If the mission no longer serves the team, we update it. Everyone should be able to ask, “What’s my why?” and know how the mission supports it.
 > *Related values:*
      Purpose over noise, 
-     Grow what matters, 
+     Work that fuels growth, 
      Pragmatism with principles,
 
 ## 3. **Ask for Help**
@@ -76,7 +76,7 @@ We measure success by the value we create for our users, not by how efficiently 
      Purpose over noise,
      Build what’s missing,
      Pragmatism with principles,
-     .*
+     Work that fuels growth.*
  
 ## 7. **Value Impact**
    We measure value through outcomes, not effort alone. Rewards reflect contributions that meaningfully move the mission forward.
