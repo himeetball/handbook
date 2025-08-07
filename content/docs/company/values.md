@@ -32,7 +32,7 @@ Together with our [Principles](https://recipe.meetball.fun/docs/company/principl
  ## 4. **Open by default.**
    Transparency is how we build trust. We work in public because we believe openness makes us better. Critique sharpens our thinking. Input shapes our direction. Anyone with insight or curiosity is invited to contribute.
  
- ## 5. **Community-made.**
+ ## 5. **Community-powered.**
    We build for and with each other. Meetball was born through collective effort and community is in our DNA. We believe in lifting others as we climb, and building what none of us could alone.
  
  ## 6. **Earned trust, fair rewards.**
