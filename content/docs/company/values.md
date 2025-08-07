@@ -25,7 +25,7 @@ Together with our [Principles](https://recipe.meetball.fun/docs/company/principl
    No BS. No exploitation. Just value. We act in service of our users (not advertisers, trends, or vanity metrics). We speak plainly, make decisions with care, and let real impact drive growth. We strive to work with partners who share our values: ethical, user-first, and transparent. 
  
  ## 3. **Human, not polished.**
-   We show up as people, not personas. We believe the most meaningful connections happen when someone has a need and someone else says, “I can help.” Here, asking for help is welcomed, not judged. We build real bonds through vulnerability, honesty, empathy and generosity by showing up as full humans, not our job titles.\
+   We show up as people, not personas. We believe the most meaningful connections happen when someone has a need and someone else says, “I can help.” Here, asking for help is welcomed, not judged. We build real bonds through vulnerability, honesty, empathy and generosity by showing up as full humans, not our job titles.
     
    Backgrounds and beliefs may differ, but when we align around a shared goal, we build strong, joyful collaborations.
  
