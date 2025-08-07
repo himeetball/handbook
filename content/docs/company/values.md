@@ -51,4 +51,4 @@ Together with our [Principles](https://recipe.meetball.fun/docs/company/principl
    Our values guide us, but reality keeps us honest. We aim high, but make thoughtful decisions in the face of trade-offs. We know we won’t always get it right but we own our choices with confidence, by staying aligned with our mission. And when we fall short, we hold ourselves accountable, learn, and do better because growth is only worth it if it's earned.
 
 
-See our [**Principles**](Principles](https://recipe.meetball.fun/docs/company/principles/) for how we put these beliefs into practice.
+See our [**Principles**}(https://recipe.meetball.fun/docs/company/principles/) for how we put these beliefs into practice.
