@@ -14,7 +14,7 @@ toc = true
 top = false
 +++
 
-# Peinciples
+# Principles
 
 ### Our **Principles** turn our [Values](https://recipe.meetball.fun/docs/company/values/) into action. 
 They guide how we collaborate, solve problems, and move forward together.
