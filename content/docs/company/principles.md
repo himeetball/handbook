@@ -71,7 +71,7 @@ We measure success by the value we create for our users, not by how efficiently 
 ## 6. **Build What Matters**
    We focus on the problem, not just the current idea. We test fast, involve users early, borrow what works, and drop what doesn’t.
 
-   Every decision should move the mission forward. If it doesn’t, either the work needs to change, or the mission needs to evolve. The right ideas grow people as well as our product. We care about building things that leave contributors more capable, confident, and connected than before.
+   Every decision should move the mission forward. If it doesn’t, either the work needs to change, or the mission needs to evolve. The right ideas grow people as well as our product. We care about building things that have a positive impact on our mission and the people we touch.
    > *Related values:
      Purpose over noise,
      Build what’s missing,
@@ -98,9 +98,9 @@ We measure success by the value we create for our users, not by how efficiently 
      Integrity, always.*
 
 ## **9. Learn and Adapt** 
-We hold our work lightly and our mission tightly. When we learn something that changes our understanding, we pivot without ego. We test assumptions through experiments, gather feedback, and aren't afraid to kill ideas that aren't working.
+We hold our work lightly and our mission tightly. When we learn something that changes our understanding, we pivot without ego. We test assumptions through experiments, gather feedback, and aren't afraid to kill ideas that aren't working. We have the courage to build differently, challenge conventions.
 
-We build to learn, not to be right. The best solution wins, even if it means starting over. We celebrate changing direction when it serves the mission better.
+We build to learn, not to be right. The best solution wins, even if it means starting over. We docuemnt our experiments and celebrate changing direction when it serves the mission better.
 
 >*Related values:
 Humility over ego,
