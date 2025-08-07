@@ -14,15 +14,12 @@ toc = true
 top = false
 +++
 
-# Values
+##### They define what matters to us, shape our culture, and reflect the beliefs we won’t compromise on.
 
-### Our Values serve as the guide for what we stand for. 
-#### They define what matters to us, shape our culture, and reflect the beliefs we won’t compromise on.
-
-Together with our [Principles](https://plane.murumb.dev//meetball/projects/13b5612a-6da8-45df-ac3c-69c28df41ce4/pages/b51ceff3-824a-4ae8-a394-0dbd26552ab6), they create a shared foundation for how we work, make decisions, and grow as a team.
+Together with our [Principles](https://recipe.meetball.fun/docs/company/principles/), they create a shared foundation for how we work, make decisions, and grow as a team.
 
  ## 1. **Purpose over noise.**
-   Our [mission](https://plane.murumb.dev//meetball/projects/13b5612a-6da8-45df-ac3c-69c28df41ce4/pages/fea1d5ed-add2-4ba0-98df-01e45d49056a) guides every decision. If it doesn't help us move closer to our north star, we don’t do it.
+   Our [mission](https://recipe.meetball.fun/docs/company/mission-and-vision/) guides every decision. If it doesn't help us move closer to our north star, we don’t do it.
     
  ## 2. **Integrity, always.**
    No BS. No exploitation. Just value. We act in service of our users (not advertisers, trends, or vanity metrics). We speak plainly, make decisions with care, and let real impact drive growth. We strive to work with partners who share our values: ethical, user-first, and transparent. 
@@ -54,4 +51,4 @@ Together with our [Principles](https://plane.murumb.dev//meetball/projects/13b56
    Our values guide us, but reality keeps us honest. We aim high, but make thoughtful decisions in the face of trade-offs. We know we won’t always get it right but we own our choices with confidence, by staying aligned with our mission. And when we fall short, we hold ourselves accountable, learn, and do better because growth is only worth it if it's earned.
 
 
-See our [**Principles**](https://plane.murumb.dev//meetball/projects/13b5612a-6da8-45df-ac3c-69c28df41ce4/pages/b51ceff3-824a-4ae8-a394-0dbd26552ab6) for how we put these beliefs into practice.
+See our [**Principles**](Principles](https://recipe.meetball.fun/docs/company/principles/) for how we put these beliefs into practice.
