@@ -9,14 +9,11 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Our Values serve as the guide for what we stand for."
+lead = "Our **Principles** turn our [Values](https://recipe.meetball.fun/docs/company/values/) into action."
 toc = true
 top = false
 +++
 
-# Principles
-
-### Our **Principles** turn our [Values](https://recipe.meetball.fun/docs/company/values/) into action. 
 They guide how we collaborate, solve problems, and move forward together.
 
 This is a living document. As an open startup, we aim for clarity to help new contributors align quickly. 
