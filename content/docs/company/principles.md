@@ -107,10 +107,9 @@ Humility over ego,
 Purpose over noise,
 Pragmatism with principles,*
 
-## **10. Grow People**
-Work should fuel personal growth, not just business growth. We see each contributor as a whole human with dreams, skills to develop, and potential to unlock.
-
-We create space for creative expression, encourage people to stretch beyond their comfort zones, and celebrate when teammates level up. When people grow through meaningful work, everything else follows.
+## **10. Make Space for Growth**
+We actively create development opportunities for contributors. This means pairing people with mentors, rotating responsibilities to build new skills, and celebrating learning and makign space for personal curiosity.
+We budget time and resources for this, even when it doesn't immediately serve current projects.
 
 > *Related values:
 Work that fuels growth,
