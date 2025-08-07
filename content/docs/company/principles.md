@@ -22,7 +22,7 @@ They guide how we collaborate, solve problems, and move toward realising our [Mi
 ## 1. **Community First**
    Meetball exists to serve its community, and when we get that right, people rally around what we’ve built. We focus on meeting real needs and empowering creation over passive consumption.
 
-We measure success by the value we create for the community, not by how efficiently we capture it.
+We measure success by the value we create for our users, not by how efficiently we capture it.
 > *Related values:
 > Integrity, always,
 > Community-made,
