@@ -1,8 +1,22 @@
++++
+title = "Values"
+description = "Values of Meetball."
+date = 2025-08-07T18:10:00+00:00
+updated = 2025-08-07T18:10:00+00:00
+draft = false
+weight = 410
+sort_by = "weight"
+template = "docs/page.html"
+
+[extra]
+lead = "Our Values serve as the guide for what we stand for."
+toc = true
+top = false
++++
+
 Our **Values** serve as the guide for what we stand for. They define what matters to us, shape our culture, and reflect the beliefs we won’t compromise on.\
 \
-Together with our [Principles](https://plane.murumb.dev//meetball/projects/13b5612a-6da8-45df-ac3c-69c28df41ce4/pages/b51ceff3-824a-4ae8-a394-0dbd26552ab6), they create a shared foundation for how we work, make decisions, and grow as a team.\
-
----
+Together with our [Principles](https://plane.murumb.dev//meetball/projects/13b5612a-6da8-45df-ac3c-69c28df41ce4/pages/b51ceff3-824a-4ae8-a394-0dbd26552ab6), they create a shared foundation for how we work, make decisions, and grow as a team.
 
  1. **Purpose over noise.**\
     Our [mission](https://plane.murumb.dev//meetball/projects/13b5612a-6da8-45df-ac3c-69c28df41ce4/pages/fea1d5ed-add2-4ba0-98df-01e45d49056a) guides every decision. If it doesn't help us move closer to our north star, we don’t do it.
