@@ -59,7 +59,7 @@ We measure success by the value we create for our users, not by how efficiently 
      Human, not polished.*
 
 ## 5. **Dynamic Roles**
-   We assign roles based on what's needed now, not who’s held them before. Contributors step into responsibilities as the work evolves, and step aside when someone better suited emerges.
+   We assign roles based on what's needed now, not who held them before. Contributors step into responsibilities as the work evolves, and step aside when someone better suited emerges.
 
    Leadership means owning outcomes and making room for others. When contributors step up with initiative, we welcome it.
    
