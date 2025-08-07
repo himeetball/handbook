@@ -108,7 +108,7 @@ Purpose over noise,
 Pragmatism with principles,*
 
 ## **10. Make Space for Growth**
-We actively create development opportunities for contributors. This means pairing people with mentors, rotating responsibilities to build new skills, and celebrating learning and makign space for personal curiosity.
+We make space for people to explore curiosity and learn. This means pairing people with mentors, rotating responsibilities to build new skills, celebrating learning and makign space for individual interests.
 We budget time and resources for this, even when it doesn't immediately serve current projects.
 
 > *Related values:
