@@ -16,10 +16,11 @@ top = false
 
 They guide how we collaborate, solve problems, and move forward together.
 
-This is a living document. As an open startup, we aim for clarity to help new contributors align quickly. 
+>This is a living document. As an open startup, we aim for clarity to help new contributors align quickly. 
+
 These principles may evolve, but they will always reflect how we work, why we work this way, and what we expect from each other.
 
-You’ll see them throughout our Handbook (the Meetball Recipe)as a foundation for how we operate in practice.
+You’ll see them throughout our Handbook (the Meetball Recipe) as a foundation for how we operate in practice.
 
 
 ----
