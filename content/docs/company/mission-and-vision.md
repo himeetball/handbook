@@ -1,5 +1,5 @@
 +++
-title = "Mission and Vision"
+title = "Vision and Mision"
 description = "Mission and Vision of Meetball."
 date = 2025-07-23T18:10:00+00:00
 updated = 2025-07-23T18:10:00+00:00
