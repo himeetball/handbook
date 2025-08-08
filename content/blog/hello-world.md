@@ -1,8 +1,8 @@
 +++
 title = "Hello World"
-description = "This blog is where you'll find updated on whats going on with the Meetball Handbook writing"
-date = 2021-05-01T09:19:42+00:00
-updated = 2021-05-01T09:19:42+00:00
+description = "This blog is where you'll find updates on whats going on with the Meetball Handbook writing"
+date = 2025-08-08T09:19:42+00:00
+updated = 2025-08-08T09:19:42+00:00
 draft = false
 template = "blog/page.html"
 
@@ -10,9 +10,14 @@ template = "blog/page.html"
 authors = ["Stuart"]
 
 [extra]
-lead = "This blog is where you'll find updated on whats going on with the <b>Meetball Handbook<b>. We're writing each page as we need it."
+lead = "This blog is where you'll find updates on whats going on with the <b>Meetball Handbook<b>."
 +++
-Test
+We are just gettign started, this page was set up by Guillherme so we have a repo and a version control. 
+
+Stay Tuned
+
+p.s. - Here some nerdy guideliens for adding pages:
+
 ```rust
 // This is a comment, and is ignored by the compiler
 
