@@ -16,14 +16,39 @@ top = false
 
 # How to get a name@meetball.fun email address
 
-(Guilherme add instructons here - Include step to make sure people claiming email address are entitled to one, and that we have a public list of email addresses.
+Once you’ve signed our Confidentiality Agreement (NDA), you can request your very own @meetball.fun email address.
 
-# Why get it? 
+**Step 1 – Go to:** [ineedmail.meetball.fun](https://ineedmail.meetball.fun)  
+This link takes you to our email request form, which asks for:
+- Your chosen email name (we suggest `firstname@meetball.fun` since we’re still a small crew — but `firstname.lastname@meetball.fun` works too if you prefer).
+- At least one recovery email (the first one must match the email you used to sign the NDA on BoldSign — this is how we verify it’s really you).
+- Optional phone recovery (not recommended, as SMS isn’t secure).
+- Whether to enable spam filtering (recommended unless you have a specific reason not to).
 
-- Some of our services and beta/demos are restricted to holders of @meetball.fun email addresses
+**Step 2 – Submit the form**  
+When you’ve filled it in, hit **Request Email**.
 
-- So we know where to find each other!
-  
-# Email Policy
+**Step 3 – Verification**  
+Our DevOps wizard, Guilherme, will:
+- Check you’re eligible (NDA signed, all details correct).
+- Approve your request.
 
-Please respect our terms of service and code of conduct.
+**Step 4 – Get your details**  
+Once approved, Guilherme will DM you on Discord with:
+- Your new @meetball.fun email address.
+- Login instructions.
+
+---
+
+# Why get one?  
+
+- Access: Some services, betas, and demos are restricted to @meetball.fun holders.  
+- Visibility: Makes it easy for team members and contributors to find and contact you.  
+- Community: Strengthens our sense of belonging as a team.
+
+---
+
+# Email Policy  
+
+By using your @meetball.fun email, you agree to follow our **Terms of Service** and **Code of Conduct**.  
+Be professional, respectful, and remember — you’re representing the Meetball community when you use it.
