@@ -24,8 +24,10 @@ Meetball Handbook repository on [Github](https://github.com/himeetball/handbook)
 
 ### Create an issue
 
-- [Bug report](https://github.com/aaranxu/adidoks/issues/new?template=bug-report---.md)
-- [Feature request](https://github.com/aaranxu/adidoks/issues/new?template=feature-request---.md)
+- Something needs fixing? [Report a Handbook Error](https://github.com/himeetball/handbook/issues/new?template=bug-report---.md)
+- Got an idea or need a new page?  [New Handbook Page request](https://github.com/himeetball/handbook/issues/new?template=feature-request---.md)
+
+Note: We are setting up the Handbook Repo so it's currently access restricted. Will be open soon. In the meantime please send a message to Stuart to suggest/ask for pages.
 
 ## Improve documentation
 
