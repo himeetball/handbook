@@ -1,18 +1,18 @@
 +++
 title = "Hello World"
-description = "Introducing Doks, a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
+description = "This blog is where you'll find updated on whats going on with the Meetball Handbook writing"
 date = 2021-05-01T09:19:42+00:00
 updated = 2021-05-01T09:19:42+00:00
 draft = false
 template = "blog/page.html"
 
 [taxonomies]
-authors = ["Rustaceans"]
+authors = ["Stuart"]
 
 [extra]
-lead = "This is the source code of the traditional <b>Hello World</b> program."
+lead = "This blog is where you'll find updated on whats going on with the <b>Meetball Handbook<b>. We're writing each page as we need it."
 +++
-
+Test
 ```rust
 // This is a comment, and is ignored by the compiler
 
