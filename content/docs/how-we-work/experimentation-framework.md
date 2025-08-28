@@ -14,13 +14,13 @@ toc = true
 top = false
 +++
 
-**Relevant [Principles](https://recipe.meetball.fun/docs/company/principles/):** 
+**Meetball [Principles](https://recipe.meetball.fun/docs/company/principles/):** 
  - Build What Matters, 
  - Learn and Adapt,  
  - Ask for Help, 
  - Open Collaboration
 
-## Core Principles
+## Experimentation Principles
 
 **Everyone's ideas matter:** But to move fast, share them as a clear, actionable pitch, focused on what you can own, targeting our Early Adopters (we know who we're building this for) and the expected outcome.
 
@@ -52,14 +52,10 @@ This framework introduces how we test ideas, learn fast, and keep momentum while
 
 ## How We Run Experiments
 
-### Step 1: Normalize the Language of Experiments
-
-Encourage every team member to view their work through an experimentation lens. Some of us already do this, others will learn.
-
-**The Experiment Team:**
+### Step 1: **The Experiment Team:**
 
 - **Experiment Champion:** Leads the experiment, drives it forward, and owns results
-- **Contributors:** Before pitching, the Champion secures at least one willing contributor from each key team (e.g., Marketing, Product, Ops)
+- **Contributors:** Before pitching, the Champion secures at least one willing contributor from each key team who should be involved  (e.g., Marketing, Product, Dev, Ops)
 
 Anyone can suggest an experiment regardless of role or area of focus.
 
@@ -82,7 +78,7 @@ Anyone can suggest an experiment regardless of role or area of focus.
 > 
 > The Experiment Team: **[names]**.
 
-**Kickoff Meeting Should Cover:**
+**Short Kickoff Meeting Should Cover:**
 
 - **Problem** – What are we trying to learn or solve?
 - **Hypothesis** – What do we believe might be true?
@@ -100,13 +96,6 @@ Anyone can suggest an experiment regardless of role or area of focus.
 ### Current Process
 
 We track all experiments in **Plane** in the [Experiments project](https://plane.murumb.dev/meetball/projects/73fcddc6-5cc3-4108-883b-6114862a634e/issues/).
-
-**Example - Experiment 1:**
-
-- **Hypothesis:** Fixing bugs 11 and [12](https://discord.com/channels/1379759898971344937/1410508137626206248) in the onboarding form will improve conversion (currently we lose 75% between Session Start and Profile Created)
-- **Assumption:** Conversion should go up significantly with these fixes
-- **Process:** Created the Issue in Plane, agreed dev timeline with Dev team, will measure at an event tomorrow once the issue is fixed
-- **Next Steps:** Update this experiment with the outcome and archive it as Positive/Negative/Inconclusive
 
 ### Documentation Format
 
@@ -171,7 +160,7 @@ After review, experiment outcomes are archived in a searchable format for future
 
 **For Experiment Champions:**
 
-1. Write a clear 1-page pitch using the format above
+1. Write a clear short (max 1-page) pitch using the format above
 2. Get buy-in from relevant team members
 3. Create experiment issue in Plane
 4. Execute with clear timeline and metrics
