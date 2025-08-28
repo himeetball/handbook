@@ -9,7 +9,7 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "EHow we chose Vendors, Software and Tools"
+lead = "How we chose Vendors, Software and Tools"
 toc = true
 top = false
 +++
