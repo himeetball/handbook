@@ -22,14 +22,14 @@ top = false
 
 ## Core Principles
 
-**Everyone's ideas matter:** But to move fast, share them as a clear, actionable pitch, focused on what you can own, targeting our Early Adopters (we know who we're building this for).
+**Everyone's ideas matter:** But to move fast, share them as a clear, actionable pitch, focused on what you can own, targeting our Early Adopters (we know who we're building this for) and the expected outcome.
 
 **Doing everything at once teaches us nothing:** focused experiments give better insights. document hypothesy and measure outcome. 
 
 **We'll revisit and revise often:** no attachment; everything can be improved.
 
-**Execution beats theory:** good ideas matter, but outcomes speak louder.
-When you suggest an idea, does it end with "we could do this!" or with "I can own this"?
+**Execution beats theory:** ideas are good, but action is what matters.
+When you suggest an idea, does it end with "someone could do this!" or with "I can own this"?
 
 ---
 ## Why We Experiment
