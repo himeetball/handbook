@@ -1,4 +1,18 @@
++++
+title = "How we Choose Vendors"
+description = "How we choose Vendors, Software, Tools at Meetball"
+date = 2025-07-23T18:10:00+00:00
+updated = 2025-07-23T18:10:00+00:00
+draft = false
+weight = 5
+sort_by = "weight"
+template = "docs/page.html"
 
+[extra]
+lead = "EHow we chose Vendors, Software and Tools"
+toc = true
+top = false
++++
 
 Every vendor choice is a vote for the kind of business ecosystem we want to be a part of. Here's our framework for choosing partners who align with our values while never compromising on execution.
 
