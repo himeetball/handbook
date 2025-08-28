@@ -1,3 +1,16 @@
++++
+title = "Experimentation Framework"
+description = "How we Test Ideas at Meetball"
+draft = false
+weight = 2
+template = "docs/page.html"
+
+[extra]
+lead = "How we Test Ideas."
+toc = true
+top = false
++++
+
 # Experimentation Framework
 ## (How we Test Ideas)
 
