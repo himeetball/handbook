@@ -47,8 +47,9 @@
           <div class="page-header">
             <h1>{{ page.title }}</h1>
           </div>
-          {% if page.extra.lead %}<p class="lead">{{ page.extra.lead }}</p>{% endif %}
-          {{ page.content | safe }}
+          {% if page.extra.lead %}
+          <p class="lead">{{ page.extra.lead }}</p>
+          {% endif %} {{ page.content | safe }}
         </article>
       </div>
     </div>
