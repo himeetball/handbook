@@ -1,5 +1,5 @@
 +++
-title = "Experimentation Framework"
+title = "How we Test Ideas"
 description = "How we Test Ideas at Meetball"
 date = 2025-07-23T18:10:00+00:00
 updated = 2025-07-23T18:10:00+00:00
@@ -9,7 +9,7 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "(How we Test Ideas)"
+lead = "Experimentation Framework"
 toc = true
 top = false
 +++
