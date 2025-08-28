@@ -1,4 +1,19 @@
 +++
+title = "Get your @meetball.fun email"
+description = "Get your @meetball.fun email."
+date = 2025-07-23T18:10:00+00:00
+updated = 2025-07-23T18:10:00+00:00
+draft = false
+weight = 5
+sort_by = "weight"
+template = "docs/page.html"
+
+[extra]
+lead = "Once you have signed the Confidentiality Agreement, you can get your @meetball.fun email."
+toc = true
+top = false
++++
+
 title = "Experimentation Framework"
 description = "How we Test Ideas at Meetball"
 draft = false
@@ -9,7 +24,6 @@ template = "docs/page.html"
 lead = "How we Test Ideas."
 toc = true
 top = false
-+++
 
 # Experimentation Framework
 ## (How we Test Ideas)
