@@ -6,7 +6,7 @@ weight = 1
 template = "docs/page.html"
 
 [extra]
-lead = "Making sure our handbook stays awesome through good pull request practices."
+lead = "The Meetball Recipe: How we work"
 toc = true
 top = false
 +++
