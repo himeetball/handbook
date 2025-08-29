@@ -14,12 +14,12 @@ top = false
 We call our Handbook the "Meetball Recipe", because we document pages as we need them. As we make decisions relating to how we work and the kind of company we want to be, we document it here, to make sharing information efficient and easy. We know that future Meetball contributors and team-members won't see email and discussions about process changes that happen before they join and that most of the people who will eventually join Meetball will likely not have heard of us yet. 
 The handbook was our way of ensuring that all of our company information is accessible to everyone regardless of when they became part of the team.
 
-## Why it's Public and Open Source
+## Why the Handbook is Public (and Open Source)
 
-**That is why we are sharing out handbook publicly.**
+**This is why we are sharing out handbook publicly:**
 
-1. The way we are building this Startup challenges many conventions and we have a growing number of founders and organisations interested in adopting our way of working. 
-2. We welcome anyone who can contribute to designign the best possible way to run a company. Experts in every peafge of our handbook.
+1. The way we are building this Startup challenges many conventions realted to the Future of Work and how to build a startup, and we have a growing number of founders and organisations interested in adopting our way of working. 
+2. We welcome anyone who can contribute to designign the best possible way to run a company. We interview and work with the leading experts in every page of our handbook. All driven by a shared desire to impact the world. We have to be open.
 
 ## Advantages
 Because we will document everything, our handbook will become extensive and keeping it relevant is an important part of everyone’s job. That is why each page has a Maintainer. 
@@ -43,4 +43,4 @@ Each Page of the Handbook starts with a premise, the Principles and what we aim 
 **Everything is in draftand open to improvements**, this includes our handbook. 
 If you have a better idea, for any page of the Handbook, you can sugges improvements/changes by a Merge Request.
 
-
+Because it's sometimes easier to edit on a written page than on a blank canvas, we will lean on experience from other companies, take a page from succesful playbooks and learn from companies like Patagonia, Gitlab, 37Signals, Gumroad, Buffeer etc.
