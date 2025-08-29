@@ -11,18 +11,20 @@ toc = true
 top = false
 +++
 
-We call our Handbook the **"Meetball Recipe"**, because we document pages as we need them. As we make decisions relating to how we work and the kind of company we want to be, we document it here, to make sharing information efficient and easy. We know that future Meetball contributors and team-members won't see email and discussions about process changes that happen before they join and that most of the people who will eventually join Meetball will likely not have heard of us yet. 
+We call our Handbook the **"Meetball Recipe"**, because we document pages as we need them, just as you add a touch of ingreadient to make something that is good even better. As we make decisions relating to how we work and the kind of company we want to be, we document it here, to make sharing information efficient and easy. We know that future Meetball contributors and team-members won't see email and discussions about process changes that happen before they join and that most of the people who will eventually join Meetball will likely not have heard of us yet. 
 The handbook was our way of ensuring that all of our company information is accessible to everyone regardless of when they became part of the team.
 
-## Why the Handbook is Public (and Open Source)
+## Why our Handbook is Public 
 
-**This is why we are sharing out handbook publicly:**
+We are sharing out handbook publicly (and Open Source) because:**
 
 1. The way we are building this Startup challenges many conventions realted to the Future of Work and how to build a startup, and we have a growing number of founders and organisations interested in adopting our way of working. 
 2. We welcome anyone who can contribute to designign the best possible way to run a company. We interview and work with the leading experts in every page of our handbook. All driven by a shared desire to impact the world. We have to be open.
+3. As other companie help us shape it they can adapt and use it as it suits them.
 
 ## Advantages
-Because we will document everything, our handbook will become extensive and keeping it relevant is an important part of everyone’s job. That is why each page has a Maintainer. 
+Because we will document everything, our handbook will become extensive and keeping it relevant is an important part of everyone’s job. That is why each page has a Maintainer (the person responsible for the relevant role defined in the Handbook page). 
+
 It is a vital part of who we are and how we communicate. We established these processes because we want to work effectively and well together.
 
 Reading is faster and async, you don’t have to interrupt someone or wait for them to become available.
