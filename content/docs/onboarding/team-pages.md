@@ -11,9 +11,15 @@ toc = true
 top = false
 +++
 
-- This Page needs Writing -
+Principle:
+We should know who contributes to Meetball, and
+We need a place where anyone can see who is who
+Contributors can self generate their profile, but also need meetball official confiramtion for roles etc.
 
-Add here the form / spreadsheet where people can add themselves to the team list.
-gatekeep for @meetball.fun email holders only.
+
+#This Page needs a Maintainer / Owner 
+
+- Add here the form / spreadsheet where people can add themselves to the team list.
+- Gatekeep for @meetball.fun email holders only.
 
 Gitlab reference Page: https://handbook.gitlab.com/handbook/about/editing-handbook/edit-team-page/
