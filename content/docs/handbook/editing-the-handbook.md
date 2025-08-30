@@ -14,6 +14,24 @@ top = false
 ## DRAFT
 This page is in *DRAFT*, we need to agree on a methodology based on Gitlab's [Editing the handbook](https://handbook.gitlab.com/handbook/about/editing-handbook/) page, and edit the below accordingly - 
 
+Contribute to Meetball HandbookMeetball Handbook repository on [Github](https://github.com/himeetball/handbook)
+
+- ### Suggest an Improvement 
+
+- [Report a Handbook Error](https://github.com/himeetball/handbook/issues/new?template=bug-report---.md)
+- Got an idea or need a new page?  [New Handbook Page request](https://github.com/himeetball/handbook/issues/new?template=feature-request---.md)
+
+Or suggest your change by making the edit and submitting it for revision by the Page Maintainer as follows:
+
+Note: We are setting up the Handbook Repo so it's currently access restricted. Will be open soon. In the meantime please send a message to Stuart to suggest/ask for pages.## Improve documentation👉 The documentation lives in [`./content/docs/`]
+
+How we work on code:
+- Follow the [GitHub flow](https://guides.github.com/introduction/flow/)
+- Follow the [Conventional Commits Specification](https://www.conventionalcommits.org/en/v1.0.0/).
+
+Note: Github Flow may be overkill for a text handbook, if you can suggest a simplified approach, do so.
+Also, the beow may be redundan if we just follow the above flows:
+
 ## Submitting a PR
 
 ### 1. Create Your Branch
