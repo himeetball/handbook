@@ -25,6 +25,8 @@ Click here to see how to [add yourself to the team page](https://recipe.meetball
 
 Thank you for your interest and help!
 
-We don’t mind people inside and outside the company making suggestions to change significant things. Feel free to make a proposal, we can discuss anything. If we don’t agree, we’ll feel free not to merge it, and we’ll thank you for caring about it.
+We don’t mind people inside and outside the company making suggestions to change significant things. We don't have this all figured out, please feel free to make a proposal, we can discuss anything. If we don’t agree, we’ll feel free not to merge it, and we’ll thank you for caring about it.
+
+We are building this organitally as we grow. We're busy building a startup and there may be a lag between how we decide to work and the time we publish it here, so if your PR goes unnoticed for a while, that's why. We may also reject a PR that has great ideas but is not the way we want to structure something, and that's ok! It's alright for us to have different ways of working, in fact, that is why we're open sourcing the book, so you can make changes depending on your org in particular, we don't have to all be the same, and probably shouldn't be.
 
 We want to create a welcoming environment for everyone who is interested in contributing. Please visit our Code of Conduct page to learn more about our commitment to an open and welcoming environment.
