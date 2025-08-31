@@ -1,5 +1,5 @@
 +++
-title = "Test Ideas,Record Decisions"
+title = "Test Ideas, Record Decisions"
 description = "How we Test Ideas and Record Decisions at Meetball"
 date = 2025-07-23T18:10:00+00:00
 updated = 2025-07-23T18:10:00+00:00
