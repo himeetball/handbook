@@ -32,11 +32,11 @@ Everyone begins as a voluntary contributor: chip in where you can, and by the en
 
 When you state your level, remember: it’s not about ego or proving yourself. It’s about clarity: 
 
-**what can the team count on you for, right now?**
+**What can the team count on you for, right now?**
 
-Levels of Mastery defined for different areas of building the Business:
+## Levels of Mastery defined for different areas:
 
-- Software Engineers: [Basecamp levels of Mastery](https://github.com/basecamp/handbook/blob/master/titles-for-programmers.md) / [Handbook](https://basecamp.com/handbook/titles-for-programmers)
+- **Software Engineers**: [Basecamp levels of Mastery](https://github.com/basecamp/handbook/blob/master/titles-for-programmers.md) / [Handbook](https://basecamp.com/handbook/titles-for-programmers)
 _(Internal note: we may switch to_ [_Career Ladders_](https://github.com/sdras/career-ladders) _in future.)_
 
 - Designers: [Basecamp Titles for Designers](https://basecamp.com/handbook/titles-for-designers)
