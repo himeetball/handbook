@@ -16,10 +16,10 @@ This page is in *DRAFT*, we need to agree on a methodology based on Gitlab's [Ed
 
 Contribute to Meetball HandbookMeetball Handbook repository on [Github](https://github.com/himeetball/handbook)
 
-- ### Suggest an Improvement 
+### Suggest an Improvement 
 
-- [Report a Handbook Error](https://github.com/himeetball/handbook/issues/new?template=bug-report---.md)
-- Got an idea or need a new page?  [New Handbook Page request](https://github.com/himeetball/handbook/issues/new?template=feature-request---.md)
+- [Report a Handbook Error](https://github.com/himeetball/handbook/issues/new?template=bug-report---.md) - Raise an Issue here!
+- [New Handbook Page request](https://github.com/himeetball/handbook/issues/new?template=feature-request---.md) - Got an idea or need a new page? 
 
 Or suggest your change by making the edit and submitting it for revision by the Page Maintainer as follows:
 
