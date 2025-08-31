@@ -1,6 +1,6 @@
 +++
-title = "How we Test Ideas"
-description = "How we Test Ideas at Meetball"
+title = "Test Ideas,Record Decisions"
+description = "How we Test Ideas and Record Decisions at Meetball"
 date = 2025-07-23T18:10:00+00:00
 updated = 2025-07-23T18:10:00+00:00
 draft = false
@@ -9,7 +9,7 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Experimentation Framework"
+lead = "Our Experimentation Framework to Test Ideas and how we record Decisions"
 toc = true
 top = false
 +++
