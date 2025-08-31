@@ -41,10 +41,8 @@ Together with our [Principles](https://recipe.meetball.fun/docs/company/principl
  ## 7. **Humility over ego.**
    We stay open, curious, and forge forward. We challenge ideas, not each other, and treat feedback as fuel. Progress happens when we let go of pride and stay focused on what’s possible. We're not attached to our work, it's ok to change our mind and pivot when we know better. The best work wins, not the loudest voice.
  
- ## 8. **Build what's missing.**
-   To us, innovation means noticing what’s not there and having the guts to build it. We don’t copy trends or play it safe. We question assumptions, challenge the status quo, and create what people actually need.
-
-   When a great solution already exists, we’ll shamelessly adapt it, credit the source, and build on it to what’s missing so it works for our community.
+ ## 8. **Question Everything, Build what's missing.**
+  Innovation means noticing what’s not there and having the guts to build it. We question assumptions, challenge the status quo, and create what people actually need. We don't follow 'best practices' blindly, we understand why they work before applying them to our context. When a great solution already exists, we’ll adopt it, and build on top of it.
  
  ## 9. **Work that fuels growth.**
    Good work gives more than it takes. We see work as a place for creative expression and personal growth. When people build things that matter, they grow as makers, teammates, and humans. Confidence, purpose, and joy come from contributing to something bigger than ourselves. We support each other not just in what we build, but in who we become along the way.
