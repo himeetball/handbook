@@ -16,6 +16,11 @@ top = false
 
 Anyone can suggest improvements to the Meetball Handbook.
 
+Principles:
+- **Intuitive Design:** Make processes as intuitive as road signs: understandable without extensive training.
+- **Accessibility Focus:** Be thoughtful about acronyms and barriers that exclude people.
+- **Implementation:** Minimize rules, maximize understanding of principles behind decisions. Premise any page with principles and WHYs.
+
 You can directly submit your ideas as "merge requests" to be reviewed/approved by the relevant Page maintainer. Or you can chat with them (each page Maintainer is listed in the relevant page). 
 
 **Please let us know who you are if you help us improve** 
