@@ -13,9 +13,9 @@ top = false
 
 We call our Handbook the **"Meetball Recipe"**, because we document pages as we need them, just as you add a touch of salt and pepper to make a meal even better. As we make decisions relating to how we work and the kind of company we want to be, we document it here, to make sharing information efficient and easy. 
 
-We know that future Meetball contributors and team-members won't see email and discussions about process changes that happen before they join and that most of the people who will eventually join Meetball will likely not have heard of us yet. 
+The handbook exists for for one single reason: make it possible for us to build great stuff with other people. If it becomes a blocker (to collaboration, motivation or great work), it has to be changed. That is why it's open for anyone to suggest improvements. 
 
-The handbook was our way of ensuring that all of our company information is accessible to everyone regardless of when they became part of the team.
+Future Meetball contributors and team-members won't see discussions about process changes that happen before they join and most of the people who will eventually join Meetball will likely not have heard of us yet. The handbook was our way of ensuring that all of our company information is accessible to everyone regardless of when they became part of the team.
 
 ## Why our Handbook is Public 
 
