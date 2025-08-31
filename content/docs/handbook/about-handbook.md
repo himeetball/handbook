@@ -11,7 +11,10 @@ toc = true
 top = false
 +++
 
-We call our Handbook the **"Meetball Recipe"**, because we document pages as we need them, just as you add a touch of ingreadient to make something that is good even better. As we make decisions relating to how we work and the kind of company we want to be, we document it here, to make sharing information efficient and easy. We know that future Meetball contributors and team-members won't see email and discussions about process changes that happen before they join and that most of the people who will eventually join Meetball will likely not have heard of us yet. 
+We call our Handbook the **"Meetball Recipe"**, because we document pages as we need them, just as you add a touch of salt and pepper to make a meal even better. As we make decisions relating to how we work and the kind of company we want to be, we document it here, to make sharing information efficient and easy. 
+
+We know that future Meetball contributors and team-members won't see email and discussions about process changes that happen before they join and that most of the people who will eventually join Meetball will likely not have heard of us yet. 
+
 The handbook was our way of ensuring that all of our company information is accessible to everyone regardless of when they became part of the team.
 
 ## Why our Handbook is Public 
@@ -19,7 +22,7 @@ The handbook was our way of ensuring that all of our company information is acce
 We are sharing out handbook publicly (and Open Source) because:**
 
 1. The way we are building this Startup challenges many conventions realted to the Future of Work and how to build a startup, and we have a growing number of founders and organisations interested in adopting our way of working. 
-2. We welcome anyone who can contribute to designign the best possible way to run a company. We interview and work with the leading experts in every page of our handbook. All driven by a shared desire to impact the world. We have to be open.
+2. We don't have it all figured out, so we welcome anyone who can contribute to designign the best possible way to run a mission driven company that has a positive impact in the world and where people find fulfillmemnt on their individual personal journey. We interview and work with the leading experts in every page of our handbook. All driven by a shared desire to impact the world. We have to be open.
 3. As other companie help us shape it they can adapt and use it as it suits them.
 
 ## Advantages
@@ -36,10 +39,12 @@ Communicating change is easier if you can just point to the diff.
 Everyone can contribute to it by proposing a change via a merge request.
 
 ## Principles Over Bureaucracy
+The Handbook must always be an enabler, not a limiter. 
 One concern is that the handbook and strict documentation makes the company rigid and slow. 
 In fact, writing down our process in the handbook has the effect of empowering contributors to propose change. 
 
-Each Page of the Handbook starts with a premise, the Principles and what we aim to achieve. If the Handbook limits us, we stick to Principles and we edit the Handbook.
+Each Page of the Handbook starts with a premise, the Principles and what we aim to achieve. 
+**If the Handbook limits us, we stick to Principles and we edit the Handbook.**
 
 
 **Everything is in draftand open to improvements**, this includes our handbook. 
