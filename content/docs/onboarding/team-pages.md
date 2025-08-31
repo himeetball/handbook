@@ -14,12 +14,17 @@ top = false
 Principle:
 We should know who contributes to Meetball, and
 We need a place where anyone can see who is who
-Contributors can self generate their profile, but also need meetball official confiramtion for roles etc.
+Contributors fill in a form to generate their profile, 
+Meetball official confiramtion for roles etc.
 
 
 #This Page needs a Maintainer / Owner 
 
-- Add here the form / spreadsheet where people can add themselves to the team list.
-- Gatekeep for @meetball.fun email holders only.
+- Add yourself to the team list by filling in the [Controbutor Onboarding Form](https://forms.gle/3WWQ6nufJfgyMHbp9) providing:
+    - Who you are, where you're based;
+    - What can you help with, your level of [Mastery](https://recipe.meetball.fun/docs/how-we-work/mastery/), and time availability;
 
-Gitlab reference Page: https://handbook.gitlab.com/handbook/about/editing-handbook/edit-team-page/
+- We will review this list and update the public "Team and Contributors" List (add URL)  
+- TBD: Gatekeep for @meetball.fun email holders only ?
+
+Gitlab example reference Page: https://handbook.gitlab.com/handbook/about/editing-handbook/edit-team-page/
