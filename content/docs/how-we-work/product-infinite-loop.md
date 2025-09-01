@@ -44,6 +44,8 @@ L∞P is built around two interconnected loops:
 
 👉 Discovery = **what to build**. Delivery = **how to build it right**.  
 
+![Infinite Loop](/images/infinite-loop.png)
+
 ---
 
 ## Product-Led Growth (PLG) 🚀
