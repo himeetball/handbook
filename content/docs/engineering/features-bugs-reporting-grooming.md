@@ -4,7 +4,7 @@ description = "How to Suggest Features, Report Bugs and Tracking"
 date = 2025-07-23T18:10:00+00:00
 updated = 2025-07-23T18:10:00+00:00
 draft = false
-weight = 2
+weight = 4
 sort_by = "weight"
 template = "docs/page.html"
 
