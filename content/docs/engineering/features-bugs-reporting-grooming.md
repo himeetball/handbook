@@ -35,7 +35,7 @@ This is how we explain this in the Discord bugs and features channel:
 >
 >##### **🐞 Report a Bug**
 >- Found something broken or confusing?
->- Post it in **#bugs** on [Discord](https://discord.com/channels/1379759898971344937/1409777001937506344) _or_ fill out our [Bug Report Form](#).
+>- Post it in **#bugs** on [Discord](https://discord.com/channels/1379759898971344937/1409777001937506344) _or_ fill out our [Bug Report Form](https://forms.gle/placeholder).
 >- Include:
     - What you were trying to do
     - What happened instead
@@ -44,7 +44,7 @@ This is how we explain this in the Discord bugs and features channel:
 >
 >##### **💡 Suggest a Feature**
 >- Have an idea that would make Meetball more useful?
->- Share it in **#feature-requests** on [Discord](https://discord.com/channels/1379759898971344937/1409777001937506344) _or_ use our [Feature Suggestion Form](#).
+>- Share it in **#feature-requests** on [Discord](https://discord.com/channels/1379759898971344937/1409777001937506344) _or_ use our [Feature Suggestion Form](https://forms.gle/placeholder).
 >- Please explain:
     - What problem it solves
     - Why it matters
@@ -90,7 +90,7 @@ Notes:
 
 - We keep a **Public Roadmap** so you can see what’s planned, in progress, or shipped.
 - Upvote features you’d love to see → this helps us prioritize. _Need to implement_
-- Roadmap link: [Public Roadmap](#)
+- Roadmap link: [Public Roadmap](https://roadmap.meetball.fun)
  ---
 
 #### 3. Backlog Grooming
@@ -99,4 +99,4 @@ Add section on how often, who coordinates and who should be on the backlog groom
 
 ---
 
-👉 Want to go further than feedback? Join as a [Contributor]() and help us build the future of real human connection.
+👉 Want to go further than feedback? Join as a [Contributor](https://github.com/himeetball/handbook/blob/main/CONTRIBUTING.md) and help us build the future of real human connection.
