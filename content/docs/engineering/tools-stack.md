@@ -1,5 +1,5 @@
 +++
-title = "Our Productivity and Collab Tools"
+title = "Productivity and Collab Tools"
 description = "The tools we use to collaborate"
 date = 2025-07-23T18:10:00+00:00
 updated = 2025-07-23T18:10:00+00:00
