@@ -18,12 +18,12 @@ Suggested page DRI: Gale
 
 ### How we collect and track Ideas, features requests and bugs
 
-Meetball is an open startup. That means **anyone can shape what we’re building**. 
+Meetball is an open startup. That means **anyone can shape what we’re building**.
 Whether you’re an early user, event organizer, or part of the team, you can help us shape what Meetball becomes.
 #### 1.  How we Collect Ideas / Feedback:
 
 - We have a Bug/Feature request chat in [Discord](https://discord.com/channels/1379759898971344937/1409777001937506344) for the Meetball Team.
-- External Users use the "suggest feature" button on our App (and elsewhere) 
+- External Users use the "suggest feature" button on our App (and elsewhere)
 
 We treat those chat/suggestions as _input source_, not a backlog.
 
@@ -35,16 +35,16 @@ This is how we explain this in the Discord bugs and features channel:
 >
 >##### **🐞 Report a Bug**
 >- Found something broken or confusing?
->- Post it in **#bugs** on [Discord](https://discord.com/channels/1379759898971344937/1409777001937506344) _or_ fill out our [Bug Report Form](#).
+>- Post it in **#bugs** on [Discord](https://discord.com/channels/1379759898971344937/1409777001937506344) _or_ fill out our Bug Report Form (coming soon).
 >- Include:
     - What you were trying to do
     - What happened instead
     - Steps to reproduce (if possible)
-    - Screenshots are golden! 
+    - Screenshots are golden!
 >
 >##### **💡 Suggest a Feature**
 >- Have an idea that would make Meetball more useful?
->- Share it in **#feature-requests** on [Discord](https://discord.com/channels/1379759898971344937/1409777001937506344) _or_ use our [Feature Suggestion Form](#).
+>- Share it in **#feature-requests** on [Discord](https://discord.com/channels/1379759898971344937/1409777001937506344) _or_ use our Feature Suggestion Form (coming soon).
 >- Please explain:
     - What problem it solves
     - Why it matters
@@ -64,25 +64,25 @@ We nominate a **Triage Captain** (rotating role) each week to move requests from
 
 If the idea has merit, move it to one of those Kanban Boards depending on the type:
 
--  [Idea Board](https://plane.murumb.dev/meetball/projects/710e7204-c511-493a-84d6-48ab31af5fa1/issues/) on **Plane**: For rough / high level ideas, for brainstorming and exploration, something we are not even sure we want to explore: Needs elaboration and not dev-ready. Once created, discussion happens there so cross reference them. Ideas are moved to "In Progress" if they go to any board where work may start (Experiments, Dev or Github as issues). 
-- These Ideas are also captured in a Miro/? Product discovery map: 
+-  [Idea Board](https://plane.murumb.dev/meetball/projects/710e7204-c511-493a-84d6-48ab31af5fa1/issues/) on **Plane**: For rough / high level ideas, for brainstorming and exploration, something we are not even sure we want to explore: Needs elaboration and not dev-ready. Once created, discussion happens there so cross reference them. Ideas are moved to "In Progress" if they go to any board where work may start (Experiments, Dev or Github as issues).
+- These Ideas are also captured in a Miro/? Product discovery map:
 _(duplicaton? perhaps put on Miro only ideas we agreed to explore)_
 
-- [Development](https://plane.murumb.dev/meetball/projects/519ca7bc-0c01-4139-9f1b-57086aee7842/issues/) on **Plane** This is a Backlog of Dev work that we know we have to do but technical specifications are not good enough for it to be created as an Issue on Github, not dev-ready. Once created, discussion happens there. 
+- [Development](https://plane.murumb.dev/meetball/projects/519ca7bc-0c01-4139-9f1b-57086aee7842/issues/) on **Plane** This is a Backlog of Dev work that we know we have to do but technical specifications are not good enough for it to be created as an Issue on Github, not dev-ready. Once created, discussion happens there.
 
 - If it’s dev-ready, **add it directly to the Backlog on Github** as Issues, tracked in one of the following projects on Github:
-	- [Meetbal Web App](https://github.com/orgs/himeetball/projects/4) 
+	- [Meetbal Web App](https://github.com/orgs/himeetball/projects/4)
 	- [Handbook](https://github.com/orgs/himeetball/projects/7)
 	- Website (to be created)
 	- etc.. (as we start new projects)
 
 This way:
-- Chat stays informal, 
+- Chat stays informal,
 - Plane is where feature is elaborated before specs are fully defined,
 - Github is where the feature is created with full technical specs.
 
 Notes:
-- Don’t treat Discord as backlog, it will vanish in the scroll.    
+- Don’t treat Discord as backlog, it will vanish in the scroll.
 - Don’t expect devs to trawl chat for tasks, they should live in GitHub.
 
 ---
@@ -90,7 +90,7 @@ Notes:
 
 - We keep a **Public Roadmap** so you can see what’s planned, in progress, or shipped.
 - Upvote features you’d love to see → this helps us prioritize. _Need to implement_
-- Roadmap link: [Public Roadmap](#)
+- Roadmap link: Public Roadmap (coming soon)
  ---
 
 #### 3. Backlog Grooming
@@ -99,4 +99,4 @@ Add section on how often, who coordinates and who should be on the backlog groom
 
 ---
 
-👉 Want to go further than feedback? Join as a [Contributor]() and help us build the future of real human connection.
+👉 Want to go further than feedback? Join as a Contributor (link coming soon) and help us build the future of real human connection.
