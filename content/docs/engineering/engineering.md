@@ -4,7 +4,7 @@ description = "How we do software engineering at Meetball"
 date = 2025-07-23T18:10:00+00:00
 updated = 2025-07-23T18:10:00+00:00
 draft = false
-weight = 5
+weight = 1
 sort_by = "weight"
 template = "docs/page.html"
 
