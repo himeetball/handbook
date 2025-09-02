@@ -18,7 +18,7 @@ top = false
 
 Once you’ve signed our Confidentiality Agreement (NDA), you can request your very own @meetball.fun email address.
 
-**Step 1 – Go to:** [ineedmail.meetball.fun](https://ineedmail.meetball.fun)  
+**Step 1 – Go to:** [ineedemail.meetball.xyz](https://ineedemail.meetball.xyz)  
 This link takes you to our email request form, which asks for:
 - Your chosen email name (we suggest `firstname@meetball.fun` since we’re still a small crew — but `firstname.lastname@meetball.fun` works too if you prefer).
 - At least one recovery email (the first one must match the email you used to sign the NDA on BoldSign — this is how we verify it’s really you).
