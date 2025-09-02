@@ -1,6 +1,6 @@
 +++
 title = "Images & Media"
-description = "How to add images, videos, and other media to the MeetBall Handbook."
+description = "How to add images, videos, and other media to the Meetball Handbook."
 draft = false
 weight = 60
 template = "docs/page.html"
@@ -35,7 +35,7 @@ static/
 
 ### Image with Caption
 ```markdown
-![MeetBall architecture diagram](/images/diagrams/architecture.png)
+![Meetball architecture diagram](/images/diagrams/architecture.png)
 *How our system connects everything together*
 ```
 
@@ -103,7 +103,7 @@ Put in `static/videos/` and embed:
 Check what's already in `static/images/icons/` before adding new ones.
 
 ### Creating Consistent Graphics
-- **Colors**: Use MeetBall brand colors
+- **Colors**: Use Meetball brand colors
 - **Style**: Keep consistent with existing graphics  
 - **Size**: Standard icon sizes (16px, 24px, 32px, 64px)
 

@@ -6,7 +6,7 @@ weight = 40
 template = "docs/page.html"
 
 [extra]
-lead = "Everything you need to know about writing content for the MeetBall handbook with Zola's markdown."
+lead = "Everything you need to know about writing content for the Meetball handbook with Zola's markdown."
 toc = true
 top = false
 math = true
@@ -57,7 +57,7 @@ Zola has syntax highlighting built-in. Just specify the language:
 ````markdown
 ```rust
 fn main() {
-    println!("Hello MeetBall!");
+    println!("Hello Meetball!");
 }
 ```
 
@@ -78,7 +78,7 @@ zola serve
 {% show_md_example() %}
 ```rust
 fn main() {
-    println!("Hello MeetBall!");
+    println!("Hello Meetball!");
 }
 ```
 
@@ -119,7 +119,7 @@ top = false  # Pin to top of section
 
 ## Zola Shortcodes
 
-These are MeetBall handbook specific shortcuts:
+These are Meetball handbook specific shortcuts:
 
 ### YouTube Embeds
 Just grab the video ID from the YouTube URL:
@@ -164,7 +164,7 @@ In your markdown file, type:
     <span style="font-weight: 600; color: #d97706; font-size: 14px;">thesummeet/handbook</span>
   </div>
   <div>
-    <p style="color: #6b4423; font-size: 12px; margin: 0 0 8px 0; line-height: 1.4;">MeetBall handbook - In portuguese: MeetarBola mãolivro</p>
+    <p style="color: #6b4423; font-size: 12px; margin: 0 0 8px 0; line-height: 1.4;">Meetball handbook - In portuguese: MeetarBola mãolivro</p>
     <div style="display: flex; align-items: center; font-size: 12px; color: #6b4423; gap: 16px;">
       <span style="display: flex; align-items: center; gap: 4px;">
         <svg width="12" height="12" viewBox="0 0 16 16" fill="currentColor">
@@ -208,7 +208,7 @@ Link to other handbook pages:
 Put images in `static/images/` and reference them like:
 
 ```markdown
-![MeetBall Logo](/images/meetball-logo.png)
+![Meetball Logo](/images/meetball-logo.png)
 ```
 
 ## Callouts

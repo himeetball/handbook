@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-GitHub Data Fetcher for MeetBall Handbook
+GitHub Data Fetcher for Meetball Handbook
 
 This script fetches GitHub repository data at build time to avoid
 API rate limiting issues in the browser.

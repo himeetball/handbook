@@ -1,10 +1,10 @@
 +++
-title = "Manual MeetBall (MeetBall Handbook)"
+title = "Manual Meetball (Meetball Handbook)"
 
 
 # The homepage contents
 [extra]
-lead = '<b>Tá tudo? Esta é a base de conhecimento MeetBall (MeetBall Handbook).</b> Tudo o que precisas de saber sobre a malta da equipa, processos e como construímos cenas bueda fixes em conjunto.'
+lead = '<b>Tá tudo? Esta é a base de conhecimento Meetball (Meetball Handbook).</b> Tudo o que precisas de saber sobre a malta da equipa, processos e como construímos cenas bueda fixes em conjunto.'
 url = "/docs/getting-started/introduction/"
 url_button = "Começar"
 repo_version = "GitHub v0.1.0"

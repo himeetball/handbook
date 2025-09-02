@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "/"  # to use server-base relative paths
-title = "MeetBall Handbook"
-description = "MeetBall's internal documentation and knowledge base. Where we keep all our knowledge, kinda like our team's brain but in website form."
+title = "Meetball Handbook"
+description = "Meetball's internal documentation and knowledge base. Where we keep all our knowledge, kinda like our team's brain but in website form."
 
 # The default language; used in feeds and search index
 # Note: the search index doesn't support Chinese/Japanese/Korean Languages
@@ -27,13 +27,13 @@ taxonomies = [
 build_search_index = true
 
 [languages.pt]
-title = "Manual MeetBall"
+title = "Manual Meetball"
 
 [languages.it] 
-title = "Manuale MeetBall"
+title = "Manuale Meetball"
 
 [languages.fr]
-title = "Manuel MeetBall"
+title = "Manuel Meetball"
 
 
 
@@ -50,10 +50,14 @@ include_content = true
 # Theme can be customised by setting the `highlight_theme`
 # variable to a theme supported by Zola
 highlight_code = true
+# Make external links open in new tab automatically
+external_links_target_blank = true
+external_links_no_follow = true
+external_links_no_referrer = true
 
 [extra]
 # Put all your custom variables here
-author = "MeetBall Team"
+author = "Meetball Team"
 github = "https://github.com/thesummeet"
 twitter = "https://twitter.com/meetball"
 email = "team@meetball.app"
@@ -82,8 +86,8 @@ timeformat = "%Y-%m-%d %H:%M:%S" # e.g. 2021-05-01 09:19:42
 timezone = "UTC"
 
 # Edit page on reposity or not
-edit_page = false
-docs_repo = "https://github.com/thesummeet/handbook"
+edit_page = true
+docs_repo = "https://github.com/himeetball/handbook"
 repo_branch = "main"
 
 ## Math settings

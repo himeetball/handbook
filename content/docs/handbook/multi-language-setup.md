@@ -1,6 +1,6 @@
 +++
 title = "Multi-language Setup"
-description = "How to add new languages and manage translations for the MeetBall handbook."
+description = "How to add new languages and manage translations for the Meetball handbook."
 draft = false
 weight = 50
 template = "docs/page.html"
@@ -37,7 +37,7 @@ Add your language to the config:
 
 ```toml
 [languages.es]  # Spanish example
-title = "Manual MeetBall (MeetBall Handbook)"
+title = "Manual Meetball (Meetball Handbook)"
 ```
 
 ### 2. Create Homepage Translation
@@ -46,10 +46,10 @@ Create `content/_index.es.md`:
 
 ```toml
 +++
-title = "Manual MeetBall (MeetBall Handbook)"
+title = "Manual Meetball (Meetball Handbook)"
 
 [extra]
-lead = '<b>¡Hola! Bienvenido a la base de conocimientos de MeetBall (MeetBall Handbook).</b> Todo lo que necesitas saber sobre nuestro equipo, procesos y cómo construimos cosas increíbles juntos.'
+lead = '<b>¡Hola! Bienvenido a la base de conocimientos de Meetball (Meetball Handbook).</b> Todo lo que necesitas saber sobre nuestro equipo, procesos y cómo construimos cosas increíbles juntos.'
 url = "/docs/getting-started/introduction/"
 url_button = "Empezar"
 repo_url = "https://github.com/thesummeet/handbook"
@@ -104,7 +104,7 @@ content/
 
 - **Research slang**: Look up how young people actually talk
 - **Avoid formal language**: We're friends here, not a corporation
-- **Keep MeetBall branding**: Always include "(MeetBall Handbook)" after translated titles
+- **Keep Meetball branding**: Always include "(Meetball Handbook)" after translated titles
 - **Test on mobile**: Check how longer translations look on small screens
 - **Ask for feedback**: Get native speakers to review before publishing
 

@@ -1,6 +1,6 @@
 +++
 title = "Introduction"
-description = "Welcome to the MeetBall Handbook - your guide to understanding and contributing to our open project."
+description = "Welcome to the Meetball Handbook - your guide to understanding and contributing to our open project."
 date = 2021-05-01T08:00:00+00:00
 updated = 2021-05-01T08:00:00+00:00
 draft = false
@@ -9,14 +9,14 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = 'Welcome to the MeetBall Handbook! This is your central hub for understanding our project, contributing, and finding all the resources you need.'
+lead = 'Welcome to the Meetball Handbook! This is your central hub for understanding our project, contributing, and finding all the resources you need.'
 toc = true
 top = false
 +++
 
 ## Quick Start
 
-Everything you need to start contributing to MeetBall. [Quick Start →](../quick-start/)
+Everything you need to start contributing to Meetball. [Quick Start →](../quick-start/)
 
 ## What You'll Find Here
 

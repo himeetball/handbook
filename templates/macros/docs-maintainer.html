@@ -1,0 +1,21 @@
+{% macro docs_maintainer(page) %}
+{% if page.extra.maintainer %}
+<div class="page-maintainer">
+  <div class="maintainer-info">
+    <h6 class="maintainer-title">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user">
+        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+        <circle cx="12" cy="8" r="4"></circle>
+      </svg>
+      Page Maintainer{{ page.extra.maintainer is containing(",") and "s" or "" }}
+    </h6>
+    <div class="maintainer-list">
+      {% set maintainers = page.extra.maintainer | split(pat=",") %}
+      {% for maintainer in maintainers %}
+        <span class="maintainer-name">{{ maintainer | trim }}</span>{% if not loop.last %}, {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endmacro %}

@@ -1,6 +1,7 @@
 {% macro javascript() %}
 <script type="text/javascript" src="{{ get_url(path="js/main.js") | safe }}" defer></script>
 <script type="text/javascript" src="{{ get_url(path="js/code-copy.js") | safe }}" defer></script>
+<script type="text/javascript" src="{{ get_url(path="js/smart-sidebars.js") | safe }}" defer></script>
 <script>
   // Only load mermaid if we actually have mermaid diagrams on the page
   document.addEventListener('DOMContentLoaded', function() {

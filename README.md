@@ -1,4 +1,4 @@
-# MeetBall Handbook
+# Meetball Handbook
 
 Where we keep all our knowledge, kinda like our team's brain but in website form.
 

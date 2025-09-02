@@ -10,11 +10,10 @@ template = "docs/page.html"
 
 [extra]
 lead = "How to Suggest Features, Report Bugs and How they move to Dev"
+maintainer = "Gale"
 toc = true
 top = false
 +++
-
-Suggested page DRI: Gale
 
 ### How we collect and track Ideas, features requests and bugs
 

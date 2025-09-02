@@ -1,4 +1,5 @@
-{% macro docs_toc(page) %}
+{% import "macros/docs-action-buttons.html" as macros_action %}
+{% macro docs_toc(page, current_path) %}
   {% if page.extra.toc %}
   <nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
   	<div class="page-links">
@@ -17,6 +18,7 @@
   							{% endfor %}
   					</ul>
   			</nav>
+  			{{ macros_action::docs_action_buttons(current_path=current_path, compact=true) }}
   	</div>
   </nav>
   {% endif %}

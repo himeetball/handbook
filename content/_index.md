@@ -1,5 +1,5 @@
 +++
-title = "MeetBall Handbook"
+title = "Meetball Handbook"
 
 
 # The homepage contents
