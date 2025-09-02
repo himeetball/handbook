@@ -26,7 +26,7 @@ Whether you’re an early user, event organizer, or part of the team, you can he
 
 We treat those chat/suggestions as _input source_, not a backlog.
 
- _Note: At the moment the "suggest a feature button is not active so those are LOST: as a minimum they need to go to a mailbox, at best they automatically go to a feature collection system - Direct to Git is overkill for not tech users, use a system like [Canny](https://canny.io) (used by Posthog, Notion etc). Need ASAP create a better issue reporting/tracker. Part of our Build in Public journey. I would be happy to ouse our web app Caht functionality and be able to chat wth users suggesting a feature in the early days_
+_Note: At the moment the "suggest a feature" button is not active so those are LOST: as a minimum they need to go to a mailbox, at best they automatically go to a feature collection system - Direct to Git is overkill for non-tech users, use a system like [Canny](https://canny.io) (used by PostHog, Notion etc). Need ASAP to create a better issue reporting/tracker. Part of our Build in Public journey. I would be happy to use our web app Chat functionality and be able to chat with users suggesting a feature in the early days._
 
 This is how we explain this in the Discord bugs and features channel:
 
@@ -55,9 +55,9 @@ This is how we explain this in the Discord bugs and features channel:
 >3. **Prioritized items** go into our Kanban board → GitHub Issues for dev work.
 >4. **Shipped features** get posted back in Discord so you know you made an impact.
 
-#### 2. **Triage
+#### 2. Triage
 
-Triage is the process of regularly reviewing ideas, bugs and feature suggestins and putting them on backlog for rankign and prioritisation.
+Triage is the process of regularly reviewing ideas, bugs and feature suggestions and putting them on backlog for ranking and prioritisation.
 
 We nominate a **Triage Captain** (rotating role) each week to move requests from chat → backlog.
 
@@ -65,12 +65,12 @@ If the idea has merit, move it to one of those Kanban Boards depending on the ty
 
 -  [Idea Board](https://plane.murumb.dev/meetball/projects/710e7204-c511-493a-84d6-48ab31af5fa1/issues/) on **Plane**: For rough / high level ideas, for brainstorming and exploration, something we are not even sure we want to explore: Needs elaboration and not dev-ready. Once created, discussion happens there so cross reference them. Ideas are moved to "In Progress" if they go to any board where work may start (Experiments, Dev or Github as issues).
 - These Ideas are also captured in a Miro/? Product discovery map:
-_(duplicaton? perhaps put on Miro only ideas we agreed to explore)_
+_(duplication? perhaps put on Miro only ideas we agreed to explore)_
 
-- [Development](https://plane.murumb.dev/meetball/projects/519ca7bc-0c01-4139-9f1b-57086aee7842/issues/) on **Plane** This is a Backlog of Dev work that we know we have to do but technical specifications are not good enough for it to be created as an Issue on Github, not dev-ready. Once created, discussion happens there.
+- [Development](https://plane.murumb.dev/meetball/projects/519ca7bc-0c01-4139-9f1b-57086aee7842/issues/) on **Plane**: This is a Backlog of Dev work that we know we have to do but technical specifications are not good enough for it to be created as an Issue on Github, not dev-ready. Once created, discussion happens there.
 
 - If it’s dev-ready, **add it directly to the Backlog on Github** as Issues, tracked in one of the following projects on Github:
-	- [Meetbal Web App](https://github.com/orgs/himeetball/projects/4)
+	- [Meetball Web App](https://github.com/orgs/himeetball/projects/4)
 	- [Handbook](https://github.com/orgs/himeetball/projects/7)
 	- Website (to be created)
 	- etc.. (as we start new projects)

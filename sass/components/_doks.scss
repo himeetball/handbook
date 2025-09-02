@@ -294,3 +294,78 @@ body.dark .docs-sidebar .docs-link {
   }
 }
 
+// Page roles styling - minimal compact design
+.page-roles {
+  margin: 0.75rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  
+  .role-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    
+    svg {
+      flex-shrink: 0;
+    }
+    
+    &.dri-tag {
+      background-color: rgba($warning, 0.1);
+      color: darken($warning, 10%);
+      border: 1px solid rgba($warning, 0.2);
+    }
+    
+    &.maintainer-tag {
+      background-color: rgba($primary, 0.1);
+      color: darken($primary, 10%);
+      border: 1px solid rgba($primary, 0.2);
+    }
+  }
+}
+
+body.dark .page-roles {
+  .role-tag {
+    &.dri-tag {
+      background-color: rgba($warning, 0.15);
+      color: lighten($warning, 15%);
+      border-color: rgba($warning, 0.3);
+    }
+    
+    &.maintainer-tag {
+      background-color: rgba($primary, 0.15);
+      color: lighten($primary, 15%);
+      border-color: rgba($primary, 0.3);
+    }
+  }
+}
+
+// TOC roles styling - even more compact for sidebar
+.docs-toc .page-roles {
+  margin: 1rem 0 1rem 0;
+  padding-top: 1.5rem;
+  font-size: 0.7rem;
+  
+  .role-tag {
+    font-size: 0.65rem;
+    padding: 0.2rem 0.4rem;
+  }
+}
+
+// Adjust TOC title spacing only when roles are present
+.docs-toc .page-links:has(.page-roles) h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+// Action buttons area roles styling
+.page-actions .page-roles {
+  margin: 0 0 0.75rem 0;
+}
+

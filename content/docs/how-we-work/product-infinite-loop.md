@@ -12,13 +12,14 @@ template = "docs/page.html"
 lead = "The Invinite Loop"
 toc = true
 top = false
+maintainer = "Gale"
+dri = "Gale"
 +++
 
 **Meetball [Principles](https://recipe.meetball.fun/docs/company/principles/):** 
  - Build What Matters, 
  - Learn and Adapt,  
 
-DRI: Gale
 
 # The Infinite Loop (L∞P): Product Discovery & Delivery
 

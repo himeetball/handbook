@@ -1,6 +1,8 @@
-{% macro docs_action_buttons(current_path, compact=false) %}
+{% import "macros/docs-maintainer.html" as macros_maintainer %}
+{% macro docs_action_buttons(current_path, compact=false, page=false) %}
 {% if config.extra.edit_page and config.extra.docs_repo %}
 <div class="page-actions{% if compact %} compact{% endif %}">
+  {% if page and not compact %}{{ macros_maintainer::docs_maintainer(page=page) }}{% endif %}
   <div class="action-buttons">
     <a href="{{ config.extra.docs_repo }}/edit/{{ config.extra.repo_branch }}/content{{ current_path | replace(from="\\", to="/") | trim_end_matches(pat="/") }}.md" 
        target="_blank" rel="noopener" class="btn-action btn-edit">
