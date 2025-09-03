@@ -24,7 +24,7 @@ top = false
 This is a starting document, a first draft to help us align. It’s not perfect, and it’s final. Everyone here is invited to improve it so that together we shape how Meetball builds.
 
 I’m not a technical founder, so I'm mostly sharing principles and where I add specifics, it may be totalyl flawed. This page needs a DRI who shapes how we work to realsie our mission:
-## Principels for how we work on DEV:
+## Principles for how we work on DEV:
 
 - **Commitment Clarity:** Distinguish between volunteer contributors (can help, may not show up), and committed Core team members (**Directly Responsible Individuals** for specific projects, clear availability).
 
