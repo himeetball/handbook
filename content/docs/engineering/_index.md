@@ -18,7 +18,9 @@ If you're new to MeetBall Engineering, start here:
 
 ## 🛠️ **Core Practices**
 
-- **[Tools & Stack](./tools-stack.md)**: Technologies and tools we use
+- **[Git Flow & Branching Strategy](./git-flow.md)**: Our Git workflow and release process
+- **[PR Templates & Guidelines](./pr-templates.md)**: Standardized pull request templates
+- **[Tools & Stack](./mgmt-tools.md)**: Project Mmgt tools we use
 - **[Features & Bugs](./features-bugs-reporting-grooming.md)**: How we handle feedback and development
 
 ## 📊 **Documentation Changes**
