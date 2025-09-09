@@ -246,5 +246,4 @@ Any additional information that reviewers should know about this change.
 
 *These PR templates and guidelines ensure consistency and quality in our development workflow. They evolve with our team needs and project requirements.*
 
-**Last Updated**: January 27, 2025 by CTO Team  
-**Next Review**: February 2025
+**Last Updated**: September 9, 2025 by @drhinca: Adrián Bado Chinca

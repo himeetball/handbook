@@ -101,5 +101,4 @@ These templates are living documents that evolve with our team needs:
 
 *Choose the appropriate template for your PR type to ensure thorough and consistent pull request documentation.*
 
-**Last Updated**: January 27, 2025 by CTO Team  
-**Next Review**: February 2025
+**Last Updated**: September 9, 2025 by @drhinca: Adrián Bado Chinca

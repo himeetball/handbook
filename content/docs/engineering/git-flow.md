@@ -1,6 +1,6 @@
 +++
 title = "Git Flow & Branching Strategy"
-description = "Our Git workflow, branching strategy, and release management process"
+description = "Our simplified Git workflow and branching strategy"
 date = 2025-01-27T10:00:00+00:00
 updated = 2025-01-27T10:00:00+00:00
 draft = false
@@ -9,18 +9,18 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Standardized Git workflow for consistent development, releases, and deployments"
+lead = "Simplified Git workflow for rapid development and reliable releases"
 toc = true
 top = false
 +++
 
-> **Note from CTO**: This Git Flow strategy balances the flexibility needed for rapid iteration with the structure required for reliable releases. It's designed to scale with our team and project complexity.
+> **Note from CTO**: This simplified Git Flow balances rapid iteration with reliable releases. It's designed to scale with our team and project complexity.
 
 ---
 
 ## 🎯 **Git Flow Overview**
 
-We use a **simplified Git Flow** that combines the best practices of traditional Git Flow with the speed requirements of a startup. Our approach prioritizes:
+We use a **simplified Git Flow** that prioritizes:
 
 - **🚀 Rapid Development**: Quick feature development and bug fixes
 - **🔄 Continuous Integration**: Regular merges to main branch
@@ -37,18 +37,17 @@ We use a **simplified Git Flow** that combines the best practices of traditional
 - **Purpose**: Production-ready code, always deployable
 - **Protection**: Requires PR approval and CI/CD passing
 - **Deployment**: Automatic deployment to production
-- **Merging**: Only from `develop` or hotfix branches
 
 #### **`develop` (Integration)**
 - **Purpose**: Integration branch for features and bug fixes
 - **Protection**: Requires PR approval
 - **Deployment**: Automatic deployment to staging
-- **Merging**: From feature branches and hotfixes
 
 ### **Supporting Branches**
 
-#### **`feature/*` (Feature Development)**
-- **Naming**: `feature/descriptive-name` (e.g., `feature/user-authentication`)
+#### **Feature Branches**
+- **Naming**: `gitusername/ticketnumber/scope-description` (e.g., `john/1234/user-authentication`)
+- **For non-issue work**: `gitusername/0/scope-description`
 - **Source**: `develop`
 - **Target**: `develop`
 - **Lifetime**: Until feature is complete and tested
@@ -57,13 +56,11 @@ We use a **simplified Git Flow** that combines the best practices of traditional
 - **Naming**: `release/version-number` (e.g., `release/v1.2.0`)
 - **Source**: `develop`
 - **Target**: `main` and `develop`
-- **Lifetime**: Until release is deployed to production
 
 #### **`hotfix/*` (Critical Fixes)**
 - **Naming**: `hotfix/descriptive-name` (e.g., `hotfix/security-patch`)
 - **Source**: `main`
 - **Target**: `main` and `develop`
-- **Lifetime**: Until fix is deployed to production
 
 ---
 
@@ -72,10 +69,10 @@ We use a **simplified Git Flow** that combines the best practices of traditional
 ### **1. Feature Development**
 
 ```bash
-# Start new feature
+# Start new feature (using our naming convention)
 git checkout develop
 git pull origin develop
-git checkout -b feature/user-authentication
+git checkout -b john/1234/user-authentication
 
 # Develop and commit
 git add .
@@ -88,20 +85,11 @@ git commit -m "feat: add user authentication system
 Closes #123"
 
 # Push and create PR
-git push origin feature/user-authentication
+git push origin john/1234/user-authentication
 # Create PR to develop branch
 ```
 
-### **2. Feature Completion**
-
-```bash
-# Ensure feature is complete and tested
-# Create PR to develop branch
-# Get code review approval
-# Merge to develop (delete feature branch)
-```
-
-### **3. Release Preparation**
+### **2. Release Process**
 
 ```bash
 # Create release branch
@@ -114,28 +102,10 @@ git commit -m "fix: resolve final release issues"
 git push origin release/v1.2.0
 
 # Create PR to main branch
+# After approval: merge to main, tag, and merge back to develop
 ```
 
-### **4. Release Deployment**
-
-```bash
-# After PR approval and testing
-git checkout main
-git merge release/v1.2.0
-git tag -a v1.2.0 -m "Release version 1.2.0"
-git push origin main --tags
-
-# Merge back to develop
-git checkout develop
-git merge release/v1.2.0
-git push origin develop
-
-# Delete release branch
-git branch -d release/v1.2.0
-git push origin --delete release/v1.2.0
-```
-
-### **5. Hotfix Process**
+### **3. Hotfix Process**
 
 ```bash
 # Critical bug in production
@@ -153,29 +123,14 @@ git commit -m "fix: patch critical security vulnerability
 Closes #456"
 
 # Create PR to main
-# After approval and testing
-git checkout main
-git merge hotfix/security-patch
-git tag -a v1.2.1 -m "Hotfix version 1.2.1"
-git push origin main --tags
-
-# Merge to develop
-git checkout develop
-git merge hotfix/security-patch
-git push origin develop
-
-# Delete hotfix branch
-git branch -d hotfix/security-patch
-git push origin --delete hotfix/security-patch
+# After approval: merge to main, tag, and merge to develop
 ```
 
 ---
 
 ## 📝 **Commit Message Standards**
 
-### **Conventional Commits Format**
-
-We follow the [Conventional Commits](https://www.conventionalcommits.org/) specification:
+We follow [Conventional Commits](https://www.conventionalcommits.org/):
 
 ```
 <type>[optional scope]: <description>
@@ -190,10 +145,10 @@ We follow the [Conventional Commits](https://www.conventionalcommits.org/) speci
 - **`feat`**: New feature
 - **`fix`**: Bug fix
 - **`docs`**: Documentation changes
-- **`style`**: Code style changes (formatting, missing semicolons, etc.)
+- **`style`**: Code style changes
 - **`refactor`**: Code refactoring
 - **`test`**: Adding or updating tests
-- **`chore`**: Maintenance tasks, dependencies, etc.
+- **`chore`**: Maintenance tasks
 
 ### **Examples**
 
@@ -203,7 +158,6 @@ git commit -m "feat(auth): add OAuth2 authentication
 
 - Implement Google OAuth2 provider
 - Add social login buttons
-- Include user profile creation
 
 Closes #123"
 
@@ -212,16 +166,8 @@ git commit -m "fix(api): resolve user creation race condition
 
 - Add database transaction wrapper
 - Implement proper error handling
-- Add retry mechanism for conflicts
 
 Fixes #456"
-
-# Documentation
-git commit -m "docs: update API documentation
-
-- Add new endpoint examples
-- Include authentication requirements
-- Update response schemas"
 ```
 
 ---
@@ -238,231 +184,155 @@ We follow [Semantic Versioning](https://semver.org/) (MAJOR.MINOR.PATCH):
 
 ### **Release Process**
 
-#### **1. Planning Phase**
-- Review completed features in `develop`
-- Determine version number based on changes
-- Plan release date and deployment strategy
-
-#### **2. Preparation Phase**
-- Create release branch from `develop`
-- Final testing and bug fixes
-- Update version numbers and changelog
-- Prepare release notes
-
-#### **3. Deployment Phase**
-- Merge to `main` branch
-- Tag release with version number
-- Deploy to production
-- Merge back to `develop`
-
-#### **4. Post-Release**
-- Monitor production for issues
-- Document lessons learned
-- Plan next release cycle
-
-### **Release Notes Template**
-
-```markdown
-# Release v1.2.0
-
-## 🎉 New Features
-- User authentication system
-- Profile management
-- Password reset functionality
-
-## 🐛 Bug Fixes
-- Fixed login form validation
-- Resolved session timeout issues
-- Fixed profile image upload
-
-## 🔧 Improvements
-- Enhanced error handling
-- Improved loading states
-- Better mobile responsiveness
-
-## 📚 Documentation
-- Updated API documentation
-- Added user guides
-- Included troubleshooting section
-
-## 🚀 Deployment
-- **Release Date**: January 27, 2025
-- **Deployment Time**: 2:00 PM UTC
-- **Rollback Plan**: Available if needed
-```
+1. **Planning**: Review completed features in `develop`
+2. **Preparation**: Create release branch, final testing
+3. **Deployment**: Merge to `main`, tag, deploy to production
+4. **Post-Release**: Monitor production, merge back to `develop`
 
 ---
 
 ## 🛡️ **Branch Protection Rules**
 
 ### **Main Branch Protection**
-
 - **Require PR**: All changes must go through pull requests
 - **Require Reviews**: At least 1 approval required
 - **Require Status Checks**: CI/CD must pass
-- **Require Up-to-date**: Branch must be up-to-date before merging
-- **Restrict Deletions**: Only admins can delete the branch
 
 ### **Develop Branch Protection**
-
 - **Require PR**: All changes must go through pull requests
 - **Require Reviews**: At least 1 approval required
 - **Require Status Checks**: CI/CD must pass
-- **Allow Force Pushes**: For emergency fixes (use sparingly)
 
 ### **Feature Branch Guidelines**
-
-- **Naming Convention**: `feature/descriptive-name`
+- **Naming Convention**: `gitusername/ticketnumber/scope-description`
 - **Lifetime**: Keep branches short-lived (1-2 weeks max)
 - **Size**: One feature per branch, keep changes focused
 - **Cleanup**: Delete branches after merging
 
 ---
 
-## 🔄 **CI/CD Integration**
-
-### **Automated Checks**
-
-- **Code Quality**: Linting, formatting, security scanning
-- **Testing**: Unit tests, integration tests, E2E tests
-- **Build Verification**: Ensure code compiles and builds
-- **Dependency Checks**: Security vulnerabilities, outdated packages
-
-### **Deployment Pipeline**
-
-```yaml
-# Example GitHub Actions workflow
-name: Deploy
-
-on:
-  push:
-    branches: [main, develop]
-
-jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Run tests
-        run: npm test
-
-  deploy-staging:
-    needs: test
-    if: github.ref == 'refs/heads/develop'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy to staging
-        run: echo "Deploy to staging"
-
-  deploy-production:
-    needs: test
-    if: github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy to production
-        run: echo "Deploy to production"
-```
-
----
-
 ## 🚨 **Emergency Procedures**
 
 ### **Critical Bug in Production**
-
 1. **Assess Impact**: Determine severity and scope
 2. **Create Hotfix**: Branch directly from `main`
 3. **Quick Fix**: Implement minimal fix to resolve issue
 4. **Testing**: Basic testing to ensure fix works
 5. **Deploy**: Merge to `main` and deploy immediately
 6. **Document**: Update changelog and release notes
-7. **Post-Mortem**: Analyze what went wrong and how to prevent it
-
-### **Rollback Strategy**
-
-- **Database Rollback**: Use database migrations to rollback schema changes
-- **Code Rollback**: Revert to previous stable tag
-- **Configuration Rollback**: Restore previous configuration files
-- **Communication**: Notify team and users of rollback
-
----
-
-## 📊 **Monitoring & Metrics**
-
-### **Key Metrics to Track**
-
-- **Deployment Frequency**: How often we deploy to production
-- **Lead Time**: Time from commit to production deployment
-- **Mean Time to Recovery**: How quickly we can fix production issues
-- **Change Failure Rate**: Percentage of deployments causing issues
-
-### **Tools & Dashboards**
-
-- **GitHub Insights**: Repository analytics and metrics
-- **CI/CD Metrics**: Build times, test coverage, deployment success
-- **Production Monitoring**: Error rates, performance metrics
-- **Team Velocity**: Features completed per sprint
-
----
-
-## 🤝 **Team Collaboration**
-
-### **Code Review Process**
-
-- **Reviewer Assignment**: Automatically assign based on code ownership
-- **Review Guidelines**: Focus on functionality, security, and maintainability
-- **Response Time**: Aim for reviews within 24 hours
-- **Feedback Quality**: Constructive, specific, actionable feedback
-
-### **Communication Channels**
-
-- **GitHub Issues**: Track bugs, features, and discussions
-- **Discord**: Real-time communication and coordination
-- **Pull Request Comments**: Specific feedback and suggestions
-- **Release Announcements**: Team updates and user notifications
 
 ---
 
 ## 📚 **Best Practices**
 
 ### **Do's**
-
 - ✅ **Keep branches short-lived** (1-2 weeks maximum)
 - ✅ **Write clear commit messages** following conventional format
 - ✅ **Test thoroughly** before creating PRs
 - ✅ **Review code promptly** when assigned
-- ✅ **Communicate changes** to the team
-- ✅ **Document breaking changes** clearly
 
 ### **Don'ts**
-
 - ❌ **Commit directly to main/develop** (always use PRs)
 - ❌ **Leave branches open** for extended periods
 - ❌ **Merge without testing** or code review
 - ❌ **Use force push** on shared branches
 - ❌ **Ignore CI/CD failures** or warnings
-- ❌ **Deploy on Fridays** (unless absolutely necessary)
 
 ---
 
-## 🔮 **Future Improvements**
+## 💡 **Practical Examples**
 
-### **Short-term Goals**
+### **Example 1: New Feature Development**
 
-- **Automated Release Notes**: Generate from conventional commits
-- **Deployment Notifications**: Slack/Discord integration
-- **Performance Monitoring**: Track deployment impact on metrics
-- **Rollback Automation**: One-click rollback capability
+```bash
+# 1. Start feature from GitHub issue #1234
+git checkout develop
+git pull origin develop
+git checkout -b sarah/1234/payment-integration
 
-### **Long-term Vision**
+# 2. Develop feature
+git add .
+git commit -m "feat(payment): add Stripe payment integration
 
-- **Blue-Green Deployments**: Zero-downtime deployments
-- **Feature Flags**: Gradual feature rollouts
-- **Canary Releases**: Test new features with subset of users
-- **Infrastructure as Code**: Automated infrastructure management
+- Implement Stripe checkout flow
+- Add payment success/failure handling
+- Include webhook processing
+
+Closes #1234"
+
+# 3. Push and create PR
+git push origin sarah/1234/payment-integration
+# Create PR to develop branch with proper labels
+```
+
+### **Example 2: Bug Fix**
+
+```bash
+# 1. Start bug fix from GitHub issue #5678
+git checkout develop
+git pull origin develop
+git checkout -b mike/5678/fix-login-bug
+
+# 2. Fix the bug
+git add .
+git commit -m "fix(auth): resolve login redirect loop
+
+- Fix infinite redirect in OAuth callback
+- Add proper error handling for failed auth
+- Update session management
+
+Fixes #5678"
+
+# 3. Push and create PR
+git push origin mike/5678/fix-login-bug
+```
+
+### **Example 3: Non-Issue Work**
+
+```bash
+# 1. Start non-issue work (refactoring, cleanup, etc.)
+git checkout develop
+git pull origin develop
+git checkout -b alex/0/refactor-api-validation
+
+# 2. Make changes
+git add .
+git commit -m "refactor(api): improve input validation
+
+- Centralize validation logic
+- Add better error messages
+- Reduce code duplication"
+
+# 3. Push and create PR
+git push origin alex/0/refactor-api-validation
+```
+
+### **Example 4: Hotfix**
+
+```bash
+# 1. Critical production issue
+git checkout main
+git pull origin main
+git checkout -b hotfix/security-vulnerability
+
+# 2. Fix the issue
+git add .
+git commit -m "fix(security): patch XSS vulnerability
+
+- Sanitize user input in profile display
+- Add CSP headers
+- Update input validation
+
+Fixes #9999"
+
+# 3. Push and create PR to main
+git push origin hotfix/security-vulnerability
+# After merge: merge back to develop and delete branch
+```
 
 ---
 
 *This Git Flow strategy evolves with our team and project needs. Regular retrospectives help us identify areas for improvement and adapt our workflow accordingly.*
 
-**Last Updated**: January 27, 2025 by CTO Team  
-**Next Review**: February 2025
+**Last Updated**: September 9, 2025 by @drhinca: Adrián Bado Chinca
+

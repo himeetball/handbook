@@ -228,4 +228,4 @@ This onboarding guide is a living document. We want your feedback to make it bet
 
 **Need help?** Don't hesitate to ask. We're all here to help each other succeed! 🚀
 
-**Last Updated**: September 8, 2025
+**Last Updated**: September 9, 2025 by @drhinca: Adrián Bado Chinca
