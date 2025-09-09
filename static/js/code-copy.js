@@ -1,4 +1,4 @@
-// Code block copy functionality for MeetBall Handbook
+// Code block copy functionality for Meetball Handbook
 // TODO: Code blocks are being rendered line-by-line with individual <span> elements
 // which makes text selection awkward. This is how Duckquill theme does it too.
 // See GitHub issue: https://github.com/thesummeet/handbook/issues/XXX

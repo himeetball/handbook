@@ -78,11 +78,11 @@ It's not about showing off, it's about everyojne having a feel for who is workig
 #### Decisions Have Owners
 We have a flat structure, people grow into roles our of necessity, but all critical decisions have clear owners, and it is only just one person. We document decision taken and who took responsibilityu for the decision in Plane/Experiments.
 
-[Apple coined the term](https://fortune.com/article/how-apple-works-inside-the-worlds-biggest-startup/) “Directly Responsible Individual” (DRI) to refer to the one person with whom the buck stops on any given project. The idea is that every project is assigned a Drectly Responsible Individual who is ultimately held accountable for the success (or failure) of that project.
+[Apple coined the term](https://fortune.com/article/how-apple-works-inside-the-worlds-biggest-startup/) **“Directly Responsible Individual” (DRI)** to refer to the one person with whom the buck stops on any given project. The idea is that every project is assigned a Drectly Responsible Individual who is ultimately held accountable for the success (or failure) of that project.
 
 The Directly Responsible Individual will likely not be the only person working on the project, but it’s [“up to that person to get it done or find the resources needed.”](https://originalfuzz.com/blogs/magazine/83782148-the-directly-responsible-individual)
 
-The role of the DRI is to listen to all feedback and then decide alone. Read more on [DIR here](https://handbook.gitlab.com/handbook/people-group/directly-responsible-individuals/)
+The role of the DRI is to listen to all feedback and then take the responsibility for the decision alone. Read more on [DIR here](https://handbook.gitlab.com/handbook/people-group/directly-responsible-individuals/)
 
 
 - **Roles are temporary** People step in with “I can help,” not “That’s not my job.” Roles emerge and dissolve as needed.

@@ -60,3 +60,312 @@ body.dark .hljs-attribute,
 body.dark .hljs-link {
   color: $blue-300;
 }
+
+// Page maintainer styling
+.page-maintainer {
+  margin: 2rem 0;
+  padding: 1rem;
+  border-left: 4px solid $primary;
+  background-color: rgba($primary, 0.05);
+  border-radius: 0 4px 4px 0;
+
+  .maintainer-title {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: $gray-700;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    svg {
+      opacity: 0.7;
+    }
+  }
+
+  .maintainer-list {
+    font-size: 0.875rem;
+    color: $gray-600;
+
+    .maintainer-name {
+      font-weight: 500;
+      color: $primary;
+    }
+  }
+}
+
+body.dark .page-maintainer {
+  background-color: rgba($primary, 0.1);
+  border-left-color: $primary;
+
+  .maintainer-title {
+    color: $gray-300;
+  }
+
+  .maintainer-list {
+    color: $gray-400;
+
+    .maintainer-name {
+      color: lighten($primary, 20%);
+    }
+  }
+}
+
+// Page action buttons styling  
+.page-actions {
+  margin: 1.5rem 0;
+
+  .action-buttons {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+
+  .btn-action {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-decoration: none;
+    border: 1px solid $gray-300;
+    border-radius: 0.375rem;
+    background-color: $white;
+    color: $gray-700;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      background-color: $gray-100;
+      border-color: $gray-400;
+      color: $gray-900;
+      text-decoration: none;
+    }
+
+    svg {
+      flex-shrink: 0;
+    }
+  }
+
+  .btn-edit {
+    &:hover {
+      background-color: lighten($primary, 50%);
+      border-color: $primary;
+      color: $primary;
+    }
+  }
+
+  .btn-issue {
+    &:hover {
+      background-color: lighten($red, 50%);
+      border-color: $red;
+      color: $red;
+    }
+  }
+
+  // Compact version for sidebar
+  &.compact {
+    margin: 1rem 0 0 0;
+    border-top: 1px solid $gray-200;
+    padding-top: 1rem;
+
+    .action-buttons {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .btn-action {
+      justify-content: flex-start;
+      padding: 0.375rem 0.75rem;
+      font-size: 0.8125rem;
+      border: none;
+      background-color: transparent;
+      border-radius: 0.25rem;
+
+      &:hover {
+        background-color: $gray-100;
+      }
+    }
+
+    .btn-edit:hover {
+      background-color: lighten($primary, 50%);
+      color: $primary;
+    }
+
+    .btn-issue:hover {
+      background-color: lighten($red, 50%);
+      color: $red;
+    }
+  }
+}
+
+body.dark .page-actions {
+  .btn-action {
+    background-color: $gray-800;
+    border-color: $gray-600;
+    color: $gray-300;
+
+    &:hover {
+      background-color: $gray-700;
+      border-color: $gray-500;
+      color: $gray-100;
+    }
+  }
+
+  .btn-edit:hover {
+    background-color: rgba($primary, 0.2);
+    border-color: lighten($primary, 20%);
+    color: lighten($primary, 20%);
+  }
+
+  .btn-issue:hover {
+    background-color: rgba($red, 0.2);
+    border-color: lighten($red, 20%);
+    color: lighten($red, 20%);
+  }
+
+  &.compact {
+    border-top-color: $gray-600;
+
+    .btn-action {
+      background-color: transparent;
+      color: $gray-400;
+
+      &:hover {
+        background-color: rgba($gray-700, 0.5);
+        color: $gray-200;
+      }
+    }
+
+    .btn-edit:hover {
+      background-color: rgba($primary, 0.15);
+      color: lighten($primary, 20%);
+    }
+
+    .btn-issue:hover {
+      background-color: rgba($red, 0.15);
+      color: lighten($red, 20%);
+    }
+  }
+}
+
+// Active page indicator in sidebar
+.docs-sidebar .docs-link {
+  position: relative;
+  display: block;
+  padding: 0.25rem 0;
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+
+  &:hover {
+    color: $primary;
+    text-decoration: none;
+  }
+
+  &.active {
+    color: $primary;
+    font-weight: 500;
+    
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background-color: $primary;
+      opacity: 0.6;
+    }
+  }
+}
+
+body.dark .docs-sidebar .docs-link {
+  &:hover {
+    color: lighten($primary, 20%);
+  }
+
+  &.active {
+    color: lighten($primary, 20%);
+    
+    &::after {
+      background-color: lighten($primary, 20%);
+    }
+  }
+}
+
+// Page roles styling - minimal compact design
+.page-roles {
+  margin: 0.75rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  
+  .role-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    
+    svg {
+      flex-shrink: 0;
+    }
+    
+    &.dri-tag {
+      background-color: rgba($warning, 0.1);
+      color: darken($warning, 10%);
+      border: 1px solid rgba($warning, 0.2);
+    }
+    
+    &.maintainer-tag {
+      background-color: rgba($primary, 0.1);
+      color: darken($primary, 10%);
+      border: 1px solid rgba($primary, 0.2);
+    }
+  }
+}
+
+body.dark .page-roles {
+  .role-tag {
+    &.dri-tag {
+      background-color: rgba($warning, 0.15);
+      color: lighten($warning, 15%);
+      border-color: rgba($warning, 0.3);
+    }
+    
+    &.maintainer-tag {
+      background-color: rgba($primary, 0.15);
+      color: lighten($primary, 15%);
+      border-color: rgba($primary, 0.3);
+    }
+  }
+}
+
+// TOC roles styling - even more compact for sidebar
+.docs-toc .page-roles {
+  margin: 1rem 0 1rem 0;
+  padding-top: 1.5rem;
+  font-size: 0.7rem;
+  
+  .role-tag {
+    font-size: 0.65rem;
+    padding: 0.2rem 0.4rem;
+  }
+}
+
+// Adjust TOC title spacing only when roles are present
+.docs-toc .page-links:has(.page-roles) h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+// Action buttons area roles styling
+.page-actions .page-roles {
+  margin: 0 0 0.75rem 0;
+}
+

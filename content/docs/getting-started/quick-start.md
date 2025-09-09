@@ -1,6 +1,6 @@
 +++
 title = "Quick Start"
-description = "Get started contributing to MeetBall projects."
+description = "Get started contributing to Meetball projects."
 date = 2021-05-01T08:20:00+00:00
 updated = 2021-05-01T08:20:00+00:00
 draft = false
@@ -9,7 +9,7 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Everything you need to start contributing to MeetBall - from this handbook to our other projects."
+lead = "Everything you need to start contributing to Meetball - from this handbook to our other projects."
 toc = true
 top = false
 +++

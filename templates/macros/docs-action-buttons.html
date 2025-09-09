@@ -1,0 +1,26 @@
+{% import "macros/docs-maintainer.html" as macros_maintainer %}
+{% macro docs_action_buttons(current_path, compact=false, page=false) %}
+{% if config.extra.edit_page and config.extra.docs_repo %}
+<div class="page-actions{% if compact %} compact{% endif %}">
+  {% if page and not compact %}{{ macros_maintainer::docs_maintainer(page=page) }}{% endif %}
+  <div class="action-buttons">
+    <a href="{{ config.extra.docs_repo }}/edit/{{ config.extra.repo_branch }}/content{{ current_path | replace(from="\\", to="/") | trim_end_matches(pat="/") }}.md" 
+       target="_blank" rel="noopener" class="btn-action btn-edit">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-2">
+        <path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path>
+      </svg>
+      {% if not compact %}Edit this page{% else %}Edit{% endif %}
+    </a>
+    <a href="{{ config.extra.docs_repo }}/issues/new?template=bug_report.md&title=[Docs] Issue with {{ current_path | replace(from="\\", to="/") | trim_end_matches(pat="/") }}" 
+       target="_blank" rel="noopener" class="btn-action btn-issue">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-circle">
+        <circle cx="12" cy="12" r="10"></circle>
+        <line x1="12" y1="8" x2="12" y2="12"></line>
+        <line x1="12" y1="16" x2="12.01" y2="16"></line>
+      </svg>
+      {% if not compact %}Report an issue{% else %}Issue{% endif %}
+    </a>
+  </div>
+</div>
+{% endif %}
+{% endmacro %}

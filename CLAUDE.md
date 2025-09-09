@@ -26,12 +26,12 @@ User prefers a playful, casual tone in documentation - not too formal or corpora
 - "hyper vite" or "en deux secondes" instead of formal "rapidement"
 
 ### General Rules
-- Always include (MeetBall Handbook) in parentheses after translated titles/names
+- Always include (Meetball Handbook) in parentheses after translated titles/names
 - Keep it conversational like talking to a friend
 - Each version should feel authentic to that culture, not a translation
 
 ## Project Setup
-This is the MeetBall handbook built with Zola using the Adidoks theme. It's deployed via Cloudflare Pages.
+This is the Meetball handbook built with Zola using the Adidoks theme. It's deployed via Cloudflare Pages.
 
 ## Important Rules
 - ALWAYS run `zola check` when done with any task to ensure no errors

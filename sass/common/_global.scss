@@ -87,6 +87,21 @@ a.btn:focus {
 
 body {
   padding-top: 3.5625rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+// Make main content area grow to push footer down
+main,
+main.flex-fill {
+  flex: 1 0 auto;
+}
+
+// Keep footer at bottom
+.footer {
+  flex-shrink: 0;
+  margin-top: auto;
 }
 
 .docs-sidebar {
@@ -106,6 +121,7 @@ body {
       top: 4rem;
       z-index: 1000;
       height: calc(100vh - 4rem);
+      overflow: hidden;
     }
   }
 }
@@ -120,14 +136,6 @@ body {
   padding-bottom: 5rem;
 }
 
-@include media-breakpoint-up(lg) {
-  @supports ((position: -webkit-sticky) or (position: sticky)) {
-    .docs-links {
-      max-height: calc(100vh - 4rem);
-      overflow-y: scroll;
-    }
-  }
-}
 
 @include media-breakpoint-up(lg) {
   .docs-links {
@@ -148,7 +156,7 @@ body {
     position: sticky;
     top: 4rem;
     height: calc(100vh - 4rem);
-    overflow-y: auto;
+    overflow: hidden;
   }
 }
 

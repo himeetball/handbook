@@ -1,6 +1,6 @@
 +++
 title = "Editing The Meetball Handbook"
-description = "How to review and submit edits to the MeetBall Handbook."
+description = "How to review and submit edits to the Meetball Handbook."
 draft = false
 weight = 2
 template = "docs/page.html"
@@ -114,7 +114,7 @@ When reviewing someone else's PR:
 
 **Multi-language PRs**
 - [ ] Uses authentic cultural expressions (not Google Translate)
-- [ ] Includes "(MeetBall Handbook)" after translated titles
+- [ ] Includes "(Meetball Handbook)" after translated titles
 - [ ] Uses informal "you" form (tu/tu/tu)
 - [ ] Sounds like how people actually talk
 

@@ -1,5 +1,5 @@
 name = "meetball-handbook"
-description = "MeetBall Handbook theme, based on the AdiDoks theme."
+description = "Meetball Handbook theme, based on the AdiDoks theme."
 license = "MIT"
 homepage = "https://github.com/thesummeet/handbook"
 min_version = "0.15.0"
@@ -8,7 +8,7 @@ demo = "https://handbook.meetball.fun/"
 [extra]
 
 [author]
-name = "MeetBall Team"
+name = "Meetball Team"
 homepage = "https://github.com/thesummeet"
 
 [original]

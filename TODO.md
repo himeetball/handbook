@@ -1,4 +1,4 @@
-# MeetBall Handbook TODOs
+# Meetball Handbook TODOs
 
 ## Code Block Rendering Issues
 

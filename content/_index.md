@@ -1,5 +1,5 @@
 +++
-title = "MeetBall Handbook"
+title = "Meetball Handbook"
 
 
 # The homepage contents
@@ -23,28 +23,28 @@ section = "blog"
 url = "/blog/"
 weight = 20
 
-[[extra.list]]
-title = "Team Guidelines"
-content = 'How we work together, our security practices, guidelines, and protocols in one place.'
+# [[extra.list]]
+# title = "Team Guidelines"
+# content = 'How we work together, our security practices, guidelines, and protocols in one place.'
 
-[[extra.list]]
-title = "Quick Access"
-content = 'Quick access to all documentation. Find what you need in seconds with our organized structure and search.'
+# [[extra.list]]
+# title = "Quick Access"
+# content = 'Quick access to all documentation. Find what you need in seconds with our organized structure and search.'
 
-[[extra.list]]
-title = "Well Organized"
-content = "Everything has its place. From onboarding to deployment processes, find it all nice and organized."
+# [[extra.list]]
+# title = "Well Organized"
+# content = "Everything has its place. From onboarding to deployment processes, find it all nice and organized."
 
-[[extra.list]]
-title = "Full text search"
-content = "Search through all our docs instantly. Find that piece of knowledge you're hunting for in seconds."
+# [[extra.list]]
+# title = "Full text search"
+# content = "Search through all our docs instantly. Find that piece of knowledge you're hunting for in seconds."
 
-[[extra.list]]
-title = "Multiple Sections"
-content = "Docs, blog posts, guides, and more. Different layouts for different types of content."
+# [[extra.list]]
+# title = "Multiple Sections"
+# content = "Docs, blog posts, guides, and more. Different layouts for different types of content."
 
-[[extra.list]]
-title = "Dark mode"
-content = "Switch to a low-light UI with the click of a button. Change colors with variables to match your branding."
+# [[extra.list]]
+# title = "Dark mode"
+# content = "Switch to a low-light UI with the click of a button. Change colors with variables to match your branding."
 
 +++

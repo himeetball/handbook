@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * GitHub Data Fetcher for MeetBall Handbook
+ * GitHub Data Fetcher for Meetball Handbook
  * 
  * This script fetches GitHub repository data at build time to avoid
  * API rate limiting issues in the browser.
@@ -36,7 +36,7 @@ function httpsGet(url, headers = {}) {
     return new Promise((resolve, reject) => {
         const options = {
             headers: {
-                'User-Agent': 'MeetBall-Handbook/1.0',
+                'User-Agent': 'Meetball-Handbook/1.0',
                 ...headers
             }
         };

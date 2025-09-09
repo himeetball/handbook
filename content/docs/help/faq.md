@@ -12,13 +12,13 @@ toc = true
 top = false
 +++
 
-## What is MeetBall?
+## What is Meetball?
 
-MeetBall is an open project focused on [describe your project here]. This handbook contains all our documentation, guides, and resources for understanding and contributing to the project.
+Meetball is an open project focused on [describe your project here]. This handbook contains all our documentation, guides, and resources for understanding and contributing to the project.
 
 ## What is this handbook?
 
-The MeetBall Handbook is our central knowledge base - it's where we document everything about the project, from getting started guides to contribution workflows. Think of it as the single source of truth for all things MeetBall.
+The Meetball Handbook is our central knowledge base - it's where we document everything about the project, from getting started guides to contribution workflows. Think of it as the single source of truth for all things Meetball.
 
 ## Keyboard shortcuts for search?
 
@@ -29,7 +29,7 @@ The MeetBall Handbook is our central knowledge base - it's where we document eve
 
 ## Other resources?
 
-- [MeetBall GitHub](https://github.com/thesummeet)
+- [Meetball GitHub](https://github.com/thesummeet)
 - [Zola Documentation](https://www.getzola.org/documentation/getting-started/overview/) (our site generator)
 - [Markdown Guide](https://www.markdownguide.org/) (how to format content)
 - [Mermaid](https://mermaid.js.org/) (create diagrams with text)
