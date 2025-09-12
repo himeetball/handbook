@@ -38,7 +38,7 @@ Complete these steps to get up and running:
 
 MeetBall operates as an **open startup** - we believe in transparency, community collaboration, and building in public. This means:
 
-- **Open Source**: Our code and processes are visible to the community
+- **Open**: We share a lot of our journey in public, we share how we work, and anyone in the team is welcome to join any other conversations (product, marketing, dev etc) 
 - **Community Driven**: Users and contributors help shape our product
 - **Transparent**: We share our challenges, learnings, and progress
 - **Inclusive**: Anyone can contribute, regardless of experience level
