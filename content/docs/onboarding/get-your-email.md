@@ -52,7 +52,3 @@ Once approved, Guilherme will DM you on Discord with:
 
 By using your @meetball.fun email, you agree to follow our **Terms of Service** and **Code of Conduct**.  
 Be professional, respectful, and remember — you’re representing the Meetball community when you use it.
-
-# HOW TO ADD TO YOUR EMAIL
-
-Hey Guilerme - can you add instructions for how to add to computer / existing email app
