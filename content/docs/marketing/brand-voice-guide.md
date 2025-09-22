@@ -21,7 +21,7 @@ top = false
 
 ---
 
-## Paragraph 1: Speak Your Heart Out (Don’t Fake It)  
+## 1: Speak Your Heart Out (Don’t Fake It)  
 Meetball’s voice begins with honesty. This platform isn’t about polished perfection or corporate jargon; it’s about people showing up as themselves. That means when we talk, we drop the masks. We share what’s on our mind, what’s troubling us, or what we’re curious about, in words that sound human and real.  
 
 Partners, users, and community members should feel that Meetball is a place where transparency is celebrated and vulnerability isn’t weakness but strength. We don’t sugarcoat and we don’t overcomplicate. Instead, we lean into the raw, direct language of everyday conversations.  
@@ -32,7 +32,7 @@ The voice is caring but not coddling, empathetic without being overly sentimenta
 
 ---
 
-## Paragraph 2: Confidence Without Fear (Don’t Fear It)  
+## 2: Confidence Without Fear (Don’t Fear It)  
 Meetball’s voice carries courage. Asking for help can feel intimidating, and offering support can sometimes feel uncertain; but here, there’s no wrong way to reach out.  
 
 Our brand tone should remind people that they don’t need to have the perfect words or the perfect solution to belong. When we communicate, we speak with confidence rooted in encouragement: *You’ve got this. Let’s figure it out together.*  
@@ -45,7 +45,7 @@ It’s not about polished expertise; it’s about human beings daring to connect
 
 ---
 
-## Paragraph 3: Simplicity is Strength (Don’t Fluff It)  
+## 3: Simplicity is Strength (Don’t Fluff It)  
 Meetball’s voice thrives on clarity. We believe that the shortest path between two people is a straight line — no buzzwords, no filler, no overthinking.  
 
 The language we use should cut through noise and land quickly in the heart. Every word counts, and fewer words often count more.  
