@@ -14,8 +14,6 @@ toc = true
 top = false
 +++
 
-# Meetball Brand Voice Guide
-
 ## Core Principles  
 - **Don’t Fake It →** Speak your heart out. Be real, be raw, be human.  
 - **Don’t Fear It →** No wrong way to connect. Show up with courage.  
