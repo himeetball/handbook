@@ -2,7 +2,7 @@
 title = "Engineering"
 description = "MeetBall engineering documentation, practices, and guidelines."
 sort_by = "weight"
-weight = 7
+weight = 5
 template = "docs/section.html"
 +++
 
