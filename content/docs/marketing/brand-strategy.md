@@ -14,8 +14,6 @@ toc = true
 top = false
 +++
 
-# Meetball Brand Strategy
-
 ## 1. Introduction  
 This section orients the reader. It explains what the brand strategy is, who it’s for, and how to use it.  
 
