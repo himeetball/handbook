@@ -9,12 +9,12 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "**Before you ship, publish, or share… ask:**"
+lead = "Cheat Sheet"
 toc = true
 top = false
 +++
-
-# Meetball Brand Alignment: Cheat Sheet  
+ 
+**Before you ship, publish, or share… ask:** 
 
 ---
 
