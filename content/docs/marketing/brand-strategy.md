@@ -49,15 +49,14 @@ If you're looking for internal practices, contributor guidelines, or team operat
 ## 2. Our Core Identity  
 This section re-iterates Meetball’s north star: why we exist, what we believe, and how we want to be understood.  
 
-- **Mission Statement:** [LINK]  
-- **Vision Statement:** [LINK]  
-- **Values:** [LINK]  
-- **Principles:** [LINK]  
+- **[Mission and Vision](https://recipe.meetball.fun/docs/company/mission-and-vision/):**  
+- **[Values](https://recipe.meetball.fun/docs/company/values/):** [LINK]  
+- **[Principles](https://recipe.meetball.fun/docs/company/principles/):** [LINK]  
 
 ### 2.5 Core Positioning  
 "Meetball is the platform for intentional connection through shared challenges or goals.  
 
-We don’t just help people network; we help them meet the right people, remember who they met because they mattered."  
+We don’t just help people network; we help them meet the right people, and remember who they met because they mattered."  
 
 ### 2.6 Brand Story  
 "Meetball originated from a bold experiment:  
@@ -69,14 +68,13 @@ We saw how traditional networking often felt extractive, performative, and trans
 We started by building it that way ourselves. In a world that feels increasingly noisy, disconnected, and transactional, we believe it’s time to bring human generosity back to how people meet."  
 
 ### 2.7 What We’re Not  
-"Meetball is not about food. At least not edible food. It's food for the soul.  
-Not a dating app.  
-Not a social feed.  
-Not a corporate networking tool.  
-Not built to extract attention or harvest data."  
+"Meetball is not about food. At least not edible food. It's food for the soul.   
+- Not a social feed.  
+- Not a transactional networking tool.  
+- Not built to extract attention or harvest data."  
 
 ### 2.8 Brand Promise  
-"Meetball helps you find and connect to the right people, at any event you are.  
+"Meetball helps you find and connect to the right people, and remember who you met.  
 Just ask your question, any question, and help will find you."  
 
 ---
@@ -118,9 +116,9 @@ We don’t perform or overhype. We speak plainly and honestly, trusting that rea
 ## 4. Audiences for Messaging  
 
 ### 4.1 Who We’re For  
-"We start by focusing on local, values-aligned communities— especially those already gathering around shared interests, challenges, or goals. In Lisbon, that means creative technologists, early-stage founders, event hosts, and purpose-driven professionals who care more about connection than clout.  
+"We start by focusing on local, values-aligned communities, especially those already gathering around shared interests, challenges, or goals. In Lisbon, that means creative technologists, early-stage founders, event hosts, and purpose-driven professionals who care more about connection than clout.  
 
-But Meetball isn’t just for Lisbon. It’s for anyone who feels the friction of traditional networking, and wants something more human."  
+But Meetball isn’t just for these. It’s for anyone who feels the friction of traditional networking, and wants something more human."  
 
 **Across markets, we look for people who:**  
 - Ask “Who can I help?” instead of “Who can help me?”  
@@ -150,9 +148,9 @@ But Meetball isn’t just for Lisbon. It’s for anyone who feels the friction o
 - Make it actionable  
 
 ### 4.4 Messaging Variants  
-- **Users:** “Tired of awkward icebreakers or dead-end intros? Meetball helps you ask for help, offer it, and meet the right people — no pitch decks required.”  
-- **Organizers:** “You’ve created the space. Meetball helps your people actually connect and keep those connections alive after the event ends.”  
-- **Contributors:** “Meetball was built using Meetball. We’re an open startup where anyone can contribute to something meaningful, grow in the process, and share in the value created.”  
+- **Users:** “Tired of awkward icebreakers or dead-end intros? Meetball helps you ask for help, offer it, and meet the right people.”  
+- **Organizers:** “You’ve created the space. Meetball helps your people find each other, and makes it easier for more people come to join events.”  
+- **Contributors:** “Meetball was built using Meetball. We’re an open startup where anyone can contribute, grow in the process, and share in the value created.”  
 - **Investors:** “We’re building a new kind of social infrastructure. It's relationship-first, community-powered, and designed to grow with intention.”  
 - **Media:** “In a world built on performance and noise, Meetball is helping people reconnect through real-world generosity, shared goals, and human-scale community.”  
 
@@ -194,6 +192,6 @@ Try starting with:
 ---
 
 ## 7. Brand Guidelines  
-[LINK] Brand Guidelines/Visual Identity Documentation  
+Brand Guidelines /Visual Identity Documentation  
 
 Draft: [Google Sheet](https://docs.google.com/spreadsheets/d/1NxYace8ItLqTdWc-p-FN3l49BLWHU9XMFbvpu9VhKVM/edit?usp=sharing)  
