@@ -9,7 +9,7 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Brand Strategy."
+lead = "This is our Brand Strategy."
 toc = true
 top = false
 +++
@@ -19,7 +19,7 @@ top = false
 ## 1. Introduction  
 This section orients the reader. It explains what the brand strategy is, who it’s for, and how to use it.  
 
-### 1.1 Welcome Message  
+### 1.1 Welcome  
 "Our Brand Strategy is a shared guide for how we show up in the world. It captures what Meetball stands for, how we talk about it, and how we grow with intention.  
 
 Like our Values and Principles, this is here to help anyone who wants to contribute: whether you're designing, coding, storytelling, or community-building.  
