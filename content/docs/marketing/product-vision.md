@@ -9,12 +9,12 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Product Vision and Secret Master Plan"
+lead = "Product Vision and Super Secret Master Plan"
 toc = true
 top = false
 +++
 
-# **Why does Meetball exist? Our Product Vision & Strategy**
+## **Why does Meetball exist? Our Product Vision & Strategy**
 
 <span>Meetball helps you </span>**discover what people need**<span> around you, so you can connect through genuine acts of help, and </span>**remember everyone you meet**<span> through these meaningful moments.</span>
 
