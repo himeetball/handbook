@@ -15,7 +15,7 @@ top = false
 +++
 
 ## 1. Introduction  
-This section orients the reader. It explains what the brand strategy is, who it’s for, and how to use it.  
+This section explains what the brand strategy is, who it’s for, and how to use it.  
 
 ### 1.1 Welcome  
 "Our Brand Strategy is a shared guide for how we show up in the world. It captures what Meetball stands for, how we talk about it, and how we grow with intention.  
