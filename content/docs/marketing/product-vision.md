@@ -18,7 +18,7 @@ top = false
 
 <span>Meetball helps you </span>**discover what people need**<span> around you, so you can connect through genuine acts of help, and </span>**remember everyone you meet**<span> through these meaningful moments.</span>
 
-One App, for anywhere, people should meet.
+One App, for anywhere people should meet.
 
 # **A few words**
 
