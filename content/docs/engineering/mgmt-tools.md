@@ -24,7 +24,7 @@ _Read [How We Choose Vendors](https://recipe.meetball.fun/docs/how-we-work/how-w
 
 ### **Version Control & Code Management**
 - **GitHub** - Primary repository hosting and code collaboration
-  - URL: [github.com/meetball](https://github.com/meetball)
+  - URL: [github.com/meetball](https://github.com/himeetball)
   - DRI: Engineering Team
   - Purpose: Code repositories, pull requests, issue tracking, CI/CD
 
@@ -33,12 +33,6 @@ _Read [How We Choose Vendors](https://recipe.meetball.fun/docs/how-we-work/how-w
   - URL: [miro.com](https://miro.com)
   - DRI: Product Team
   - Purpose: User journey mapping, wireframes, brainstorming sessions
-
-### **Documentation & Knowledge Management**
-- **Notion** - Documentation and project management
-  - URL: [notion.so](https://notion.so)
-  - DRI: All Teams
-  - Purpose: Team documentation, meeting notes, project planning
 
 ### **Diagramming & Flowcharts**
 - **Draw.io** - Technical diagrams and flowcharts
