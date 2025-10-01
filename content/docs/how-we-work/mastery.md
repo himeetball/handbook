@@ -14,7 +14,7 @@ toc = true
 top = false
 +++
 
-**Principle**: Tell us your **Mastery** (what you can do) and **Commitment** (time). Roles emerge from there. We lock roles per chapter, then reset. No attachment, just clarity.
+**Principle**: Tell us your **Mastery** (what you can do) and **Commitment** (time). Roles emerge from there. We lock roles per chapter, then reset. No attachment, just clarity. 
 
 ---
 
@@ -24,10 +24,15 @@ We use **Mastery** and **Commitment** Levels to align expectations. Your **Roles
 
 **What matters is how your teammates perceive your work**. Past job titles don't matter here, only the work you deliver, how you fit into the team, and how you help realize the mission.
 
-Everyone begins as a voluntary contributor: chip in where you can, and by the end of a sprint we’ll all have a better sense of where you’re best suited.
-When you state your level, remember: it’s not about ego or proving yourself. It’s about clarity.
+---
+## **At a Glance**
 
-  
+| **Dimension**                          | **What it Defines**                                             |
+| -------------------------------------- | --------------------------------------------------------------- |
+| **Reliability (Mastery × Commitment)** | What someone _can_ do and what the team can _count on_ them for |
+| **Tier**                               | Place in the contributor ladder                                 |
+| **Engagement**                         | Current state of engagement                                     |
+
 ---
 ## **How to Think About It**
 
@@ -78,35 +83,49 @@ The team needs to know
 
 ## **How Commitment Intersects with Other Dimensions**
 
-- **Mastery Level** = your contribution capability (what you CAN do)
-- **Commitment Level** = your time dedication (what you WILL do)
+There are three separate but connected dimensions we use to describe how someone is engaged:
+
+- **Reliability (Mastery × Commitment)** = your capability and reliability (what you _can_ and _will_ do).
+- **Tier** = your place in the ladder (Community → Contributor → Team → Core → Founding, plus special roles like Legal or SysAdmin).
+- **Engagement** = your current state (Active, On Demand, Observer, Champion, AWOL, Former).
 - **Role(s)** = what the team counts on you for this chapter (emerges from Mastery × Commitment × Mission needs)
-- **Organizational Position** = formal governance roles when they exist (Team, Core, Legal, Admin etc..)
-### **Formalization:**
 
-- **Community** = No paperwork, just observing
-- **Contributor** = Signed NDA/IP agreement 
-- **Team** = Clear documented commitment and goals 
+### **Tiers**
 
-### **Compensation:**
+- **Community** = No paperwork, just observing or following the journey  
+- **Contributor** = Signed NDA/IP agreement, delivering defined work
+- **Team** = Documented commitment and goals (time, responsibilities, rewards)
+- **Core Team** = Critical to the mission, typically full-time, with full project context, enabling others
+- **Founding Team** = Core Team who’ve proven indispensable, representing Meetball externally (e.g. investor pitch)
+- **Special Tiers** = Roles like Legal, Finance, System Admin
 
-- **No Expectations** = Recognition, discretionary bounties, Points-only    
-- **With Expectations** = Deferred Payment, Hybrid, or Paid (depending on role and stage)
-### **Organizational Position:**
+### **Engagement**
 
-- **Contributor** = Anyone helping Meetball succeed, no matter how much  
-- **Team** = Engaged, proactive, on top of what’s happening
-- **Core Team** = Critical to mission, typically full-time, holds full project context, enables others
-- **Founding Team** = Core Team who’ve proven indispensable, represent Meetball externally (e.g. investor pitch)
+- **Active** = Currently contributing within a chapter
+- **On Demand** = Not active day to day but ready to step in when needed
+- **Observer** = Following along but not contributing work
+- **Champion** = Promotes Meetball externally without being deeply active
+- **AWOL** = Was active but unresponsive
+- **Former** = Offboarded or stepped away permanently
+
+### **Compensation**
+
+- **No Agreed Terms ** = Recognition, discretionary bounties, Points-only
+- **Agreed Terms** = Deferred Payment, Hybrid, or Paid (depending on role and stage)
 
 ---
 ### **Compensation Models**
 
 People contribute for different reasons. Some enjoy being part of the journey. Others dream of joining the team after fundraising. Some are busy with careers but give what they can because they believe in the mission. Some contribute to show their talent and position themselves for their next career move.
 
+There are two categories of compensation:  
+
+- **No Agreed Terms** = Recognition, discretionary bounties, Points-only  
+- **Agreed Terms** = Deferred Payment, Hybrid, or Paid (depending on role and stage)  
+
 | **Type**             | **Description**                                                                                                                                                                              | **When It Applies**                                                      | **Notes**                                                                 |
 | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------- |
-| **Points**           | Contributions are logged in the Gratitude Ledger. Recognition can include discretionary bounties or rewards, but there are no guarantees.                                                    | Any valuable contribution                                                | Keeps track of value contributed; recognition over time.                  |
+| **Points**           | Contributions are logged in the Gratitude Ledger. Recognition can include discretionary bounties or rewards, but there are no guarantees.                                                    | Any valuable contribution                                                | No Agreed Terms, Keeps track of value contributed; recognition over time. |
 | **Deferred Payment** | EUR value agreed upfront. Payment only if we fundraise. At that point, you receive Dynamic Equity pool points (potentially more valuable than cash). You can choose deferred cash or points. | Substantial pre-fundraise work with clear responsibilities               | More commitment,  clearly defined responsibilities and  potential reward. |
 | **Hybrid**           | Cash stipend + points.                                                                                                                                                                       | Rare before fundraising; for critical team members who need to pay rent! | Case-by-case basis, very limited until funds are raised.                  |
 | **Paid**             | Regular salary or contractor rate + points.                                                                                                                                                  | After fundraising, typical for **Firm Full-Time Team**                   | Standard startup model + equity upside.                                   |
@@ -157,6 +176,8 @@ We work in **Chapters**, focused periods with clear goals. Your role(s) get loc
 - **Chapter 2:** Got busy with other work and rediscovered his old passion for Photograpy 
 - **Chapter 3:** He is our awesome Film maker! Still very much part of Meetball altho less time and differnet scope!
 
+**Engagement is fluid.** Someone may be Active one chapter, shift to On Demand the next, or step back to Observer. That’s normal. We track Engagement separately from your Tier and Reliability so expectations stay clear each chapter.
+
 **This flexibility is a feature, not a bug.** It lets us stay nimble while honoring that people's lives and the project's needs both evolve.
 
 ---
@@ -203,7 +224,6 @@ Better to say “I’m Assist level and Part-Time this chapter” than to overco
 Honest shifts matter too: “My commitment drops next chapter,” “I want to shift focus,” or “I need to step back.” Roles are fluid. Communication makes it work.
 
 ---
-
 ## **Questions?**
 
 If you're unsure where you fit, that's normal. Just:
@@ -231,4 +251,4 @@ For more detailed definitions of Mastery levels in specific disciplines:
 
 ---
 
-_This page is a living document. As we learn what works, we'll refine it. Suggestions welcome - edit this page or propose changes in #handbook-feedback.
+_This page is a living document. As we learn what works, we'll refine it. Suggestions welcome - edit this page or propose changes in #handbook-feedback._
