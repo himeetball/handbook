@@ -194,4 +194,4 @@ Try starting with:
 ## 7. Brand Guidelines  
 Brand Guidelines /Visual Identity Documentation  
 
-Draft: [Google Sheet]()  
+Draft: Google Sheet (link to be added)  
