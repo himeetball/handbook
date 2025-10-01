@@ -110,7 +110,7 @@ There are three separate but connected dimensions we use to describe how someone
 
 ### **Compensation**
 
-- **No Agreed Terms ** = Recognition, discretionary bounties, Points-only
+- **No Agreed Terms** = Recognition, discretionary bounties, Points-only
 - **Agreed Terms** = Deferred Payment, Hybrid, or Paid (depending on role and stage)
 
 ---
