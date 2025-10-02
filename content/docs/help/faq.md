@@ -29,13 +29,13 @@ The Meetball Handbook is our central knowledge base - it's where we document eve
 
 ## Other resources?
 
-- [Meetball GitHub](https://github.com/thesummeet)
+- [Meetball GitHub](https://github.com/himeetball)
 - [Zola Documentation](https://www.getzola.org/documentation/getting-started/overview/) (our site generator)
 - [Markdown Guide](https://www.markdownguide.org/) (how to format content)
 - [Mermaid](https://mermaid.js.org/) (create diagrams with text)
 
 ## How can I contribute or get help?
 
-- Open an issue on [GitHub](https://github.com/thesummeet) (handbook repo coming soon)
-- Email us at <team@meetball.app>
+- Open an issue on [GitHub](https://github.com/himeetball) (handbook repo coming soon)
+- Email us at <hello@meetball.fun>
 - Check out our [Contributing Guide](/docs/contributing/)
