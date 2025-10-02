@@ -10,7 +10,7 @@ template = "docs/page.html"
 [extra]
 lead = "How we chose Vendors, Software and Tools"
 dri = "Guilherme"
-maintaner = "Guilherme"
+maintainer = "Guilherme"
 toc = true
 top = false
 +++
