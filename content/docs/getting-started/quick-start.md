@@ -30,7 +30,7 @@ We're building in the open, taking inspiration from organizations like [FUTO](ht
 ### Option 1: With Nix (recommended)
 
 ```bash
-git clone https://github.com/thesummeet/handbook.git
+git clone https://github.com/himeetball/handbook.git
 cd handbook
 nix-shell  # This installs Zola automatically
 zola serve
@@ -41,7 +41,7 @@ zola serve
 First, [install Zola](https://www.getzola.org/documentation/getting-started/installation/) on your system, then:
 
 ```bash
-git clone https://github.com/thesummeet/handbook.git
+git clone https://github.com/himeetball/handbook.git
 cd handbook
 zola serve
 ```
@@ -52,7 +52,7 @@ Visit `http://127.0.0.1:1111/` and Bob's your uncle - you're looking at the hand
 
 _[This section will be expanded with specific project information]_
 
-All our projects are currently hosted on [GitHub](https://github.com/thesummeet). Each repository has its own contribution guidelines and setup instructions.
+All our projects are currently hosted on [GitHub](https://github.com/himeetball). Each repository has its own contribution guidelines and setup instructions.
 
 ## Making Your First Contribution
 

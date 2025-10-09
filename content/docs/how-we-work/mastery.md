@@ -243,8 +243,8 @@ If you're unsure where you fit, that's normal. Just:
 
 For more detailed definitions of Mastery levels in specific disciplines:
 
-- **Software Engineers:** See [Basecamp Programmer Levels](https://basecamp.com/handbook/appendix-05-titles-for-programmers)
-- **Designers:** See [Basecamp Designer Levels](https://basecamp.com/handbook/appendix-06-titles-for-designers)
+- **Software Engineers:** See [Basecamp Programmer Levels](https://basecamp.com/handbook/titles-for-programmers)
+- **Designers:** See [Basecamp Designer Levels](https://basecamp.com/handbook/titles-for-designers)
 - **Marketers:** [To be defined as team grows]
 - **Sales & Business Development:** [To be defined as team grows]
 - **Operations:** [To be defined as team grows]

@@ -20,6 +20,6 @@ __TLDR__: We do not use cookies and we do not collect any personal data.
 
 ## Contact us
 
-[Contact us](https://github.com/thesummeet) if you have any questions (handbook repo coming soon).
+[Contact us](https://github.com/himeetball) if you have any questions (handbook repo coming soon).
 
 Effective Date: _1st May 2021_

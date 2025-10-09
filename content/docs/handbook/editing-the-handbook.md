@@ -18,8 +18,8 @@ Contribute to Meetball HandbookMeetball Handbook repository on [Github](https://
 
 ### Suggest an Improvement 
 
-- [Report a Handbook Error](https://github.com/himeetball/handbook/issues/new?template=bug-report---.md) - Raise an Issue here!
-- [New Handbook Page request](https://github.com/himeetball/handbook/issues/new?template=feature-request---.md) - Got an idea or need a new page? 
+- [Report a Handbook Error](https://github.com/himeetball/handbook/issues/new) - Raise an Issue here!
+- [New Handbook Page request](https://github.com/himeetball/handbook/issues/new) - Got an idea or need a new page? 
 
 Or suggest your change by making the edit and submitting it for revision by the Page Maintainer as follows:
 
@@ -67,7 +67,7 @@ Write commit messages that explain **why**, not just what.
 git push origin add-awesome-feature
 ```
 
-Then open a PR on {{ github(repo="thesummeet/handbook") }}.
+Then open a PR on {{ github(repo="himeetball/handbook") }}.
 
 ## PR Template
 

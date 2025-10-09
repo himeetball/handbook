@@ -9,7 +9,7 @@ url = "/docs/getting-started/introduction/"
 url_button = "Começar"
 repo_version = "GitHub v0.1.0"
 repo_license = "Documentação interna."
-repo_url = "https://github.com/thesummeet/handbook"
+repo_url = "https://github.com/himeetball/handbook"
 
 # Menu items
 [[extra.menu.main]]

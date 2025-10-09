@@ -34,7 +34,7 @@ This is how we explain this in the Discord bugs and features channel:
 >
 >##### **🐞 Report a Bug**
 >- Found something broken or confusing?
->- Post it in **#bugs** on [Discord](https://discord.com/channels/1379759898971344937/1409777001937506344) _or_ fill out our [Bug Report Form](https://forms.gle/placeholder).
+>- Post it in **#bugs** on [Discord](https://discord.com/channels/1379759898971344937/1409777001937506344).
 >- Include:
     - What you were trying to do
     - What happened instead
@@ -43,7 +43,7 @@ This is how we explain this in the Discord bugs and features channel:
 >
 >##### **💡 Suggest a Feature**
 >- Have an idea that would make Meetball more useful?
->- Share it in **#feature-requests** on [Discord](https://discord.com/channels/1379759898971344937/1409777001937506344) _or_ use our [Feature Suggestion Form](https://forms.gle/placeholder).
+>- Share it in **#feature-requests** on [Discord](https://discord.com/channels/1379759898971344937/1409777001937506344).
 >- Please explain:
     - What problem it solves
     - Why it matters
@@ -69,9 +69,9 @@ _(duplication? perhaps put on Miro only ideas we agreed to explore)_
 
 - [Development](https://plane.murumb.dev/meetball/projects/519ca7bc-0c01-4139-9f1b-57086aee7842/issues/) on **Plane**: This is a Backlog of Dev work that we know we have to do but technical specifications are not good enough for it to be created as an Issue on Github, not dev-ready. Once created, discussion happens there.
 
-- If it’s dev-ready, **add it directly to the Backlog on Github** as Issues, tracked in one of the following projects on Github:
-	- [Meetball Web App](https://github.com/orgs/himeetball/projects/4)
-	- [Handbook](https://github.com/orgs/himeetball/projects/7)
+- If it's dev-ready, **add it directly to the Backlog on Github** as Issues, tracked in GitHub Projects (internal team access):
+	- Meetball Web App
+	- Handbook
 	- Website (to be created)
 	- etc.. (as we start new projects)
 
@@ -87,9 +87,8 @@ Notes:
 ---
 ##### **📊 Vote & Follow Progress**
 
-- We keep a **Public Roadmap** so you can see what’s planned, in progress, or shipped.
-- Upvote features you’d love to see → this helps us prioritize. _Need to implement_
-- Roadmap link: [Public Roadmap](https://roadmap.meetball.fun)
+- We're building a **Public Roadmap** so you can see what's planned, in progress, or shipped. _(Coming soon!)_
+- Upvote features you'd love to see → this helps us prioritize. _(Coming soon!)_
  ---
 
 #### 3. Backlog Grooming

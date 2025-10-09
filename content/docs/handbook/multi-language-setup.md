@@ -52,7 +52,7 @@ title = "Manual Meetball (Meetball Handbook)"
 lead = '<b>¡Hola! Bienvenido a la base de conocimientos de Meetball (Meetball Handbook).</b> Todo lo que necesitas saber sobre nuestro equipo, procesos y cómo construimos cosas increíbles juntos.'
 url = "/docs/getting-started/introduction/"
 url_button = "Empezar"
-repo_url = "https://github.com/thesummeet/handbook"
+repo_url = "https://github.com/himeetball/handbook"
 +++
 ```
 

@@ -80,9 +80,9 @@ We're building technology that helps people make meaningful connections through 
 - **Repositories**: 
   - https://github.com/himeetball/webapp
   - https://github.com/himeetball/backend
-- **Issues**: 
-  - https://github.com/orgs/himeetball/projects/8
-  - TBD: feebback
+- **Issues**:
+  - GitHub Projects (internal team access)
+  - TBD: feedback
 
 #### **Regular Meetings**
 - **Open Programming**: TBD
