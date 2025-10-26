@@ -4,8 +4,8 @@
 
 set -e
 
-# Find all markdown files in content directory
-find content -name "*.md" -type f | while read -r file; do
+# Find all markdown files in content directory, excluding _index.md and _index.*.md files
+find content -name "*.md" -type f ! -name "_index.md" ! -name "_index.*.md" | while read -r file; do
   # Get the last commit date for this file in ISO 8601 format
   last_commit_date=$(git log -1 --format="%aI" -- "$file" 2>/dev/null || echo "")
 
