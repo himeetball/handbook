@@ -1,4 +1,5 @@
 +++
+updated = 2025-10-03T00:39:15+01:00
 title = "FAQ"
 description = "Answers to frequently asked questions."
 draft = false

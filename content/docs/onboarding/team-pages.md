@@ -1,4 +1,5 @@
 +++
+updated = 2025-08-31T13:51:14+01:00
 title = "How to Join Meetball"
 description = "Instructions on how to become a volunatry contributor to Meetball"
 draft = false
