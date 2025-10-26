@@ -35,4 +35,4 @@ If you're new to MeetBall Engineering, start here:
 
 ---
 
-*This section is actively maintained by the CTO team. Have questions or suggestions? Reach out in Discord or create an issue!*
+*This section is actively maintained by the engineering team. Have questions or suggestions? Reach out in Discord or create an issue!*

@@ -63,7 +63,7 @@ To define Roles and realistic Goals for a Sprint and Cycle, we need to know your
 
 Team Availability for planning sprints is [here: ](https://docs.google.com/spreadsheets/d/163el1Fa-ybXR1AnQFaEAgLLh7J1_h51q-eZT0YReVdY/edit?usp=sharing) (This spreadsheet needs a DRI).
 
-Roles are dyamic, we must always have hte best person for the job in the right place. No Ego, just one question: what gets us closer to realising our Mission. For each Chapter and Sprint we define Roles.   
+Roles are dynamic and based on merit - we prioritize the right person for each role over hierarchy or tenure. Ego aside, just one question: what gets us closer to realising our mission. For each chapter and sprint we define roles.   
 
 ---
 
