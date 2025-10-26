@@ -14,7 +14,7 @@ toc = true
 top = false
 +++
 
-> **Note from CTO**: This simplified Git Flow balances rapid iteration with reliable releases. It's designed to scale with our team and project complexity.
+This simplified Git Flow balances rapid iteration with reliable releases. It's designed to scale with our team and project complexity.
 
 ---
 
@@ -333,6 +333,4 @@ git push origin hotfix/security-vulnerability
 ---
 
 *This Git Flow strategy evolves with our team and project needs. Regular retrospectives help us identify areas for improvement and adapt our workflow accordingly.*
-
-**Last Updated**: September 9, 2025 by @drhinca: Adrián Bado Chinca
 

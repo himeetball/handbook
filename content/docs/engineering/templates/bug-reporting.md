@@ -95,7 +95,3 @@ template = "docs/page.html"
 ---
 
 *This template ensures comprehensive bug reporting for faster resolution and better issue tracking.*
-
----
-
-**Last Updated**: September 9, 2025 by @drhinca: Adrián Bado Chinca

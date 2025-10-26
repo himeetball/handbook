@@ -14,7 +14,7 @@ toc = true
 top = false
 +++
 
-> **Note from CTO**: These guidelines ensure consistency across our codebase while maintaining the flexibility needed for rapid iteration. They're designed to scale with our team and help new contributors understand our standards.
+These guidelines ensure consistency across our codebase while maintaining the flexibility needed for rapid iteration. They're designed to scale with our team and help new contributors understand our standards.
 
 ---
 
@@ -501,5 +501,3 @@ Every PR must have:
 ---
 
 *These guidelines are living documents. As we learn and grow, we'll update them to reflect our evolving best practices. Your feedback and suggestions are always welcome!*
-
-**Last Updated**: September 9, 2025 by @drhinca: Adrián Bado Chinca

@@ -14,7 +14,7 @@ toc = true
 top = false
 +++
 
-> **Welcome from the Team**: We're excited to have you join our engineering team! MeetBall is built on the principle that meaningful connections happen when people can help each other. 
+We're excited to have you join our engineering team! MeetBall is built on the principle that meaningful connections happen when people can help each other.
 
 This guide will help you understand how we work and get you contributing quickly.
 
@@ -38,7 +38,7 @@ Complete these steps to get up and running:
 
 MeetBall operates as an **open startup** - we believe in transparency, community collaboration, and building in public. This means:
 
-- **Open**: We share a lot of our journey in public, we share how we work, and anyone in the team is welcome to join any other conversations (product, marketing, dev etc) 
+- **Open**: We share a lot of our journey in public, we share how we work, and anyone in the team is welcome to join any other conversations (product, marketing, dev etc)
 - **Community Driven**: Users and contributors help shape our product
 - **Transparent**: We share our challenges, learnings, and progress
 - **Inclusive**: Anyone can contribute, regardless of experience level
@@ -55,7 +55,7 @@ We're building technology that helps people make meaningful connections through 
 
 ## 📚 **Essential Reading**
 
-### **Start Here (Required)**
+### <ins>**Start Here**</ins>
 1. **[Company Principles](../company/principles.md)**: Understand our core values
 2. **[How We Work](../how-we-work/how-we-work.md)**: Our collaborative approach
 3. **[Engineering Overview](./engineering.md)**: Technical architecture
@@ -63,7 +63,7 @@ We're building technology that helps people make meaningful connections through 
 4. **[Development Practices](./development-practices.md)**: Coding standards and guidelines
 5. **[Gitflow Lifecycle](./gitflow-lifecycle.md)**: Git flow in Meet ball
 
-### **Recommended Reading**
+### ***Recommended Reading***
 - **[Mission & Vision](../company/mission-and-vision.md)**: What we're building and why
 - **[Features & Bugs](./features-bugs-reporting-grooming.md)**: How we handle feedback and ticket creation
 
@@ -77,7 +77,7 @@ We're building technology that helps people make meaningful connections through 
 - **#dev-{sub-channel}**: Daily development updates
 
 #### **Main URLs**
-- **Repositories**: 
+- **Repositories**:
   - https://github.com/himeetball/webapp
   - https://github.com/himeetball/backend
 - **Issues**:
@@ -227,5 +227,3 @@ This onboarding guide is a living document. We want your feedback to make it bet
 *Welcome to the MeetBall engineering team! We're excited to see what you'll build with us. Remember: the best way to learn is by doing, and the best way to contribute is by starting small and growing with the project.*
 
 **Need help?** Don't hesitate to ask. We're all here to help each other succeed! 🚀
-
-**Last Updated**: September 9, 2025 by @drhinca: Adrián Bado Chinca

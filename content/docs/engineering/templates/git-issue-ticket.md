@@ -108,7 +108,3 @@ template = "docs/page.html"
 ---
 
 *This template ensures consistent and comprehensive issue creation for better project management.*
-
----
-
-**Last Updated**: September 9, 2025 by @drhinca: Adrián Bado Chinca

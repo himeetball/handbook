@@ -132,7 +132,3 @@ docker-compose restart api-service
 ---
 
 *This unified template works for both frontend and backend changes, ensuring consistency across all PRs.*
-
----
-
-**Last Updated**: September 9, 2025 by @drhinca: Adrián Bado Chinca
