@@ -42,9 +42,9 @@ cd handbook
 
 1. Clone this bad boy
 ```bash
-git clone git@github.com:thesummeet/handbook.git
+git clone git@github.com:himeetball/handbook.git
 # OR
-git clone https://github.com/thesummeet/handbook.git
+git clone https://github.com/himeetball/handbook.git
 ```
 2. Fire up locally on your computer (dev server):
    ```bash
@@ -66,3 +66,31 @@ This dumps everything into a `public/` folder, ready to ship.
 Cloudflare Pages handles our deployments. Just push to main and it goes live automatically,
 plus any other branches for previewing work not ready for public.
 Pretty sweet, right?
+
+## Known Issues & TODOs
+
+We track planned improvements and known issues in the `0_TODO/` directory. Current items:
+
+### 🔴 High Priority
+
+1. **Handbook Disclaimer and Congent Licensing**
+   - **Status:** Review
+   - **Issue:** Check if proper disclaimer and dual-license structure (MIT for code, CC BY-SA for content)
+   - **Why:** Legal protection, clarify content is experiential not prescriptive advice
+   - **Blocking:** Making repository public
+
+2. **Mermaid Diagrams Not Rendering**
+   - **Status:** Needs investigation
+   - **Issue:** Mermaid diagrams in markdown files are not being rendered on the site
+   - **Impact:** Visual documentation (flowcharts, diagrams) not displaying
+   - **Next Steps:**
+     - Investigate Zola + AdiDoks theme Mermaid support
+     - Check if mermaid.js needs to be added to templates
+     - Review shortcode or configuration requirements
+     - Test rendering with sample diagrams
+
+### Contributing
+
+Found another issue or have an improvement?
+- Open an issue on [GitHub](https://github.com/himeetball/handbook/issues)
+- Or submit a pull request!
