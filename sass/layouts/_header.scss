@@ -21,7 +21,7 @@
 }
 
 .navbar-light .navbar-nav .active .nav-link {
-  color: $primary;
+  color: $navbar-light-active-color;
 }
 
 @include media-breakpoint-up(md) {
@@ -69,14 +69,9 @@
 .navbar {
   background-color: rgba(255, 255, 255, 0.95);
   border-bottom: 1px solid $gray-200;
-  margin-top: 4px;
 }
 
-.header-bar {
-  border-top: 4px solid;
-  border-image-source: linear-gradient(90deg, $primary, #8ed6fb 50%, #d32e9d);
-  border-image-slice: 1;
-}
+// Top stripe removed for cleaner header appearance
 
 .home .navbar {
   border-bottom: 0;

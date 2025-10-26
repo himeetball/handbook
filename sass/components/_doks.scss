@@ -28,7 +28,7 @@ Doks — based on Ascetic by (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
 .hljs-quote,
 .hljs-meta,
 .hljs-deletion {
-  color: #888;
+  color: $gray-600;
 }
 
 .hljs-keyword,
@@ -259,14 +259,14 @@ body.dark .page-actions {
   transition: color 0.2s ease-in-out;
 
   &:hover {
-    color: $primary;
+    color: $navbar-light-hover-color;
     text-decoration: none;
   }
 
   &.active {
-    color: $primary;
+    color: $navbar-light-active-color;
     font-weight: 500;
-    
+
     &::after {
       content: '';
       position: absolute;
@@ -274,7 +274,7 @@ body.dark .page-actions {
       left: 0;
       right: 0;
       height: 1px;
-      background-color: $primary;
+      background-color: $navbar-light-active-color;
       opacity: 0.6;
     }
   }

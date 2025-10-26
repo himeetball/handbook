@@ -200,7 +200,7 @@ main.flex-fill {
 }
 
 ::selection {
-  background: rgba(212, 53, 159, 0.2);
+  background: rgba(255, 179, 0, 0.2);
 }
 
 .bg-dots {
@@ -223,10 +223,10 @@ main.flex-fill {
   margin-top: -12rem;
 }
 
-// https://fossheim.io/writing/posts/css-text-gradient/
+// Gradient text with golden accent (unified theme)
 .gradient-text {
-  background-color: $primary;
-  background-image: linear-gradient(90deg, $primary, $blue-300 50%, $pink-500);
+  background-color: #FFB300;
+  background-image: linear-gradient(90deg, #CC9600, #FFB300 50%, #FFC933);
   background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
