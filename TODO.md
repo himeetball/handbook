@@ -3,7 +3,7 @@
 ## Code Block Rendering Issues
 
 ### 🔧 High Priority
-- [ ] **Fix line-by-line code block rendering** 
+- [ ] **Fix line-by-line code block rendering** (Not Yet Done?)
   - **Issue**: Code blocks are rendered with individual `<span>` elements for each line
   - **Impact**: Makes text selection awkward and unnatural
   - **Research**: Duckquill theme has same issue, need to find better solution
@@ -23,5 +23,5 @@
 - [ ] Add troubleshooting section
 
 ---
-*Last updated: [Current Date]*
-*Repository: https://github.com/thesummeet/handbook*
+*Last updated: 26-10-2025*
+*Repository: https://github.com/himeetball/handbook*
