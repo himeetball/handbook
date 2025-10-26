@@ -1,4 +1,5 @@
 +++
+updated = 2025-10-09T05:41:08+01:00
 title = "Multi-language Setup"
 description = "How to add new languages and manage translations for the Meetball handbook."
 draft = false

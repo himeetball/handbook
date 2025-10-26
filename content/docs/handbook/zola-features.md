@@ -1,4 +1,5 @@
 +++
+updated = 2025-07-23T02:58:06+01:00
 title = "Zola Features"
 description = "How to use Zola's built-in features for redirects and content management."
 draft = false

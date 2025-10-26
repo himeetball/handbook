@@ -1,4 +1,5 @@
 +++
+updated = 2025-08-31T11:20:02+01:00
 title = "About This Handbook"
 description = "The Handbook documents how we work at Meetball"
 draft = false

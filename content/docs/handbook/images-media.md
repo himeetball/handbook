@@ -1,4 +1,5 @@
 +++
+updated = 2025-09-02T14:02:38+01:00
 title = "Images & Media"
 description = "How to add images, videos, and other media to the Meetball Handbook."
 draft = false
