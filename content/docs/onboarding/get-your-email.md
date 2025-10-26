@@ -35,15 +35,12 @@ Click **Request Email** and wait for approval.
 
 ### Step 3: Get Approved
 
-Guilherme (our DevOps wizard) will:
+Guilherme will:
 - Verify you're eligible (NDA signed, details match)
-- Approve your request
-
-### Step 4: Receive Your Credentials
-
-Once approved, Guilherme will DM you on Discord with:
-- Your new @meetball.fun email address
-- Login credentials
+- Approve and create the email
+- DM you on Discord with:
+  - Your new @meetball.fun email address
+  - Login credentials
 
 ---
 
@@ -106,10 +103,10 @@ Your @meetball.fun email works with any email client that supports IMAP and SMTP
 
 ## Email Policy
 
-By using your @meetball.fun email, ...
+When using your @meetball.fun email, ...
 - you agree to follow our [Terms of Service](https://www.meetball.fun/terms-conditions) and [Code of Conduct](/docs/contributing/code-of-conduct/).
 - you acknowledge there may be side-effects ranging from cool-ness to proud-ness.⁽¹⁾
-- to use it respectfully and with maturity - *aka* professionalism.
+- you are respectful and professional.
 
 *(1) there are some reported cases of "meetbaldness" thou - it's joke eheh :-) ...or am I joking 🤔👀*
 
