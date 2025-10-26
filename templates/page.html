@@ -49,7 +49,9 @@
           </div>
           {% if page.extra.lead %}
           <p class="lead">{{ page.extra.lead }}</p>
-          {% endif %} {{ page.content | safe }}
+          {% endif %}
+          {% if page.updated %}<p class="text-muted"><small>Last Updated: {{ page.updated | date(format="%B %d, %Y") }}</small></p>{% endif %}
+          {{ page.content | safe }}
         </article>
       </div>
     </div>

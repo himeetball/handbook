@@ -21,6 +21,8 @@
       <main class="docs-content col-lg-11 col-xl-9">
         <h1>{{ page.title }}</h1>
         {% if page.extra.lead %}<p class="lead">{{ page.extra.lead | safe }}</p>{% endif %}
+        {% if page.updated %}<p class="text-muted"><small>Last Updated: {{ page.updated | date(format="%B %d, %Y") }}</small></p>{% endif %}
+        <div class="d-xl-none">{{ macros_maintainer::docs_maintainer(page=page) }}</div>
         {{ page.content | safe }}
         {{ macros_action::docs_action_buttons(current_path=current_path, compact=false, page=page) }}
         {{ macros_navigation::docs_navigation(page=page, current_section=current_section) }}
