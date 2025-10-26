@@ -7,36 +7,44 @@
   --meetball-text: #2d1b08;         // Dark sepia brown
   --meetball-text-muted: #6b4423;   // Muted warm brown
   --meetball-border: #e6ddd4;       // Light brown border
-  --meetball-code-bg: #f0ebe0;      // Slightly darker for contrast
+  --meetball-code-bg: #ebe4d8;      // Darker beige for better contrast
+  --meetball-code-text: #996600;    // Dark golden-brown for inline code (high contrast)
+  --meetball-link: #B8860B;         // DarkGoldenrod for links (WCAG compliant)
+  --meetball-link-hover: #8B6508;   // Darker on hover for emphasis
   --meetball-blockquote-bg: #fef3e2; // Warm amber tint
-  --meetball-blockquote-border: #f59e0b; // Amber accent
-  --meetball-accent: #d97706;       // Warm amber accent
+  --meetball-blockquote-border: #FFB300; // Golden accent (unified)
+  --meetball-accent: #FFB300;       // Golden accent (for buttons/highlights)
 }
 
 [data-bs-theme="dark"] {
-  // Dark theme - neutral darks with warm accents
-  --meetball-bg: #0a0a0a;           // Deep neutral black
-  --meetball-surface: #171717;      // Dark neutral grey
-  --meetball-card: #262626;         // Card background
-  --meetball-text: #fafafa;         // Clean white
-  --meetball-text-muted: #a3a3a3;   // Neutral muted grey
+  // Dark theme - eye-friendly dark grays (Material Design recommended)
+  --meetball-bg: #121212;           // Material Design dark gray (not pure black)
+  --meetball-surface: #1e1e1e;      // Elevated surface
+  --meetball-card: #252525;         // Card background with subtle elevation
+  --meetball-text: #e8e6e3;         // Off-white for reduced eye strain
+  --meetball-text-muted: #9ca3af;   // Better contrast muted text
   --meetball-border: #404040;       // Clear border
-  --meetball-code-bg: #1c1c1c;      // Dark code background
-  --meetball-blockquote-bg: #262626; // Dark surface
-  --meetball-blockquote-border: #f59e0b; // Amber accent
-  --meetball-accent: #fbbf24;       // Bright amber for dark mode
+  --meetball-code-bg: #1a1a1a;      // Slightly lighter than bg
+  --meetball-code-text: #FFD966;    // Bright golden for dark mode inline code
+  --meetball-link: #FFC933;         // Bright golden for dark mode links
+  --meetball-link-hover: #FFD966;   // Even brighter on hover
+  --meetball-blockquote-bg: #1e1e1e; // Match surface
+  --meetball-blockquote-border: #FFC933; // Brighter golden for dark mode
+  --meetball-accent: #FFC933;       // Brighter golden for dark mode (buttons/highlights)
 }
 
-// Override main background
+// Override main background with smooth transitions
 body {
   background-color: var(--meetball-bg) !important;
   color: var(--meetball-text) !important;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 // Content areas
-.content, 
+.content,
 .wrap {
   background-color: var(--meetball-bg);
+  transition: background-color 0.3s ease;
 }
 
 // Code blocks styling - with copy button
@@ -53,13 +61,15 @@ pre {
   overflow-x: auto;
   padding: 1rem;
   position: relative;
-  
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+
   code {
     background-color: transparent !important;
     color: var(--meetball-text);
     display: block;
     padding: 0;
     line-height: 1.5;
+    transition: color 0.3s ease;
   }
 }
 
@@ -74,7 +84,7 @@ pre {
   padding: 0.5rem;
   color: var(--meetball-text-muted);
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.2s ease, background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
   z-index: 1;
   display: flex;
   align-items: center;
@@ -107,29 +117,30 @@ pre {
   }
 }
 
-// Inline code - friendly and subtle
+// Inline code - high contrast for readability
 code:not(pre code) {
   background-color: var(--meetball-code-bg) !important;
-  color: var(--meetball-accent) !important;
+  color: var(--meetball-code-text) !important;
   border-radius: 3px;
   font-size: 0.9em;
-  font-weight: 500;
-  padding: 0.1rem 0.3rem;
+  font-weight: 600; // Slightly bolder for better readability
+  padding: 0.15rem 0.4rem; // Slightly more padding for breathing room
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 // Blockquotes (used for examples) - soft paper-like styling
 blockquote {
   background: linear-gradient(135deg, var(--meetball-blockquote-bg) 0%, rgba(254, 243, 226, 0.7) 100%) !important;
   border: none !important;
-  border-left: 3px solid rgba(245, 158, 11, 0.4) !important;
   padding: 1.2rem 1.8rem !important;
   margin: 1.5rem 0 !important;
   border-radius: 16px;
-  box-shadow: 
-    0 2px 8px rgba(245, 158, 11, 0.08),
+  box-shadow:
+    0 2px 8px rgba(255, 179, 0, 0.08),
     inset 0 1px 0 rgba(255, 255, 255, 0.1);
   position: relative;
-  
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+
   // Subtle texture effect
   &::before {
     content: '';
@@ -138,7 +149,7 @@ blockquote {
     left: 0;
     right: 0;
     bottom: 0;
-    background: radial-gradient(ellipse at center, transparent 40%, rgba(245, 158, 11, 0.02) 100%);
+    background: radial-gradient(ellipse at center, transparent 40%, rgba(255, 179, 0, 0.02) 100%);
     border-radius: 16px;
     pointer-events: none;
   }
@@ -148,24 +159,25 @@ blockquote {
     color: var(--meetball-text);
     position: relative;
     z-index: 1;
+    transition: color 0.3s ease;
   }
-  
+
   strong {
     color: var(--meetball-accent);
     font-weight: 600;
+    transition: color 0.3s ease;
   }
 }
 
 // Dark mode blockquotes
 [data-bs-theme="dark"] blockquote {
   background: linear-gradient(135deg, var(--meetball-blockquote-bg) 0%, rgba(38, 38, 38, 0.8) 100%) !important;
-  border-left: 3px solid rgba(245, 158, 11, 0.6) !important;
-  box-shadow: 
+  box-shadow:
     0 2px 8px rgba(0, 0, 0, 0.2),
     inset 0 1px 0 rgba(255, 255, 255, 0.05);
-  
+
   &::before {
-    background: radial-gradient(ellipse at center, transparent 40%, rgba(245, 158, 11, 0.04) 100%);
+    background: radial-gradient(ellipse at center, transparent 40%, rgba(255, 179, 0, 0.04) 100%);
   }
 }
 
@@ -175,6 +187,7 @@ blockquote {
   background-color: var(--meetball-card) !important;
   border: 1px solid var(--meetball-border) !important;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 // Navigation - slightly transparent with backdrop blur
@@ -183,16 +196,18 @@ blockquote {
   border-bottom: 1px solid var(--meetball-border);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 [data-bs-theme="dark"] .navbar {
-  background-color: rgba(23, 23, 23, 0.85) !important;
+  background-color: rgba(30, 30, 30, 0.85) !important;
 }
 
 // Sidebar
 .docs-sidebar {
   background-color: var(--meetball-surface);
   border-right: 1px solid var(--meetball-border);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 // Footer
@@ -200,37 +215,34 @@ blockquote {
   background-color: var(--meetball-surface) !important;
   border-top: 1px solid var(--meetball-border);
   color: var(--meetball-text-muted);
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
 }
 
 // Tables
 table {
   background-color: var(--meetball-surface);
   border: 1px solid var(--meetball-border);
-  
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+
   th, td {
     border-color: var(--meetball-border) !important;
     color: var(--meetball-text);
+    transition: border-color 0.3s ease, color 0.3s ease;
   }
-  
+
   thead th {
     background-color: var(--meetball-code-bg);
+    transition: background-color 0.3s ease;
   }
 }
 
-// Links
+// Links - using dedicated link colors for better readability
 a {
-  color: var(--meetball-accent);
-  
-  &:hover {
-    color: #b45309;
-  }
-}
+  color: var(--meetball-link);
+  transition: color 0.2s ease;
 
-[data-bs-theme="dark"] a {
-  color: var(--meetball-accent);
-  
   &:hover {
-    color: #fde047;
+    color: var(--meetball-link-hover);
   }
 }
 
@@ -239,14 +251,16 @@ a {
   background-color: var(--meetball-card) !important;
   border: 1px solid var(--meetball-border) !important;
   color: var(--meetball-text) !important;
-  
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+
   &:focus {
     background-color: var(--meetball-card) !important;
     border-color: var(--meetball-accent);
-    box-shadow: 0 0 0 0.2rem rgba(217, 119, 6, 0.25);
+    box-shadow: 0 0 0 0.2rem rgba(255, 179, 0, 0.25); // Golden focus ring
   }
-  
+
   &::placeholder {
     color: var(--meetball-text-muted) !important;
+    transition: color 0.3s ease;
   }
 }

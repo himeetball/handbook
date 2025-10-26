@@ -19,10 +19,15 @@ $beige:    #fbf7f0;
 $purple:   #5d2f86;
 $brown:    #aa9c84;
 
-$blue-300: #8ed6fb;
-$pink-500: #d32e9d;
+// Golden theme colors
+$golden:      #FFB300;
+$golden-dark: #CC9600;
+$golden-light: #FFC933;
 
-$primary: $purple;
+$blue-300: #8ed6fb; // Old color - kept for reference but not used
+$pink-500: #d32e9d; // Old color - kept for reference but not used
+
+$primary: $golden; // Changed from purple to golden
 
 // Options
 //
@@ -134,8 +139,8 @@ $navbar-padding-x:                  null;
 $navbar-nav-link-padding-x:         0.5rem;
 
 $navbar-light-color:                $black;
-$navbar-light-hover-color:          $primary;
-$navbar-light-active-color:         $primary;
+$navbar-light-hover-color:          #B8860B; // DarkGoldenrod - readable on light bg
+$navbar-light-active-color:         #996600; // Darker golden for active state
 
 // Cards
 
