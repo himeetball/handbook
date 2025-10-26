@@ -2,7 +2,7 @@
 title = "Brand Strategy"
 description = "Brand Strategy."
 date = 2021-05-01T18:20:00+00:00
-updated = 2021-05-01T18:20:00+00:00
+updated = 2025-10-01T16:41:52+01:00
 draft = false
 weight = 2
 sort_by = "weight"

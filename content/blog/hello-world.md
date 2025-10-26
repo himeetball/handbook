@@ -2,7 +2,7 @@
 title = "Hello World"
 description = "This blog is where you'll find updates on whats going on with the Meetball Handbook writing"
 date = 2025-08-08T09:19:42+00:00
-updated = 2025-08-08T09:19:42+00:00
+updated = 2025-08-08T12:34:29+01:00
 draft = false
 template = "blog/page.html"
 

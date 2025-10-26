@@ -2,7 +2,7 @@
 title = "Quick Start"
 description = "Get started contributing to Meetball projects."
 date = 2021-05-01T08:20:00+00:00
-updated = 2021-05-01T08:20:00+00:00
+updated = 2025-10-09T05:41:08+01:00
 draft = false
 weight = 20
 sort_by = "weight"

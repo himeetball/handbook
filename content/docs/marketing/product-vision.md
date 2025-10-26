@@ -2,7 +2,7 @@
 title = "Product Vision"
 description = "Product Vision."
 date = 2021-05-01T18:20:00+00:00
-updated = 2021-05-01T18:20:00+00:00
+updated = 2025-09-23T23:25:45+01:00
 draft = false
 weight = 3
 sort_by = "weight"

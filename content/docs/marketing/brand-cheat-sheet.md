@@ -2,7 +2,7 @@
 title = "Brand Alignment"
 description = "Cheat Sheet on Brand Alignment."
 date = 2021-05-01T18:20:00+00:00
-updated = 2021-05-01T18:20:00+00:00
+updated = 2025-09-22T18:21:33+01:00
 draft = false
 weight = 3
 sort_by = "weight"

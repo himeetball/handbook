@@ -2,7 +2,7 @@
 title = "How we Choose Vendors"
 description = "How we choose Vendors, Software, Tools at Meetball"
 date = 2025-07-23T18:10:00+00:00
-updated = 2025-07-23T18:10:00+00:00
+updated = 2025-10-02T11:09:55+01:00
 draft = false
 weight = 10
 template = "docs/page.html"

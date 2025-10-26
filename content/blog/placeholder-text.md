@@ -2,7 +2,7 @@
 title = "Placeholder Text"
 description = "Lorem Ipsum Dolor Si Amet"
 date = 2021-04-10T09:19:42+00:00
-updated = 2021-04-10T09:19:42+00:00
+updated = 2025-07-22T12:52:09+01:00
 draft = false
 template = "blog/page.html"
 

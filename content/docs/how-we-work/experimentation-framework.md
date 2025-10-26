@@ -2,7 +2,7 @@
 title = "Test Ideas, Record Decisions"
 description = "How we Test Ideas and Record Decisions at Meetball"
 date = 2025-07-23T18:10:00+00:00
-updated = 2025-07-23T18:10:00+00:00
+updated = 2025-08-31T12:15:00+01:00
 draft = false
 weight = 5
 sort_by = "weight"

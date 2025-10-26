@@ -2,7 +2,7 @@
 title = "Introduction"
 description = "Welcome to the Meetball Handbook - your guide to understanding and contributing to our open project."
 date = 2021-05-01T08:00:00+00:00
-updated = 2021-05-01T08:00:00+00:00
+updated = 2025-09-02T14:02:38+01:00
 draft = false
 weight = 10
 sort_by = "weight"

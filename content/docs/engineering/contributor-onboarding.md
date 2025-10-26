@@ -2,7 +2,7 @@
 title = "Contributor Onboarding Guide"
 description = "Complete guide for new engineering contributors joining MeetBall's open startup project"
 date = 2025-01-27T10:00:00+00:00
-updated = 2025-01-27T10:00:00+00:00
+updated = 2025-10-26T01:20:44+01:00
 draft = false
 weight = 1
 sort_by = "weight"

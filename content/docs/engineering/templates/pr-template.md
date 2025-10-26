@@ -2,7 +2,7 @@
 title = "PR Template"
 description = "Unified pull request template for both frontend and backend changes"
 date = 2025-01-27T10:00:00+00:00
-updated = 2025-01-27T10:00:00+00:00
+updated = 2025-10-26T01:20:44+01:00
 draft = false
 weight = 2
 sort_by = "weight"

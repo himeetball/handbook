@@ -2,7 +2,7 @@
 title = "Math Typesetting"
 description = "Introducing Doks, a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
 date = 2021-04-08T09:19:42+00:00
-updated = 2021-04-08T09:19:42+00:00
+updated = 2025-07-22T12:52:09+01:00
 draft = false
 template = "blog/page.html"
 

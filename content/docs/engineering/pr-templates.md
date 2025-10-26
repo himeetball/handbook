@@ -2,7 +2,7 @@
 title = "Pull Request Templates & Guidelines"
 description = "Standardized PR templates and review guidelines for consistent development workflow"
 date = 2025-01-27T10:00:00+00:00
-updated = 2025-01-27T10:00:00+00:00
+updated = 2025-10-26T01:20:44+01:00
 draft = false
 weight = 5
 sort_by = "weight"

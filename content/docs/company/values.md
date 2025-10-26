@@ -2,7 +2,7 @@
 title = "Values"
 description = "Values of Meetball."
 date = 2025-08-07T18:10:00+00:00
-updated = 2025-08-07T18:10:00+00:00
+updated = 2025-09-22T18:40:57+01:00
 draft = false
 weight = 410
 sort_by = "weight"

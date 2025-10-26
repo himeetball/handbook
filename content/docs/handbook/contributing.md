@@ -2,7 +2,7 @@
 title = "Contributing to the Handbook"
 description = "Contribute to the Handbook creation, improve documentation"
 date = 2021-05-01T18:10:00+00:00
-updated = 2021-05-01T18:10:00+00:00
+updated = 2025-08-31T14:56:57+01:00
 draft = false
 weight = 2
 sort_by = "weight"

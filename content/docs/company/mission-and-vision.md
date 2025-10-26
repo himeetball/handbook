@@ -2,7 +2,7 @@
 title = "Vision and Mision"
 description = "Mission and Vision of Meetball."
 date = 2025-07-23T18:10:00+00:00
-updated = 2025-07-23T18:10:00+00:00
+updated = 2025-08-08T07:33:46-07:00
 draft = false
 weight = 410
 sort_by = "weight"

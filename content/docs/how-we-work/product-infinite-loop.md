@@ -2,7 +2,7 @@
 title = "Product Discovery & Delivery"
 description = "How we take Meetball from Ideas to Done"
 date = 2025-07-23T18:10:00+00:00
-updated = 2025-07-23T18:10:00+00:00
+updated = 2025-09-02T14:17:29+01:00
 draft = false
 weight = 5
 sort_by = "weight"
