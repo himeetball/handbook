@@ -7,8 +7,9 @@ title = "Meetball Handbook"
 lead = "<b>Hey there! Welcome to Meetball's knowledge base.</b> Everything you need to know about our team, processes, and how we build awesome stuff together."
 url = "/docs/getting-started/introduction/"
 url_button = "Get started"
-repo_license = "We're building each page as we need it. If something's not covered yet, jump in and contribute! Missing documentation is just an invitation for someone to help fill the gap."
+repo_license = "© 2025 Meetball. All Rights Reserved. Code: MIT | Content: CC BY-SA 4.0"
 repo_url = "https://github.com/himeetball/handbook"
+repo_note = "We're building each page as we need it. If something's not covered yet, jump in and contribute! Missing documentation is just an invitation for someone to help fill the gap."
 
 # Menu items
 [[extra.menu.main]]
