@@ -1,7 +1,7 @@
 The MIT License (MIT)
 
 Copyright (c) 2021 Aaran Xu (original AdiDoks theme)
-Copyright (c) 2025 Meetball Team (modifications and derivative work)
+Copyright (c) 2025 Meetball. All Rights Reserved (modifications and derivative work)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
@@ -19,3 +19,51 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---
+
+## Content License
+
+The written content, documentation, and processes described in this handbook
+(located in the content/ directory) are licensed separately:
+
+**Copyright © 2025 Meetball. All Rights Reserved.**
+
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
+International License (CC BY-SA 4.0).
+
+To view a copy of this license, visit:
+https://creativecommons.org/licenses/by-sa/4.0/
+
+**Summary:** You are free to share and adapt this content for any purpose, even
+commercially, as long as you:
+- Give appropriate credit to Meetball
+- Link to the license
+- Indicate if changes were made
+- License your adaptations under the same CC BY-SA 4.0 terms
+
+---
+
+## What This Means
+
+- **Code/Theme** (templates/, sass/, static/js/, theme.toml, etc.): MIT License
+- **Content** (content/, markdown files, documentation): CC BY-SA 4.0
+- **Third-Party Components**: See below
+
+---
+
+## Third-Party Components
+
+This project includes several third-party open-source components. For complete
+license information and copyright notices for all third-party software, please
+see the file: /static/third-party-licenses.txt
+
+Key third-party components include:
+
+- **Bootstrap** - MIT License (Copyright Twitter, Inc. and The Bootstrap Authors)
+- **elasticlunr.js** - MIT License (Copyright Oliver Nightingale and Wei Song)
+- **MathJax** (CDN) - Apache License 2.0 (Copyright The MathJax Consortium)
+- **KaTeX** (CDN) - MIT License (Copyright Khan Academy and contributors)
+- **AdiDoks Theme** - MIT License (Copyright Aaran Xu) - substantially modified
+
+All third-party software is used in accordance with their respective licenses.
