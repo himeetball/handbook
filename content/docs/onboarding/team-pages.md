@@ -23,7 +23,7 @@ You can contribute Ideas directly here (add link to feature requests). but IF yo
 
 1. Watch this video about [The Startup Anyone Can Join](https://youtu.be/CwUTn4x46o4) so you get a sense of how we work,
 2. Send a message to [Stuart](https://www.linkedin.com/in/stuartcerne/) introducing yourself, and join our Whatsapp Group,  
-2. Fill in the [Controbutor Onboarding Form](https://forms.gle/3WWQ6nufJfgyMHbp9), this helps us understand what you'd like to help with, by providing info such as:
+2. Fill in the [Contributor Onboarding Form](https://forms.gle/3WWQ6nufJfgyMHbp9), this helps us understand what you'd like to help with, by providing info such as:
     - Who you are, where you're based;
     - What can you help with, your level of [Mastery](https://recipe.meetball.fun/docs/how-we-work/mastery/), and time availability;
 
