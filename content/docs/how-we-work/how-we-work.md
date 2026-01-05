@@ -66,17 +66,22 @@ If you're new, no matter how much experience you bring, before pushign ideas for
 ### Conflicts and Decisions:
 
 - **"Yes, And" Approach:** Build on ideas instead of immediately contradicting them.
-- Ruthlessly criticise the Ideas, not the person.
-- Disagree and Commit: 
+- Ruthlessly criticise the Ideas, not the person. Be thankful for the criticism you receive, your competiors and unsatisfied users will just chose not to use your product!
+- [Disagree and Commit](https://www.youtube.com/watch?v=Afoh23PHVP0)
+- When 2 people disagree, ask each other : on a scale from 1 to 10 how important is this matter to you? 
+- Most decisions can be reversed, so don't spend time on matters of principle opf opinions, use the [Experimentation Framework](https://recipe.meetball.fun/docs/how-we-work/experimentation-framework/) to test them.
+- Every decision has a single owner, who is ultimately respinsible for the consequences of that decision.
 
 #### Tracking Ideas, Experiments, and Decisions:
-We keep track of our experimetns and Decisions to prevent circular discussions. See [How we track Ideas/Decisions](*) 
-_we need to implement an LLM to simplify interaction with this_
+We keep track of our experimetns and Decisions to prevent circular discussions. See [How we track Ideas/Decisions](https://recipe.meetball.fun/docs/how-we-work/experimentation-framework/) ) 
+
 #### What have you worked on? (Stuff Done)
-We regularly use the #Stuff-Done channel to answer “What have you worked on?” at least twice per week. You answer these asynchronously, whenever you want, with the style and level of detail you prefer, and everyone in the company can read everyone else’s answers. 
-It's not about showing off, it's about everyojne having a feel for who is workign on what. Don't boast or take cretit beyond what's real, but do claim your accomplisments so we can celebrate them!
+Every day that we work, we use the #Stuff-Done channel to answer “What have you worked on?”. You answer these asynchronously, whenever you want, with the style and level of detail you prefer, and everyone in the company can read everyone else’s answers. You can start the day sharing your plan/goals, but focus on sharing what you achieved. The oly mesure thart matters is progress, not intention.
+
+It's not about showing off, it's about everyone having a feel for who is workign on what. Don't boast or take cretit beyond what's real, but do claim your accomplisments so we can celebrate them!
+
 #### Decisions Have Owners
-We have a flat structure, people grow into roles our of necessity, but all critical decisions have clear owners, and it is only just one person. We document decision taken and who took responsibilityu for the decision in Plane/Experiments.
+We have a flat structure, people grow into roles our of necessity, but all critical decisions have clear owners, and it is only just one person. We document decision taken and who took responsibility for the decision in Plane/Experiments.
 
 [Apple coined the term](https://fortune.com/article/how-apple-works-inside-the-worlds-biggest-startup/) **“Directly Responsible Individual” (DRI)** to refer to the one person with whom the buck stops on any given project. The idea is that every project is assigned a Drectly Responsible Individual who is ultimately held accountable for the success (or failure) of that project.
 
