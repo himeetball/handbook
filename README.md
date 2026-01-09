@@ -68,18 +68,7 @@ plus any other branches for previewing work not ready for public.
 Pretty sweet, right?
 
 ## Known Issues & TODOs
-
-We track planned improvements and known issues in the `0_TODO/` directory. Current items:
-
-### 🔴 High Priority
-
-1. **Handbook Disclaimer and Congent Licensing**
-   - **Status:** Review
-   - **Issue:** Check if proper disclaimer and dual-license structure (MIT for code, CC BY-SA for content)
-   - **Why:** Legal protection, clarify content is experiential not prescriptive advice
-   - **Blocking:** Making repository public
-
-2. **Mermaid Diagrams Not Rendering**
+1. **Mermaid Diagrams Not Rendering**
    - **Status:** Needs investigation
    - **Issue:** Mermaid diagrams in markdown files are not being rendered on the site
    - **Impact:** Visual documentation (flowcharts, diagrams) not displaying
