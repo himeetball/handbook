@@ -46,7 +46,7 @@ Before you publish anything, swap "Meetball" for a competitor's name. If the sen
 ## Core Principles  
 - **Speak your heart.** Don't fake it. Be real, be raw, be human.  
 - **Show up.** There's no wrong way to connect. Asking for help is an act of courage.  
-- **Don’t Fluff It →** Keep it simple. Clarity over cleverness.  
+- **Say less, mean more.** Keep it simple. Clarity over cleverness. 
 
 ---
 
@@ -66,9 +66,12 @@ The voice is caring but not coddling. Warm but not sentimental. Grounded in the 
 ---
 
 ## 2: Confidence Without Fear (Don’t Fear It)  
-Meetball’s voice carries courage. Asking for help can feel intimidating, and offering support can sometimes feel uncertain; but here, there’s no wrong way to reach out.  
+Asking for help takes courage. So does offering it to a stranger. 
 
-Our brand tone should remind people that they don’t need to have the perfect words or the perfect solution to belong. When we communicate, we speak with confidence rooted in encouragement: *You’ve got this. Let’s figure it out together.*  
+Most people struggle with this, not because they don't want to, but because they're waiting for the right moment, a safe space, the right words, the right level of confidence. That
+moment rarely comes. And see asking for help as a sign of weakness. We know it's a superpower!  
+
+There’s no wrong way to reach out. Our brand tone should remind people that they don’t need to have the perfect words or the perfect solution to belong. When we communicate, we speak with confidence rooted in encouragement: *You’ve got this. Let’s figure it out together.*  
 
 This confidence doesn’t come from arrogance, but from belief in the power of human connection. We use a tone that makes people feel safe to try, safe to ask, safe to show up with messy questions or half-formed ideas.  
 
@@ -79,44 +82,93 @@ It’s not about polished expertise; it’s about human beings daring to connect
 ---
 
 ## 3: Simplicity is Strength (Don’t Fluff It)  
-Meetball’s voice thrives on clarity. We believe that the shortest path between two people is a straight line — no buzzwords, no filler, no overthinking.  
+The shortest path between two people is a straight line: no buzzwords, no filler, no overthinking.  
 
-The language we use should cut through noise and land quickly in the heart. Every word counts, and fewer words often count more.  
+Every word you write is asking for someone's attention. Don't waste it. 
+Cut the first sentence of most things you write, it's usually just warming up. Start where it matters. 
+**If you can say it in five words, say it in five.**
 
-This doesn’t mean being cold or abrupt; it means staying warm but efficient. When partners or users speak about Meetball, they should feel empowered to say it plainly: *It’s a place to ask, offer, and connect. That’s it.*  
+This isn't about being cold. A good friend doesn't pad their sentences to sound more impressive. They say the thing, clearly, and trust you to get it.
+That's the standard.
 
-We don’t wrap our purpose in layers of unnecessary explanation. We keep our sentences crisp, our ideas sharp, and our tone approachable. Think of how a good friend explains something important; they keep it simple, so you don’t feel lost. That’s how we talk.  
+If it sounds like something a company would say, it's too long. If it sounds like something a person would say, ship it.
 
-By stripping away the fluff, we create more space for the real magic: genuine conversation, human connection, and shared progress. Simplicity isn’t minimalism for its own sake; it’s a form of respect for people’s time, attention, and emotional bandwidth.  
+The language we use should cut through noise and land quickly in the heart. 
+
+**Every word counts, and fewer words often count more.**
 
 ---
 
 ## Voice Characteristics  
-- **Authentic:** Conversations sound like they come from real people, not polished press releases.  
-- **Confident but Warm:** Supportive, encouraging, fearless in asking and offering.  
-- **Simple & Clear:** Easy words, short sentences, no jargon or filler.  
+- **Authentic.** Sounds like a real person wrote it, not a company.
+- **Confident but Warm.** Encouraging, direct, fearless, without being pushy.
+- **Simple & Clear.** Easy words, short sentences, no jargon or filler.
+- **People, not product.** Talk about what happens between two humans. What they feel.
+  Not features. Not functionality.
 
 ---
 
 ## Do’s  
-- Use everyday language: *Need a hand?*  
-- Speak like a supportive friend: *Let’s figure this out together.*  
-- Keep sentences short and easy to understand.  
-- Emphasize connection first, collaboration second.  
-- Show courage in tone: asking is brave, offering is generous.  
+- Use everyday language: *Need a hand?*
+- Speak like a supportive friend: *Let's figure this out together.*
+- Keep sentences short. One idea per sentence.
+- Say *people*, not *users*. Say *collaborate* more than *help*, not *support*.
+- Lead with discovery — show the room before asking people to speak.
+- Write in second person: *you*, not *users* or *attendees*.
 
 ---
 
 ## Don’ts  
-- Don’t use buzzwords, jargon, or corporate talk.  
-- Don’t overcomplicate: skip long-winded explanations.  
-- Don’t try to sound perfect; imperfection builds trust.  
-- Don’t fluff or pad your words just to fill space.  
+- Don't use buzzwords, jargon, or corporate talk.
+- Don't try to sound perfect; just be real.
+- Don't pad words to fill space. If you can cut it, cut it.
+- Don't write copy that works with any other company's name in it.
+- Don't start with preamble. Cut the warm-up. Start where it matters. 
 
 ---
 
 ## Sample Phrases  
-- *It’s a place to ask, offer, and connect.*  
-- *We’re here for real conversations, not polished speeches.*  
-- *No wrong questions, no wrong answers; just people helping people.*  
-- *Simple words make space for deeper connections.*  
+- *No wrong questions, no wrong answers. Just people helping people.*
+- *The people you need to meet are already in the spaces you belong to.*
+- *Someone can help. Tap to meet them.*
+- *Post what you need. Find people who care.*
+- *The right person is closer than you think.*
+- *Meetball. Find the others.*
+
+---
+
+## Sentence Style Rules
+
+- Short sentences land harder. One idea per sentence. If you use "and" more
+  than once, it's probably two sentences.
+- No preamble. Cut the first sentence of most things you write.
+- Second person always. "You'll see what people need", not "users are shown
+  a feed."
+- Notifications and UI copy: one breath. "Someone can help." Not "You have
+  received a new match for your question."
+- No exclamation marks. If the sentence needs one to land, rewrite the sentence.
+- Questions are powerful. Use them when you want someone to lean in.
+  Don't overuse them.
+
+---
+
+## Discovery First
+
+Most people don't walk through the front door by posting what they need.
+They browse first. They help first. They watch the room before they speak.
+
+This isn't timidity, it's how trust works. Lead with what's safe:
+*here's what people around you are working on*. The invitation to post comes later, when they've seen it's safe to do so.
+
+---
+
+## Words We Use / Words We Cut
+
+**Use:** collaborate · people · members (of a space) · help · offer · ask · find · meet · need · show up · people · real ·
+build · together · your tribe · the others · ready · safe space · matter
+
+**Cut:** leverage · synergy · unlock · supercharge · game-changer · amazing ·
+incredible · revolutionary · seamless · ecosystem · solutions · users ·
+journey · don't miss out · robust · empower
+
+
