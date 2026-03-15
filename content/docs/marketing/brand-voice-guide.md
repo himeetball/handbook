@@ -14,21 +14,54 @@ toc = true
 top = false
 +++
 
+
+## The Feeling Behind Every Word
+
+There's a moment you've felt before.
+
+A conference, a coworking space, a classroom, a community you joined. You were in a room full of people doing things. And then, almost by accident, you ended up next to the right one.
+
+They shared your interest, knew what you needed. You had what they were looking for. Neither of you had to explain much.
+
+That recognition. That click. The way the conversation stopped feeling like effort and started feeling like something that was supposed to happen.
+
+That person was probably already in your orbit. You just didn't know it. And so you missed each other.
+
+The people you need to meet already exist in the spaces you belong to. *Meetball just helps you find them.*
+
+How? With the oldest trick in the world: one person saying what they need, and another recognising it.
+
+That quiet electricity of finding the right person at the right moment, and knowing it instantly.
+
+That's the only promise we make. That feeling. **Write that.**
+
+## The Replace Test
+
+Before you publish anything, swap "Meetball" for a competitor's name. If the sentence still works, it's not ours yet. The name should be load-bearing, the thing that justifies every claim around it.
+
+> ~~"Connect with the right people at events."~~  
+> Could be anyone.
+
+
 ## Core Principles  
-- **Don’t Fake It →** Speak your heart out. Be real, be raw, be human.  
-- **Don’t Fear It →** No wrong way to connect. Show up with courage.  
+- **Speak your heart.** Don't fake it. Be real, be raw, be human.  
+- **Show up.** There's no wrong way to connect. Asking for help is an act of courage.  
 - **Don’t Fluff It →** Keep it simple. Clarity over cleverness.  
 
 ---
 
-## 1: Speak Your Heart Out (Don’t Fake It)  
-Meetball’s voice begins with honesty. This platform isn’t about polished perfection or corporate jargon; it’s about people showing up as themselves. That means when we talk, we drop the masks. We share what’s on our mind, what’s troubling us, or what we’re curious about, in words that sound human and real.  
+## 1: Speak Your Heart Out (Don't Fake It)
 
-Partners, users, and community members should feel that Meetball is a place where transparency is celebrated and vulnerability isn’t weakness but strength. We don’t sugarcoat and we don’t overcomplicate. Instead, we lean into the raw, direct language of everyday conversations.  
+People are tired of polished, manicured, manufactured voices. They smell BS from a mile away, and they should. The platforms that earn trust in the next 
+decade won't be the slickest ones. They'll be the ones that sound like a real person wrote them.
 
-If a message sounds like a press release, it’s the wrong voice. If it sounds like a friend reaching out across the table and asking, *Need a hand?* — that’s Meetball. We build trust not by pretending to know all the answers, but by being genuine in asking and offering.  
+Meetball isn't about perfection. It's about people showing up as themselves, sharing what's on their mind, what they're struggling with, what they're dreaming about, in words that sound human because they are.
 
-The voice is caring but not coddling, empathetic without being overly sentimental, and grounded in the simple truth that people just want to connect without filters.  
+We want people to dare to ask. Dare to share their goals, their half-formed ideas, the things they haven't said out loud yet. That only happens if they feel the platform they're posting on is honest too. Transparency isn't a feature. It's the foundation.
+
+If a message sounds like a press release, rewrite it. If it sounds like a friend leaning across the table and saying **Need a hand?**, that's Meetball.
+
+The voice is caring but not coddling. Warm but not sentimental. Grounded in the simple truth that people connect best when nobody's performing.
 
 ---
 
