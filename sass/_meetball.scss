@@ -1,19 +1,19 @@
-// Meetball Handbook Theme Customization - Paper-like Palette
+// Meetball Handbook Theme Customization - Brand Palette
 :root {
-  // Light theme - warm paper colors
-  --meetball-bg: #fefbf3;           // Warm paper background
-  --meetball-surface: #faf7f0;      // Slightly darker surface
-  --meetball-card: #fffef9;         // Off-white cards
-  --meetball-text: #2d1b08;         // Dark sepia brown
-  --meetball-text-muted: #6b4423;   // Muted warm brown
-  --meetball-border: #e6ddd4;       // Light brown border
-  --meetball-code-bg: #ebe4d8;      // Darker beige for better contrast
-  --meetball-code-text: #996600;    // Dark golden-brown for inline code (high contrast)
-  --meetball-link: #B8860B;         // DarkGoldenrod for links (WCAG compliant)
-  --meetball-link-hover: #8B6508;   // Darker on hover for emphasis
-  --meetball-blockquote-bg: #fef3e2; // Warm amber tint
-  --meetball-blockquote-border: #FFB300; // Golden accent (unified)
-  --meetball-accent: #FFB300;       // Golden accent (for buttons/highlights)
+  // Light theme - Meetball brand colors
+  --meetball-bg: #F0EFEB;           // Brand Main BG
+  --meetball-surface: #FBFBFB;      // Placeholders / surface
+  --meetball-card: #FBFBFB;         // Card background
+  --meetball-text: #262626;         // Headlines
+  --meetball-text-muted: #595959;   // Secondary muted text
+  --meetball-border: #DBDBDB;       // Light gray border
+  --meetball-code-bg: #E9E6D9;      // Light neutral code bg
+  --meetball-code-text: #404040;    // Secondary text gray for code
+  --meetball-link: #1C788C;         // Teal mid (WCAG compliant on light bg)
+  --meetball-link-hover: #1D5663;   // Teal dark on hover
+  --meetball-blockquote-bg: #E9DCBF; // Warm neutral from brand palette
+  --meetball-blockquote-border: #FFB300; // Golden accent (CTA primary)
+  --meetball-accent: #FFB300;       // CTA primary accent
 }
 
 [data-bs-theme="dark"] {
@@ -25,11 +25,11 @@
   --meetball-text-muted: #9ca3af;   // Better contrast muted text
   --meetball-border: #404040;       // Clear border
   --meetball-code-bg: #1a1a1a;      // Slightly lighter than bg
-  --meetball-code-text: #FFD966;    // Bright golden for dark mode inline code
-  --meetball-link: #FFC933;         // Bright golden for dark mode links
-  --meetball-link-hover: #FFD966;   // Even brighter on hover
+  --meetball-code-text: #5AE0E0;    // Bright teal for dark mode inline code
+  --meetball-link: #5AE0E0;         // Bright teal for dark mode links
+  --meetball-link-hover: #8DEBEB;   // Lighter teal on hover
   --meetball-blockquote-bg: #1e1e1e; // Match surface
-  --meetball-blockquote-border: #FFC933; // Brighter golden for dark mode
+  --meetball-blockquote-border: #FFC933; // Golden accent for dark mode
   --meetball-accent: #FFC933;       // Brighter golden for dark mode (buttons/highlights)
 }
 
@@ -128,15 +128,15 @@ code:not(pre code) {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-// Blockquotes (used for examples) - soft paper-like styling
+// Blockquotes (used for examples) - soft styling
 blockquote {
-  background: linear-gradient(135deg, var(--meetball-blockquote-bg) 0%, rgba(254, 243, 226, 0.7) 100%) !important;
+  background: linear-gradient(135deg, var(--meetball-blockquote-bg) 0%, rgba(233, 220, 191, 0.7) 100%) !important;
   border: none !important;
   padding: 1.2rem 1.8rem !important;
   margin: 1.5rem 0 !important;
   border-radius: 16px;
   box-shadow:
-    0 2px 8px rgba(255, 179, 0, 0.08),
+    0 2px 8px rgba(0, 0, 0, 0.06),
     inset 0 1px 0 rgba(255, 255, 255, 0.1);
   position: relative;
   transition: background 0.3s ease, box-shadow 0.3s ease;
@@ -149,7 +149,7 @@ blockquote {
     left: 0;
     right: 0;
     bottom: 0;
-    background: radial-gradient(ellipse at center, transparent 40%, rgba(255, 179, 0, 0.02) 100%);
+    background: radial-gradient(ellipse at center, transparent 40%, rgba(0, 0, 0, 0.01) 100%);
     border-radius: 16px;
     pointer-events: none;
   }
@@ -177,7 +177,7 @@ blockquote {
     inset 0 1px 0 rgba(255, 255, 255, 0.05);
 
   &::before {
-    background: radial-gradient(ellipse at center, transparent 40%, rgba(255, 179, 0, 0.04) 100%);
+    background: radial-gradient(ellipse at center, transparent 40%, rgba(255, 179, 0, 0.02) 100%);
   }
 }
 
@@ -192,7 +192,7 @@ blockquote {
 
 // Navigation - slightly transparent with backdrop blur
 .navbar {
-  background-color: rgba(250, 247, 240, 0.85) !important;
+  background-color: rgba(240, 239, 235, 0.85) !important;
   border-bottom: 1px solid var(--meetball-border);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
