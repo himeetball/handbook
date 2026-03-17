@@ -12,22 +12,32 @@ $gray-800: #343a40;
 $gray-900: #212529;
 $black:    #000;
 
-$yellow:   #ffe000;
-$black:    #1d2d35;
-$beige:    #fbf7f0;
-// $red:      #e55235;
-$purple:   #5d2f86;
-$brown:    #aa9c84;
+// Meetball brand palette
+$black:       #262626;   // Headlines
+$beige:       #F0EFEB;   // Main BG
 
-// Golden theme colors
+// Primary accent (CTA Button)
 $golden:      #FFB300;
-$golden-dark: #CC9600;
-$golden-light: #FFC933;
+$golden-dark: #F0E2A8;
+$golden-light: #FFD580;
 
-$blue-300: #8ed6fb; // Old color - kept for reference but not used
-$pink-500: #d32e9d; // Old color - kept for reference but not used
+// Teal secondary
+$teal:        #3EC6C6;
+$teal-mid:    #1C788C;
+$teal-dark:   #1D5663;
 
-$primary: $golden; // Changed from purple to golden
+// Brand gray scale
+$brand-gray-100: #FBFBFB;
+$brand-gray-200: #F2F2F2;
+$brand-gray-300: #DBDBDB;
+$brand-gray-400: #BFBFBF;
+$brand-gray-500: #A6A6A6;
+$brand-gray-600: #8C8C8C;
+$brand-gray-700: #717171;
+$brand-gray-800: #595959;
+$brand-gray-900: #404040;
+
+$primary: $golden;
 
 // Options
 //
@@ -139,8 +149,8 @@ $navbar-padding-x:                  null;
 $navbar-nav-link-padding-x:         0.5rem;
 
 $navbar-light-color:                $black;
-$navbar-light-hover-color:          #B8860B; // DarkGoldenrod - readable on light bg
-$navbar-light-active-color:         #996600; // Darker golden for active state
+$navbar-light-hover-color:          #1C788C; // Teal mid - readable on light bg
+$navbar-light-active-color:         #1D5663; // Teal dark for active state
 
 // Cards
 
