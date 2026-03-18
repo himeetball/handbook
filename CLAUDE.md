@@ -1,7 +1,7 @@
 # Development Notes
 
 ## README Style
-User prefers a playful, casual tone in documentation - not too formal or corporate. Include emojis where appropriate and write like you're explaining to a friend. Keep it approachable and fun while still being informative. Important: Use jokes, puns, and expressions sparingly - they lose their charm when overused.
+Use a playful, casual tone in documentation - not too formal or corporate. Avoid emojis. Write like you're explaining to a friend. Keep it approachable and fun while still being informative. Important: Use jokes, puns, and expressions sparingly - they lose their charm when overused. Never use em dashes.
 
 ## Multi-language Guidelines
 - Use informal, personal "you" form in all languages (tu/tu/tu instead of formal vous/voi/vocês)
