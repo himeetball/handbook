@@ -50,8 +50,8 @@ If you're looking for internal practices, contributor guidelines, or team operat
 This section re-iterates Meetball’s north star: why we exist, what we believe, and how we want to be understood.  
 
 - **[Mission and Vision](https://recipe.meetball.fun/docs/company/mission-and-vision/):**  
-- **[Values](https://recipe.meetball.fun/docs/company/values/):** [LINK]  
-- **[Principles](https://recipe.meetball.fun/docs/company/principles/):** [LINK]  
+- **[Values](https://recipe.meetball.fun/docs/company/values/):**   
+- **[Principles](https://recipe.meetball.fun/docs/company/principles/):**  
 
 ### 2.5 Core Positioning  
 "Meetball is the platform for intentional connection through shared challenges or goals.  
