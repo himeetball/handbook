@@ -114,7 +114,7 @@ We don’t perform or overhype. We speak plainly and honestly, trusting that rea
 
 ---
 
-## 4. Audiences for Messaging  
+## 4. Audiences for Messaging
 
 ### 4.1 Who We’re For  
 “Meetball is for people at a specific moment -- not a demographic, not a personality type, but a state of readiness. They feel something stirring. They want to realise something. And they sense the missing piece is people.  
