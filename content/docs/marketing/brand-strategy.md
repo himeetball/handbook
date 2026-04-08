@@ -74,8 +74,9 @@ We started by building it that way ourselves. In a world that feels increasingly
 - Not built to extract attention or harvest data."  
 
 ### 2.8 Brand Promise  
-"Meetball helps you find and connect to the right people, and remember who you met.  
-Just ask your question, any question, and help will find you."  
+"Share what you're looking for, and the right people will find you.  
+
+Meetball helps you find and connect to the right people, and remember who you met. You don't have to search, pitch, or perform. Just be honest about what you need, and let the right people show up."  
 
 ---
 
@@ -116,19 +117,25 @@ We don’t perform or overhype. We speak plainly and honestly, trusting that rea
 ## 4. Audiences for Messaging  
 
 ### 4.1 Who We’re For  
-"We start by focusing on local, values-aligned communities, especially those already gathering around shared interests, challenges, or goals. In Lisbon, that means creative technologists, early-stage founders, event hosts, and purpose-driven professionals who care more about connection than clout.  
+“Meetball is for people at a specific moment -- not a demographic, not a personality type, but a state of readiness. They feel something stirring. They want to realise something. And they sense the missing piece is people.  
 
-But Meetball isn’t just for these. It’s for anyone who feels the friction of traditional networking, and wants something more human."  
+- **The introvert** who has something to offer or needs something but struggles to surface it in traditional social settings -- Meetball gives them a safe, low-pressure way in  
+- **The person on a mission** who knows exactly what they’re after and sees the value in being visible about it -- Meetball gives them reach  
+- **The person who is simply open** -- ready to find a cause they care about, ready to join something that matters  
 
-**Across markets, we look for people who:**  
-- Ask “Who can I help?” instead of “Who can help me?”  
-- Prefer listening over pitching  
-- See community as a place for mutual support  
-- Want to connect based on real needs, not social capital  
+Different capes. Same power.  
+
+These are our early champions. The people who hear what we’re building and love it before they’ve even seen it. They care deeply about something -- and want to find others who do too. They are the heroes we’re building Meetball for.”  
+
+We start by focusing on local, values-aligned communities, especially those already gathering around shared interests, challenges, or goals. In Lisbon, that means creative technologists, early-stage founders, event hosts, and purpose-driven professionals who care more about connection than clout.  
+
+But Meetball isn’t just for these archetypes. It’s for anyone who feels the friction of traditional networking, and wants something more human.  
+
+**Across markets, we look for people who value collaboration** -- superconnectors who believe the world gets better when we help each other realise our goals. People who dare to say what they need, and who show up when they see someone they can help. Meetball gives them a platform to do both.  
 
 **Audience types:**  
 - Users (event attendees, connectors)  
-- Community builders (organizers, hosts)  
+- Hosts/Organizers (community builders, event creators)  
 - Contributors (builders, storytellers)  
 - Investors & partners (relationship-first believers)  
 
@@ -161,11 +168,18 @@ But Meetball isn’t just for these. It’s for anyone who feels the friction of
 "Our stories aren’t just for marketing. They’re how we reflect the real people, values, and moments that shape Meetball."  
 
 ### 5.1 Signature Story Types  
-- **“It started with a question...”** → real help stories  
-- **“Meetball was built using Meetball.”** → behind the scenes  
-- **“I’ve never had that kind of conversation at an event before.”** → surprising connections  
-- **“From stranger to collaborator.”** → partnership arcs  
-- **“This space felt different.”** → host/attendee reflections  
+
+**Three protagonist types:**  
+- **Users** -- the people finding connection and help  
+- **Hosts/Organizers** -- the people creating the spaces where connection happens  
+- **Contributors** -- the people building Meetball itself  
+
+**Story arcs:**  
+- **”It started with a question...”** → real help stories (Users)  
+- **”Meetball was built using Meetball.”** → behind the scenes (Contributors)  
+- **”I’ve never had that kind of conversation at an event before.”** → surprising connections (Users)  
+- **”From stranger to collaborator.”** → partnership arcs (Users, Contributors)  
+- **”This space felt different.”** → host/attendee reflections (Hosts/Organizers, Users)  
 
 ### 5.2 Story Hooks & Openers  
 Try starting with:  
