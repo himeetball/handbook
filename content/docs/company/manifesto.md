@@ -24,12 +24,15 @@ Humanity evolves through collaboration. Always has.
 
 **Asking for help is strength.** Sharing what you need is how you invite someone to say "I Can Help." Helping is how strangers become allies, and someone near you needs exactly what you know.
 
-**Business doesn't have to be extraction.** The companies worth building help people move forward. Most marketing is noise. Most ads are interruptions. The brands that matter don't shout. They help people become who they want to be.
+**Most marketing is noise. Most ads are interruptions.**
+Business doesn't have to be extraction.
+The brands that matter don't shout. They help people become who they want to be.
 
-**The future of work is collaborative.** People building things together that none of them could build alone. Sharing in the value they create. Clear on what they're building, and why it matters.
+**We believe in work as a source of meaning.**
+In companies where people build something they believe in, together. Where the mission serves the people building it, and those who contribute share in the value they create.
 
 We're not fighting social media. We're building the infrastructure for something that's already there:
 
-People love helping one another, and the help you need is closer than you think.
+**People love helping one another, and the help you need is closer than you think.**
 
 Find the others.
