@@ -1,0 +1,14 @@
+{
+  "extraKnownMarketplaces": {
+    "meetball-skills": {
+      "source": {
+        "source": "github",
+        "repo": "himeetball/meetball-skills"
+      },
+      "autoUpdate": true
+    }
+  },
+  "enabledPlugins": {
+    "meetball-skills@meetball-skills": true
+  }
+}
