@@ -17,6 +17,38 @@ This page is in *DRAFT*, we need to agree on a methodology based on Gitlab's [Ed
 
 Contribute to Meetball HandbookMeetball Handbook repository on [Github](https://github.com/himeetball/handbook)
 
+## Local Setup
+
+To edit the handbook locally you need two repos, cloned as siblings inside the same parent folder:
+
+```
+Meetball Code/
+├── handbook/          ← this repo
+└── meetball-skills/   ← himeetball/meetball-skills
+```
+
+The sibling structure matters. The handbook's Claude Code config points to `../meetball-skills` to load the Meetball skill set automatically. If the repos are in different locations, the skills won't load.
+
+```bash
+git clone git@github.com:himeetball/handbook.git
+git clone git@github.com:himeetball/meetball-skills.git
+```
+
+### Running locally
+
+```bash
+cd handbook
+zola serve   # preview at http://127.0.0.1:1111
+```
+
+Always run `zola check` before committing to catch broken links and template errors.
+
+### Working with Claude Code
+
+Open the `handbook/` folder in Claude Code. On first open you'll be prompted to trust the workspace and install the meetball-skills plugin — accept both. After that, Claude has access to all Meetball skills (brand voice, company context, tone of voice, and the handbook authoring skill) automatically in every session.
+
+Skills update automatically from the meetball-skills repo whenever new ones are pushed, so you don't need to do anything to stay current.
+
 ### Suggest an Improvement 
 
 - [Report a Handbook Error](https://github.com/himeetball/handbook/issues/new) - Raise an Issue here!

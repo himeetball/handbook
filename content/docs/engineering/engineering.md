@@ -155,7 +155,7 @@ Primciple: Use AI but be responsible for the quality of code you submit and mark
 Vibe coding captures user vibes, their issues, needs, and wants, and turns them into interactive prototypes. These prototypes validate with users, showing them we’ve heard their signals. The mix of quantitative analytics and qualitative feedback forms the backbone of our product specs. From there, the backlog is triaged on effort vs. value and prioritized for sprint planning.
 ### Development Practices and Standards
 
-We Maintain a clear "Development practices/guildelines document" (Add URL)  for humans and embed it in the relevant AI tool prompting document (such as [Claude.md](https://github.com/himeetball/webapp/blob/dev/CLAUDE.md) so code is consistent. 
+We Maintain a clear "Development practices/guildelines document" (Add URL)  for humans and embed it in the relevant AI tool prompting document (such as CLAUDE.md in the webapp repo) so code is consistent. 
 
 ---
 

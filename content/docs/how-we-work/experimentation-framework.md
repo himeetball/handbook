@@ -197,7 +197,7 @@ Each of these represents an opportunity to practice our experimentation culture 
 
 ## Resources and Further Reading
 
-- [The work of Lukas Vermeer](https://www.linkedin.com/in/lukasvermeer/)
+- The work of Lukas Vermeer (lukasvermeer on LinkedIn)
 - [Why building a culture of experimentation is worth the risk - Forbes](https://www.forbes.com/sites/karenwalker/2024/10/21/why-building-a-culture-of-experimentation-is-worth-the-risk/)
 - [The Experimentation Gap - Towards Data Science](https://towardsdatascience.com/the-experimentation-gap-3f5d374d354c)
 - [Democratizing Experimentation - Statsig](https://www.statsig.com/blog/democratizing-experimentation)
