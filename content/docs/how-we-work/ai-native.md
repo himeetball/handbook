@@ -1,25 +1,25 @@
 +++
-title = "Meetball Skills"
-description = "How Meetball uses AI skills to document and execute every part of its work"
+title = "AI-Native at Meetball"
+description = "How and why Meetball embraces AI across every part of its work — and the skills system that makes it practical"
 date = 2026-05-21
 updated = 2026-05-21
 draft = false
-weight = 8
+weight = 6
 template = "docs/page.html"
 
 [extra]
-lead = "Skills are how Meetball becomes AI-native — not by replacing human judgment, but by making every repeatable process executable with AI"
+lead = "Human-first, AI-enabled — if it improves our ability to ship good work and realise our mission, we embrace it"
 toc = true
 top = false
 +++
 
 Meetball is building toward being an AI-native company. Not in the sense of replacing people — this is a human-first mission and always will be. But if something can be done with AI that improves our ability to ship good work and move the mission forward, we want to know about it and embrace it.
 
-Skills are the main mechanism for this. The idea is simple: every repeatable part of how we work — how we write copy, how we design a notification, how we run a sprint, how we review a PR, how we write a handbook page — gets documented as a skill. That turns institutional knowledge into something executable. Claude can read it, apply it, and help anyone on the team do that type of work well, consistently, from day one.
+The way we make this practical is through **skills** — documented, executable AI instructions that cover every repeatable part of how we work. How we write copy, how we design a notification, how we run a sprint, how we review a PR, how we write a handbook page. Each of those gets documented as a skill, which turns institutional knowledge into something Claude can read and apply.
 
 This is bigger than tone of voice. Skills cover the full breadth of how Meetball operates: strategy, marketing, product, design, engineering. Each one is a piece of a documented, reusable process. Together, they're how a small team ships like a bigger one — without losing coherence, without constantly reinventing decisions already made.
 
-One important outcome of this is contributor alignment. Meetball is built by people from across the world who show up and offer help. That's the model. With a distributed community spanning many disciplines, it's easy for good work to pull in different directions. Skills change that. Anyone can jump in — write a page, draft a notification, propose a feature — and Claude will help them do it in a way that fits Meetball from the start. No long onboarding. No waiting for someone senior to sign off on every decision.
+One important outcome of this is contributor alignment. Meetball is built by people from across the world who show up and offer help. With a distributed community spanning many disciplines, it's easy for good work to pull in different directions. Skills change that. Anyone can jump in — write a page, draft a notification, propose a feature — and Claude will help them do it in a way that fits Meetball from the start. No long onboarding. No waiting for someone senior to sign off on every decision.
 
 And if a skill is wrong or out of date, anyone can improve it. The skills get better as more people use them and push back on what doesn't work. That's the flywheel: better processes, documented as skills, used by contributors, refined over time.
 

@@ -82,7 +82,7 @@ Claude will show you what it's doing and ask before committing anything. Review 
 
 When you open the handbook in Claude Code, a set of Meetball skills loads automatically in the background. These give Claude context it needs to do good work — Meetball's brand voice, tone rules, product concepts, multi-language conventions, and how the handbook is structured. You don't need to explain any of this each session; the skills handle it.
 
-See [Meetball Skills](/docs/handbook/meetball-skills/) for more on how skills work and who maintains them.
+See [AI-Native at Meetball](/docs/how-we-work/ai-native/) for more on how skills work and who maintains them.
 
 ### A note on AI and quality
 
