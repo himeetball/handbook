@@ -58,5 +58,6 @@ _Read [How We Choose Vendors](https://recipe.meetball.fun/docs/how-we-work/how-w
   - DRI: Product Team
   - Purpose: Task management, sprint planning, project tracking
   - Note: Self-hosted on Eric's server (Temporary, need to move to our VPS)
+  - [How we use Plane →](/docs/engineering/plane/)
 
 ---
