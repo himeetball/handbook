@@ -49,6 +49,45 @@ Open the `handbook/` folder in Claude Code. On first open you'll be prompted to 
 
 Skills update automatically from the meetball-skills repo whenever new ones are pushed, so you don't need to do anything to stay current.
 
+---
+
+## Using Claude to Edit the Handbook
+
+You don't need to be technical to contribute using Claude. If you can describe what you want, Claude can do the work — writing, editing, translating, creating new pages, fixing links — and you review it before anything goes live.
+
+### What Claude can do for you
+
+- **Write or rewrite a page** — describe what it should cover and Claude drafts it in the right tone and format
+- **Add a new page** — tell Claude the topic, where it should live, and any key points; it creates the file with the correct frontmatter and structure
+- **Edit existing content** — ask Claude to update, shorten, improve, or restructure any page
+- **Translate a page** — Claude knows Meetball's tone rules for Portuguese, French, and Italian and will write authentic translations, not just literal ones
+- **Check for errors** — Claude runs `zola check` after every change to catch broken links and template issues before you commit
+- **Commit and push** — Claude handles git so you don't have to
+
+### How to work with Claude
+
+Just describe what you want in plain language. A few examples:
+
+> "Add a new page under the Engineering section about how we do code reviews."
+
+> "Update the values page — we now have a fifth value, add it in."
+
+> "Translate the onboarding page into Portuguese."
+
+> "The Plane page feels too long, can you tighten it up?"
+
+Claude will show you what it's doing and ask before committing anything. Review the changes, and if they look good, tell Claude to go ahead.
+
+### What the skills do
+
+When you open the handbook in Claude Code, a set of Meetball skills loads automatically in the background. These give Claude context it needs to do good work — Meetball's brand voice, tone rules, product concepts, multi-language conventions, and how the handbook is structured. You don't need to explain any of this each session; the skills handle it.
+
+See [Meetball Skills](/docs/handbook/meetball-skills/) for more on how skills work and who maintains them.
+
+### A note on AI and quality
+
+Claude is a collaborator, not a publisher. Everything it writes should be reviewed by a human before it goes live. Use your judgement — if something doesn't sound right, ask Claude to adjust it or edit it yourself. The goal is good content, not fast content.
+
 ### Suggest an Improvement 
 
 - [Report a Handbook Error](https://github.com/himeetball/handbook/issues/new) - Raise an Issue here!
