@@ -21,39 +21,36 @@ Meetball is an open startup. That means **anyone can shape what we’re building
 Whether you’re an early user, event organizer, or part of the team, you can help us shape what Meetball becomes.
 #### 1.  How we Collect Ideas / Feedback:
 
-- We have a Bug/Feature request chat in [Discord](https://discord.com/channels/1379759898971344937/1409777001937506344) for the Meetball Team.
-- External Users use the "suggest feature" button on our App (and elsewhere)
+**Community members** use the Meetball app. We have a [Bugs and Feature Requests on the Meetball Community Space](https://app.meetball.fun/communities/meetball-community) — post there and tag your post with the relevant topic (bug, feature request, etc.). This is the primary channel for community feedback.
 
-We treat those chat/suggestions as _input source_, not a backlog.
+**Team members** use Slack for internal discussion of bugs and features.
 
-_Note: At the moment the "suggest a feature" button is not active so those are LOST: as a minimum they need to go to a mailbox, at best they automatically go to a feature collection system - Direct to Git is overkill for non-tech users, use a system like [Canny](https://canny.io) (used by PostHog, Notion etc). Need ASAP to create a better issue reporting/tracker. Part of our Build in Public journey. I would be happy to use our web app Chat functionality and be able to chat with users suggesting a feature in the early days._
+We treat both as _input sources_, not a backlog.
 
-This is how we explain this in the Discord bugs and features channel:
+Here’s what to include when reporting:
 
->We’re building Meetball together. Your ideas, bug reports, and feature requests help us make it better every day. Here’s how you can contribute:
->
->##### **🐞 Report a Bug**
+>##### **Report a Bug**
 >- Found something broken or confusing?
->- Post it in **#bugs** on [Discord](https://discord.com/channels/1379759898971344937/1409777001937506344).
+>- Post in the **Bugs and Feature Requests** community page in the Meetball app (or in Slack if you’re on the team).
 >- Include:
     - What you were trying to do
     - What happened instead
     - Steps to reproduce (if possible)
-    - Screenshots are golden!
+    - Screenshots help a lot
 >
->##### **💡 Suggest a Feature**
+>##### **Suggest a Feature**
 >- Have an idea that would make Meetball more useful?
->- Share it in **#feature-requests** on [Discord](https://discord.com/channels/1379759898971344937/1409777001937506344).
+>- Post in the **Bugs and Feature Requests** community page and tag it as a feature request.
 >- Please explain:
     - What problem it solves
     - Why it matters
-    - Any inspiration/examples
+    - Any inspiration or examples
 >
->##### **🔄 What Happens Next**
+>##### **What Happens Next**
 >1. **You submit feedback** (bug, idea, or feature request).
 >2. **We triage weekly** → move into our backlog if actionable.
->3. **Prioritized items** go into our Kanban board → GitHub Issues for dev work.
->4. **Shipped features** get posted back in Discord so you know you made an impact.
+>3. **Prioritized items** go into [Plane](/docs/engineering/plane/) for dev work.
+>4. **Shipped features** get posted back in the community so you know you made an impact.
 
 #### 2. Triage
 
@@ -69,20 +66,15 @@ _(duplication? perhaps put on Miro only ideas we agreed to explore)_
 
 - [Development](https://plane.murumb.dev/meetball/projects/519ca7bc-0c01-4139-9f1b-57086aee7842/issues/) on **Plane**: This is a Backlog of Dev work that we know we have to do but technical specifications are not good enough for it to be created as an Issue on Github, not dev-ready. Once created, discussion happens there.
 
-- If it's dev-ready, **add it directly to the Backlog on Github** as Issues, tracked in GitHub Projects (internal team access):
-	- Meetball Web App
-	- Handbook
-	- Website (to be created)
-	- etc.. (as we start new projects)
+- If it’s dev-ready, **add it directly to the Development backlog on [Plane](/docs/engineering/plane/)** with enough context for a dev to pick it up.
 
 This way:
-- Chat stays informal,
-- Plane is where feature is elaborated before specs are fully defined,
-- Github is where the feature is created with full technical specs.
+- Community feedback and Slack stay informal,
+- Plane is where features are elaborated and tracked through to completion.
 
 Notes:
-- Don’t treat Discord as backlog, it will vanish in the scroll.
-- Don’t expect devs to trawl chat for tasks, they should live in GitHub.
+- Don’t treat Slack as a backlog — it will vanish in the scroll.
+- Don’t expect devs to trawl chat for tasks, they should live in Plane.
 
 ---
 ##### **📊 Vote & Follow Progress**
