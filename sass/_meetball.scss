@@ -264,3 +264,153 @@ a {
     transition: color 0.3s ease;
   }
 }
+
+// ─── Typography ───────────────────────────────────────────────────────────────
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Livvic", "Fira Sans", sans-serif;
+  color: var(--meetball-text);
+  letter-spacing: -0.01em;
+  transition: color 0.3s ease;
+}
+
+h1, .h1 { font-weight: 700; letter-spacing: -0.025em; }
+h2, .h2 { font-weight: 700; letter-spacing: -0.015em; }
+h3, .h3 { font-weight: 600; }
+h4, .h4 { font-weight: 600; }
+
+// ─── Homepage Hero ────────────────────────────────────────────────────────────
+
+.home .section:first-child {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+.home-logo {
+  display: block;
+  margin: 0 auto;
+  width: 260px;
+  max-width: 80vw;
+  height: auto;
+}
+
+[data-bs-theme="dark"] .home-logo {
+  filter: invert(1) brightness(1.1);
+}
+
+.home-handbook-label {
+  font-family: "Livvic", sans-serif;
+  font-weight: 400;
+  font-size: 1.05rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--meetball-text-muted);
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+  transition: color 0.3s ease;
+}
+
+.home .lead {
+  font-size: 1.15rem;
+  color: var(--meetball-text-muted);
+  max-width: 58ch;
+  margin: 1.5rem auto 2rem;
+  line-height: 1.65;
+  transition: color 0.3s ease;
+}
+
+// ─── CTA Button ───────────────────────────────────────────────────────────────
+
+.btn-primary {
+  background-color: #3ec6c6 !important;
+  border-color: #3ec6c6 !important;
+  color: #ffffff !important;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  border-radius: 2rem !important;
+  padding: 0.75rem 2rem !important;
+  box-shadow: 0 4px 20px rgba(62, 198, 198, 0.4);
+  transition: all 0.2s ease !important;
+
+  &:hover, &:focus {
+    background-color: #2ea5a5 !important;
+    border-color: #2ea5a5 !important;
+    color: #ffffff !important;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 24px rgba(62, 198, 198, 0.55);
+    text-decoration: none !important;
+  }
+
+  &:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 12px rgba(62, 198, 198, 0.4);
+  }
+}
+
+// ─── Navbar Brand ─────────────────────────────────────────────────────────────
+
+.navbar-brand {
+  font-family: "Livvic", sans-serif !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.02em;
+  font-size: 1.3rem !important;
+}
+
+// ─── Sidebar ──────────────────────────────────────────────────────────────────
+
+// Section category headers
+.docs-links h3 {
+  color: var(--meetball-link) !important;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  font-size: 0.68rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+// Active page indicator
+a.docs-link.active {
+  color: var(--meetball-link-hover) !important;
+  font-weight: 600;
+  padding-left: 0.6rem !important;
+  border-left: 3px solid var(--meetball-accent);
+  margin-left: -3px;
+}
+
+a.docs-link:hover {
+  padding-left: 0.25rem !important;
+  transition: padding-left 0.12s ease, color 0.2s ease;
+}
+
+// ─── Table of Contents ────────────────────────────────────────────────────────
+
+.page-links a {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.page-links a:hover {
+  color: var(--meetball-link) !important;
+}
+
+// ─── Docs navigation arrows ───────────────────────────────────────────────────
+
+.docs-navigation a {
+  color: var(--meetball-link);
+  font-weight: 500;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: var(--meetball-link-hover);
+    text-decoration: none !important;
+  }
+}
+
+// ─── Text selection ───────────────────────────────────────────────────────────
+
+::selection {
+  background: rgba(255, 179, 0, 0.25);
+  color: var(--meetball-text);
+}

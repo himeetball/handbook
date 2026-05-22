@@ -160,4 +160,4 @@ Remember, this handbook uses a dual-license approach:
 
 ---
 
-**Copyright © 2025 Meetball. All Rights Reserved.**
+**Copyright © 2026 Meetball. All Rights Reserved.**

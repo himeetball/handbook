@@ -9,8 +9,8 @@ document.getElementById('mode').addEventListener('click', () => {
 
 });
 
-// enforce local storage setting but also fallback to user-agent preferences
-if (localStorage.getItem('theme') === 'dark' || (!localStorage.getItem('theme') && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+// Only go dark if the user has explicitly chosen dark — default is always light
+if (localStorage.getItem('theme') === 'dark') {
 
   document.documentElement.setAttribute('data-bs-theme', 'dark');
   document.body.classList.add('dark'); // Keep for backwards compat with old dark mode styles
