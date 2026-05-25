@@ -2,7 +2,7 @@
 title = "Quick Start"
 description = "Get started contributing to Meetball projects."
 date = 2021-05-01T08:20:00+00:00
-updated = 2025-10-09T05:41:08+01:00
+updated = 2026-05-25
 draft = false
 weight = 20
 sort_by = "weight"
@@ -14,13 +14,6 @@ toc = true
 top = false
 +++
 
-## Prerequisites
-
-- [Git](https://git-scm.com/)
-- [Zola](https://www.getzola.org/documentation/getting-started/installation/) ≥ 0.15.0
-- A text editor (VS Code, Helix, Vim, whatever you love)
-- [Nix](https://nixos.org/download.html) (optional, but makes setup easier)
-
 ## Our Development Philosophy
 
 We're building in the open, taking inspiration from organizations like [FUTO](https://futo.org), [Basecamp](https://basecamp.com), and [Gumroad](https://gumroad.com) - focusing on user control, simplicity, and independence over traditional growth-at-all-costs models.
@@ -29,11 +22,20 @@ We're building in the open, taking inspiration from organizations like [FUTO](ht
 
 Meetball is an AI-native startup. That doesn't just mean we build AI features. We use AI throughout everything we do: to move faster, improve the quality of our work, and stay in alignment. But we're human-centered at the core. AI is an enabler and a convenience multiplier, not a replacement. Until we're confident about something, there's always a human in the loop. Being AI-native is a journey.
 
-In practice: if you're on the team, you don't have to follow every step below manually. Open [Claude Code](https://claude.ai/code) in the handbook directory, describe what you want to change, and Claude handles the edits, checks, and pushes directly to GitHub. It automatically picks up our project skills and guidelines covering tone, design conventions, and how we write, so changes stay consistent with everything we've already built. Same goes for our other projects.
+## Prerequisites
+
+- [Git](https://git-scm.com/)
+- [Zola](https://www.getzola.org/documentation/getting-started/installation/) ≥ 0.15.0
+- A text editor (VS Code, Helix, Vim, whatever you love)
+- [Nix](https://nixos.org/download.html) (optional, but makes setup easier)
 
 ## Get This Handbook Running Locally
 
-### Option 1: With Nix (recommended)
+### For the team: With Claude Code (recommended)
+
+Open [Claude Code](https://claude.ai/code) in the handbook directory, describe what you want to change, and Claude handles the edits, checks, and pushes directly to GitHub. It automatically picks up our project guidelines covering tone, design conventions, and how we write, so changes stay consistent with everything we've already built. Same goes for our other projects.
+
+### With Nix
 
 ```bash
 git clone https://github.com/himeetball/handbook.git
@@ -42,7 +44,7 @@ nix-shell  # This installs Zola automatically
 zola serve
 ```
 
-### Option 2: Install Zola yourself
+### Manual Zola install
 
 First, [install Zola](https://www.getzola.org/documentation/getting-started/installation/) on your system, then:
 
