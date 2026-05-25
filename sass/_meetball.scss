@@ -410,88 +410,89 @@ a.docs-link:hover {
 
 // ─── Community Showcase ───────────────────────────────────────────────────────
 
-.community-showcase {
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
+.community-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
   margin: 2rem 0;
+
+  @media (max-width: 1100px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 700px) {
+    grid-template-columns: 1fr;
+  }
 }
 
-.community-item {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  padding: 2rem;
+.community-card {
   background: var(--meetball-surface);
   border: 1px solid var(--meetball-border);
   border-radius: 16px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 1.25rem 1.25rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  overflow: hidden;
   transition: box-shadow 0.2s ease, border-color 0.2s ease;
 
   &:hover {
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.09);
     border-color: var(--meetball-accent);
   }
-
-  @media (min-width: 900px) {
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 2.5rem;
-  }
 }
 
-.community-meta {
-  flex: 1;
-  min-width: 0;
-
-  @media (min-width: 900px) {
-    padding-top: 0.5rem;
-  }
-}
-
-.community-name {
-  font-family: "Livvic", sans-serif;
-  font-size: 1.4rem;
-  font-weight: 700;
-  margin: 0 0 0.75rem !important;
-  color: var(--meetball-text);
+.community-card-name {
+  font-family: "Livvic", sans-serif !important;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  margin: 0 !important;
+  line-height: 1.3 !important;
   letter-spacing: -0.01em;
-}
 
-.community-desc {
-  color: var(--meetball-text-muted);
-  line-height: 1.65;
-  margin-bottom: 1.25rem;
-  font-size: 0.975rem;
-}
-
-.community-link {
-  display: inline-block;
-  color: var(--meetball-link) !important;
-  font-weight: 600;
-  font-size: 0.9rem;
-  text-decoration: none !important;
-  border-bottom: 2px solid transparent;
-  transition: border-color 0.15s ease, color 0.15s ease;
-
-  &:hover {
-    color: var(--meetball-link-hover) !important;
-    border-bottom-color: var(--meetball-accent);
+  a {
+    color: var(--meetball-text) !important;
     text-decoration: none !important;
+    transition: color 0.15s ease;
+
+    &:hover {
+      color: var(--meetball-link) !important;
+      text-decoration: none !important;
+    }
   }
 }
 
-.community-embed {
-  flex-shrink: 0;
-  width: 100%;
-  max-width: 504px;
+.community-card-desc {
+  font-size: 0.82rem !important;
+  color: var(--meetball-text-muted) !important;
+  line-height: 1.55 !important;
+  margin: 0 !important;
+  transition: color 0.3s ease;
+}
+
+// Scaled iframe container — iframes are 504px wide, scaled to fit column
+.community-embed-scaled {
+  position: relative;
+  width: calc(100% + 2.5rem); // bleed to card edges
+  margin-left: -1.25rem;
+  overflow: hidden;
 
   iframe {
     display: block;
-    width: 100%;
-    max-width: 504px;
-    border-radius: 12px;
-    border: 1px solid var(--meetball-border) !important;
+    width: 504px;
+    transform-origin: top left;
+    border: none !important;
+    pointer-events: auto;
+  }
+
+  &.h-668 {
+    height: 290px;
+    iframe { transform: scale(0.434); height: 668px; }
+  }
+
+  &.h-565 {
+    height: 246px;
+    iframe { transform: scale(0.434); height: 565px; }
   }
 }
 
