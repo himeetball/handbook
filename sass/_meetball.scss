@@ -488,6 +488,22 @@ a.docs-link:hover {
   }
 }
 
+// Instagram embed — responsive, no scaling needed
+.community-embed-instagram {
+  width: calc(100% + 3rem);
+  margin-left: -1.5rem;
+  overflow: hidden;
+  border-radius: 0 0 16px 16px;
+
+  .instagram-media {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    width: 100% !important;
+  }
+}
+
 // ─── Text selection ───────────────────────────────────────────────────────────
 
 ::selection {
