@@ -15,4 +15,4 @@ top = false
 
 Nothing here yet — but watch this space.
 
-If you've written about Meetball and want to be featured, send us a note at [team@meetball.app](mailto:team@meetball.app).
+If you've written about Meetball and want to be featured, send us a note at [catia@meetball.fun](mailto:catia@meetball.fun).
