@@ -9,6 +9,17 @@ document.getElementById('mode').addEventListener('click', () => {
 
 });
 
+// Instagram embed expand/collapse
+document.querySelectorAll('.embed-expand-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const embed = btn.previousElementSibling;
+    if (embed && embed.classList.contains('community-embed-instagram')) {
+      embed.classList.toggle('expanded');
+      btn.textContent = embed.classList.contains('expanded') ? 'Show less' : 'See full post';
+    }
+  });
+});
+
 // Only go dark if the user has explicitly chosen dark — default is always light
 if (localStorage.getItem('theme') === 'dark') {
 

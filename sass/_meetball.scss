@@ -488,12 +488,33 @@ a.docs-link:hover {
   }
 }
 
-// Instagram embed — responsive, no scaling needed
+// Instagram embed — responsive, clipped with expand toggle
 .community-embed-instagram {
+  position: relative;
   width: calc(100% + 3rem);
   margin-left: -1.5rem;
+  max-height: 380px;
   overflow: hidden;
-  border-radius: 0 0 16px 16px;
+  border-radius: 0;
+  transition: max-height 0.35s ease;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    background: linear-gradient(to bottom, transparent, var(--meetball-surface));
+    pointer-events: none;
+    transition: opacity 0.25s;
+  }
+
+  &.expanded {
+    max-height: 2000px;
+    border-radius: 0 0 16px 16px;
+    &::after { opacity: 0; }
+  }
 
   .instagram-media {
     border-radius: 0 !important;
@@ -502,6 +523,27 @@ a.docs-link:hover {
     min-width: 0 !important;
     width: 100% !important;
   }
+}
+
+.embed-expand-btn {
+  display: block;
+  width: calc(100% + 3rem);
+  margin-left: -1.5rem;
+  padding: 0.6rem 1rem;
+  background: transparent;
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 0 0 16px 16px;
+  color: #3ec6c6;
+  font-family: "Livvic", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &:hover { background: rgba(62, 198, 198, 0.06); }
 }
 
 // ─── Text selection ───────────────────────────────────────────────────────────
