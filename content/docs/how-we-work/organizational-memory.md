@@ -1,6 +1,6 @@
 +++
 title = "Organizational Memory"
-description = "How Meetball captures, organises, and grows its collective knowledge — from a raw conversation to a guiding principle"
+description = "How Meetball captures, organises, and grows its collective knowledge: from a raw conversation to a guiding principle"
 date = 2026-06-10
 updated = 2026-06-10
 draft = false
@@ -8,12 +8,12 @@ weight = 7
 template = "docs/page.html"
 
 [extra]
-lead = "From a captured conversation to a guiding principle — how Meetball turns daily work into collective intelligence"
+lead = "From a captured conversation to a guiding principle: how Meetball turns daily work into collective intelligence"
 toc = true
 top = false
 +++
 
-When a group of people work on Meetball together, they need shared context. Anyone writing a social post, designing an app screen, or drafting community comms should be able to access the same brand, tone, product understanding, and terminology — without asking Stuart. What they produce gets captured into the system. Over time, that captured material compounds into Meetball's collective intelligence.
+When a group of people work on Meetball together, they need shared context. Anyone writing a social post, designing an app screen, or drafting community comms should be able to access the same brand, tone, product understanding, and terminology, without asking Stuart. What they produce gets captured into the system. Over time, that captured material compounds into Meetball's collective intelligence.
 
 This page describes how that works.
 
@@ -21,7 +21,7 @@ This page describes how that works.
 
 ## The core idea
 
-Context can become Knowledge. Knowledge can become a Skill. A Skill can become part of the Foundation. Graduation is deliberate, not automatic — someone has to recognise the pattern and make the call.
+Context can become Knowledge. Knowledge can become a Skill. A Skill can become part of the Foundation. Graduation is deliberate, not automatic. Someone has to recognise the pattern and make the call.
 
 Authority flows the other direction: when things conflict, the higher layer wins. When new evidence challenges a higher layer, it triggers a review. It doesn't automatically override. That review process is how the Foundation and Skills evolve over time.
 
@@ -42,19 +42,19 @@ When things conflict, the higher layer wins. A social post doesn't override bran
 
 ---
 
-## Foundation — What Meetball believes
+## Foundation: What Meetball believes
 
 The Foundation holds the documents that change rarely and represent the official position of Meetball. If everything else disappeared, these are the documents recreated first.
 
 Mission, values, brand guidelines, governance, dynamic equity model, contribution criteria.
 
-The Foundation is public. It is the entry point for anyone joining Meetball — as a team member, contributor, or community participant.
+The Foundation is public. It is the entry point for anyone joining Meetball: as a team member, contributor, or community participant.
 
 ---
 
-## Registers — What Meetball currently calls things
+## Registers: What Meetball currently calls things
 
-Registers are structured, authoritative reference data. They define the current state of specific domains. They are not skills — they don't tell you how to do something. They are not knowledge — they aren't insights. They are the source of truth for a bounded set of facts that the whole team and all AI agents read from.
+Registers are structured, authoritative reference data. They define the current state of specific domains. They are not skills: they don't tell you how to do something. They are not knowledge: they aren't insights. They are the source of truth for a bounded set of facts that the whole team and all AI agents read from.
 
 Examples: notification register, terminology register, ICP register, journey definitions, brand assets register, content register.
 
@@ -62,7 +62,7 @@ Registers are owned (one DRI per register), versioned, and updated on a defined 
 
 ---
 
-## Skills — How Meetball does things
+## Skills: How Meetball does things
 
 Skills are reusable, executable instructions. They tell a person or AI agent how to do a specific type of work consistently: community outreach, writing a notification, running a user interview, onboarding a space host.
 
@@ -70,7 +70,7 @@ Each skill has a clear trigger (when to use it), a process, and a quality bar. S
 
 ---
 
-## Knowledge — What Meetball has learned
+## Knowledge: What Meetball has learned
 
 Knowledge holds everything the team has learned: research, user interviews, community feedback, competitive analysis, and decisions.
 
@@ -86,31 +86,31 @@ owner
 review trigger
 ```
 
-Other knowledge — research notes, interview insights, learnings — is freeform. The distinction is in how things are written and retrieved, not where they live.
+Other knowledge (research notes, interview insights, learnings) is freeform. The distinction is in how things are written and retrieved, not where they live.
 
 **Not every decision gets recorded.** The bar is: would a new team member in six months benefit from knowing why this was decided? Naming calls, strategic pivots, process changes, vendor choices qualify. Routine operational choices do not.
 
 - **Who records it:** the person who made the call
 - **When:** at the moment of decision, or within 24 hours
-- **How:** Claude drafts the record from the conversation — friction is near zero. The discipline is knowing which decisions qualify.
+- **How:** Claude drafts the record from the conversation. Friction is near zero. The discipline is knowing which decisions qualify.
 
 ---
 
-## Context — What Meetball has captured
+## Context: What Meetball has captured
 
 Context is the raw material produced by working: emails, call transcripts, social posts, meeting notes, drafts, outputs. It is not curated. It is not authoritative. It is evidence: the ambient record of how Meetball operates day to day.
 
 Context enters the system in two modes:
 
-**Retroactive** — pulling in content that already exists. Past social posts, proposals sent, published articles. Handled by ingestion agents or manual import.
+**Retroactive:** pulling in content that already exists. Past social posts, proposals sent, published articles. Handled by ingestion agents or manual import.
 
-**Proactive** — entering content at the moment of creation. A call transcript right after a call, a social post as it's drafted, a decision immediately after it's made. Handled by lightweight integrations and habit.
+**Proactive:** entering content at the moment of creation. A call transcript right after a call, a social post as it's drafted, a decision immediately after it's made. Handled by lightweight integrations and habit.
 
 Context is where the progression begins. Most of it stays as context. Some of it becomes knowledge. The curation is the work.
 
 ---
 
-## The Library — canonical reusable material
+## The Library: canonical reusable material
 
 The Library holds canonical reusable material that skills and people draw from: copy, templates, prompts, examples, and reference assets.
 
@@ -120,7 +120,7 @@ It is not knowledge (it doesn't capture what was learned) and not a skill (it do
 
 ## How information graduates
 
-The progression from Context to Knowledge to Skill to Foundation is the governing philosophy. The formal governance — who decides when something graduates, by what criteria, and through what process — will be defined separately once the system has been operating long enough to know what actually works. Defining it prematurely creates process for its own sake.
+The progression from Context to Knowledge to Skill to Foundation is the governing philosophy. The formal governance (who decides when something graduates, by what criteria, and through what process) will be defined separately once the system has been operating long enough to know what actually works. Defining it prematurely creates process for its own sake.
 
 What is clear: graduation is deliberate, not automatic. Someone has to recognise the pattern, distil it, and make the call. The system makes that possible. The people make it happen.
 
@@ -147,7 +147,7 @@ storage:
     - captures/social/
 ```
 
-`db_tracked` content has full git history. Skills, registers, decisions, and canonical copy are version-controlled because they're authoritative. `db_only` content — raw captures — lives in the database for retrieval without bloating git.
+`db_tracked` content has full git history. Skills, registers, decisions, and canonical copy are version-controlled because they're authoritative. `db_only` content (raw captures) lives in the database for retrieval without bloating git.
 
 Each domain is a separate git repo (called a source in gbrain) synced into the same brain:
 
