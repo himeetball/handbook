@@ -2,7 +2,7 @@
 title = "Organizational Memory"
 description = "How Meetball captures, organises, and grows its collective knowledge: from a raw conversation to a guiding principle"
 date = 2026-06-10
-updated = 2026-06-10
+updated = 2026-08-22
 draft = false
 weight = 7
 template = "docs/page.html"
@@ -93,6 +93,27 @@ Other knowledge (research notes, interview insights, learnings) is freeform. The
 - **Who records it:** the person who made the call
 - **When:** at the moment of decision, or within 24 hours
 - **How:** Claude drafts the record from the conversation. Friction is near zero. The discipline is knowing which decisions qualify.
+
+### Read a decision's context before you rely on it
+
+**When you are about to make a decision based on an archived one, read the context of that decision first, and consider whether something better now justifies changing it.**
+
+That is the rule. Stuart, 2026-08-22.
+
+Every decision record has a `review trigger`: the condition that should reopen it. The trigger is not something a script watches. Nothing reads that field, and 34 records carry one that has never been looked at. At least four of those conditions have already happened and nobody noticed.
+
+So the trigger fires at the **moment of reliance**. Not on a schedule, not in a sweep. When you go to lean on an archived decision, that is when you read it, because that is the moment the context is actually relevant and the moment changing it is still cheap. Once you have built on top of a stale decision, reopening it costs the build.
+
+**What "read the context" means in practice:**
+
+1. Open the record. Read `context`, `options considered` and `why`, not just the `decision` line.
+2. Check the `review trigger`. Has the condition it names already happened?
+3. Ask whether the reasoning still holds. New evidence, a changed product, a case nobody had in mind: all of these are legitimate reasons to reopen a decision.
+4. If it should change, say so out loud and record the change. Working around a decision quietly is the one thing that is not allowed. That is how the record stops describing how we actually work.
+
+**Some decisions are easier to change than others.** A decision note records how firm it is: a **working call** may change without ceremony, a **settled call** is one the team has committed to and reversing it deserves its own record. A decision with no clear sign-off from Stuart is a working call by default, whatever tone it was written in. If what you are relying on is a working call, treat it as a starting point rather than a constraint.
+
+Recording something as a working call is what makes it safe to write down early. The alternative is not writing the decision down at all, and an unrecorded decision is still in force. It is just invisible.
 
 ---
 
